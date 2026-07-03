@@ -1,0 +1,72 @@
+{
+  "id": "bba-finance",
+  "intent": "Specialisation / Finance",
+  "program": "BBA",
+  "specialization": "Finance",
+  "target_query": "bba in finance",
+  "hero": {
+    "eyebrow": "FOR FUTURE FINANCE LEADERS",
+    "headline_pre": "A BBA IN",
+    "highlight": "FINANCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BBA plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Rohan, an 18 year old Indian boy, confident and happy studying rising financial charts on a laptop, smart-casual shirt, modern home, aspirational business mood.",
+    "burst": "PROFIT!"
+  },
+  "statbar": [
+    {"big": "₹45,000", "label": "per year"},
+    {"big": "0% EMI", "label": "pay monthly"},
+    {"big": "100% ONLINE", "label": "study anywhere"},
+    {"big": "NAAC A++", "label": "accredited"}
+  ],
+  "panels": [
+    {"n": 1, "narration": "Rohan followed the markets every single day.",
+     "dialogue": "Numbers just make sense to me.",
+     "img_prompt": "Rohan, 18, in a smart-casual shirt happily reading market and finance news on a laptop and phone at home, curious and engaged, modern tidy room."},
+    {"n": 2, "narration": "But a finance career needed a real degree.",
+     "dialogue": "How do I turn this into a job?",
+     "img_prompt": "Rohan looking thoughtful, wondering how to build a finance career, a laptop with charts open in front of him, modest room."},
+    {"n": 3, "narration": "Then he found a BBA in Finance, online.",
+     "dialogue": "My finance career starts here!",
+     "img_prompt": "Rohan's face lighting up with excitement at a laptop showing a BBA in Finance, warm hopeful glow, modern home."},
+    {"n": 4, "narration": "He enrolled and began mastering the numbers.",
+     "dialogue": "From curious to qualified!",
+     "img_prompt": "Rohan confidently starting his first finance lesson on a laptop, notebook and calculator beside him, focused and happy, warm hopeful light."}
+  ],
+  "turn": {
+    "title": "Why A BBA In Finance",
+    "points": [
+      "Learn the real craft: accounting, investments, financial modelling and analysis.",
+      "Apply real AI finance tools from your very first semester.",
+      "Just ₹45,000/year with 0% interest EMI, or 15% off on upfront payment.",
+      "A UGC-entitled, NAAC A++ recognised degree employers trust."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {"name": "Rohan Iyer", "spec": "BBA FINANCE", "role": "1st-Year Student", "metric": "MY SKILL", "stat": "now a career",
+       "quote": "I always loved tracking markets. This degree turned that interest into a real finance career path."},
+      {"name": "Kavya Menon", "spec": "BBA FINANCE", "role": "2nd-Year Student", "metric": "AI TOOLS", "stat": "from sem 1",
+       "quote": "Learning financial modelling with real AI tools from semester one made me genuinely job-ready."},
+      {"name": "Aman Gupta", "spec": "BBA FINANCE", "role": "Final Year", "metric": "0% EMI", "stat": "₹3,750 / mo",
+       "quote": "The 0% EMI let me start right after 12th instead of waiting years to save up."},
+      {"name": "Sara Thomas", "spec": "BBA FINANCE", "role": "Graduated", "metric": "PLACED", "stat": "recognised",
+       "quote": "A recognised BBA plus real finance skills got me hired into a finance role quickly."}
+    ],
+    "facts": [
+      {"k": "Learn", "v": "Accounting, investments, financial modelling & analysis"},
+      {"k": "Fee", "v": "₹45,000/year, 15% off on upfront payment"},
+      {"k": "EMI", "v": "0% interest monthly instalments / education loan"},
+      {"k": "Recognition", "v": "UGC-entitled, NAAC A++ accredited"}
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR",
+    "highlight": "A FINANCE CAREER?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

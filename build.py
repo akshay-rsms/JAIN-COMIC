@@ -69,9 +69,16 @@ MS_LOGO = ('<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width=
 GOOGLE_MARK = ('<b style="color:#4285F4">G</b><b style="color:#EA4335">o</b><b style="color:#FBBC05">o</b>'
                '<b style="color:#4285F4">g</b><b style="color:#34A853">l</b><b style="color:#EA4335">e</b>')
 
+# real brand SVG logos (fetched into pages/img/logos/); concept-skills fall back to the spark icon
+TOOL_LOGOS = {"Power BI": "powerbi", "Python": "python", "MS Copilot": "copilot",
+              "Excel": "excel", "Tableau": "tableau"}
+def tool_icon(x):
+    slug = TOOL_LOGOS.get(x)
+    return f'<img class="lg" src="img/logos/{slug}.svg" alt="">' if slug else SPARK_SVG
+
 def cred_html(x):
-    if x == "Google":    return f'<span class="cr ggl">{GOOGLE_MARK}</span>'
-    if x == "Microsoft": return f'<span class="cr brand">{MS_LOGO}Microsoft</span>'
+    if x == "Google":    return '<span class="cr brand"><img class="lg" src="img/logos/google.svg" alt="">Google</span>'
+    if x == "Microsoft": return '<span class="cr brand"><img class="lg" src="img/logos/microsoft.svg" alt="">Microsoft</span>'
     return f'<span class="cr">{x}</span>'
 
 def e(s):
@@ -250,6 +257,8 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chips .c{background:#ffffff1a;border:2px solid #fff;border-radius:20px;padding:5px 12px 5px 8px;font-size:12.5px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
 .chips .c svg{width:15px;height:15px;flex:0 0 auto}
+.chips .c img.lg{width:17px;height:17px;object-fit:contain;flex:0 0 auto;display:block}
+.creds .cr.brand img.lg{width:20px;height:20px;object-fit:contain;display:block}
 .creds{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .creds .cr{background:#fff;color:#111;font-family:'Bangers',sans-serif;font-size:20px;padding:8px 16px;border:2px solid #000;display:inline-flex;align-items:center}
 .creds .cr.brand{font-family:'Inter',sans-serif;font-weight:800;font-size:16px;gap:8px}
@@ -464,7 +473,7 @@ def render(s):
         f'<a href="{h}" aria-label="{e(nm)}" target="_blank" rel="noopener">'
         f'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{p}"/></svg></a>'
         for nm, h, p in SOCIAL)
-    tools = "".join(f'<span class="c">{SPARK_SVG}{e(x)}</span>' for x in AI_TOOLS)
+    tools = "".join(f'<span class="c">{tool_icon(x)}{e(x)}</span>' for x in AI_TOOLS)
     creds = "".join(cred_html(x) for x in CREDENTIALS)
     li_chips = "".join(f'<span class="c">{e(x)}</span>' for x in LINKEDIN_CHIPS)
     qchips = "".join(f'<button type="button">{e(x)}</button>' for x in SENSEI_CHIPS)

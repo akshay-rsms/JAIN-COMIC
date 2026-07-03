@@ -16,8 +16,12 @@ Each page targets a real BBA search query, weighted by search volume.
 | `bba-online` | `online bba course` | Aditya | Online / flexibility |
 | `bba-online-home` | `bba online course` | Riya | Online / study from home |
 | `bba-admission` | `bba admission` | Neha | Admission / how to apply |
-| `bba-aviation` | `bba in aviation` | Farhan | Specialisation: Aviation Mgmt |
+| `bba-finance` | `bba in finance` | Rohan | Specialisation: Finance |
 | `bba-digital-marketing` | `bba in digital marketing` | Kabir | Specialisation: Digital Mktg |
+
+> Courses must match the real AMS/UMS grid. The BBA electives are Finance, Marketing, HR,
+> Digital Marketing, Data Science & AI. "BBA in Aviation" had high search demand but is **not
+> offered**, so it was dropped in favour of BBA in Finance.
 
 ## Template (7 chapters)
 Origin · Setting the Target · Program Universe · Special Power · Character Evolution ·
@@ -39,17 +43,20 @@ share/*.html             self-contained shareable builds (fonts + images inlined
 
 ## Build
 ```
-py -3.12 make_bba_stories.py     # (re)write the 6 BBA story JSONs
-py -3.12 gen_bba_art.py          # generate art for the 6 new stories  (needs .env.local key)
+py -3.12 make_bba_stories.py     # (re)write the demand-driven BBA story JSONs
+py -3.12 gen_ratio_art.py        # generate art at placeholder ratios  (needs .env.local key)
 py -3.12 build.py                # build all stories -> pages/
-py -3.12 build.py bba-aviation   # build one
+py -3.12 build.py bba-finance    # build one
+py -3.12 pack_all.py             # self-contained share/*.html
 ```
 
 ## Art & consistency
-`gen_bba_art.py` makes one master character sheet per story, crops it to the face, and passes
+`gen_ratio_art.py` reuses each story's master character sheet, crops it to the face, and passes
 that as the reference for the hero (single character) and every panel, so the protagonist stays
-consistent. Prompts forbid baked-in text (Nano Banana misspells) and keep everything brand-safe
-and Webtoon-styled.
+consistent. Images are generated at the **placeholder aspect ratios** (hero 4:3, panels 3:2) and
+cropped to exactly that ratio, so `background-size:cover` fills each box with no awkward crop.
+Prompts forbid baked-in text and keep screens blank/glowing (Nano Banana misspells), staying
+brand-safe and Webtoon-styled.
 
 ## Content standards (client checklist)
 - Clear, correct English; brand-safe language, topics and imagery for a student audience.
