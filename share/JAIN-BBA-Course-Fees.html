@@ -232,19 +232,20 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   .col-chk:checked ~ .col-more::after{content:'\2212 SHOW LESS'}
   .sensei .chatbody{min-height:0;padding:14px 16px}
   .panels{grid-template-columns:1fr}
-  /* MOBILE: un-overlay the panel text so nothing ever covers a face.
-     Image on top (clean), then narration + dialogue stacked below it. */
-  .panel{min-height:0;display:flex;flex-direction:column;background:var(--paper)}
-  .panel .art-ph{position:relative;inset:auto;width:100%;aspect-ratio:3/2}
-  .panel .narr,.panel .bubble{position:static;inset:auto;left:auto;right:auto;top:auto;bottom:auto;
-    width:auto;max-width:none;min-height:0;filter:none;background-image:none;box-shadow:3px 3px 0 rgba(0,0,0,.25);
-    font-size:13px;line-height:1.4;text-align:left;justify-content:flex-start}
-  .panel .narr{order:2;margin:11px 12px 2px;background:var(--gold);border:3px solid #000;padding:10px 14px}
-  .panel .bubble{order:3;align-self:center;margin:0 0 13px;width:min(300px,90%);min-height:150px;
-    background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMTg1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cG9seWdvbiBwb2ludHM9IjE5Ni4wLDExMi4wIDE3NS4xLDEyMS4zIDE4Ny43LDEzNC44IDE2Mi4xLDEzOC4zIDE2NC4yLDE1My42IDEzOC40LDE1MC44IDEyOS43LDE2NS4zIDEwOC4wLDE1Ni42IDkwLjAsMTY3LjcgNzYuMywxNTQuNiA1Mi4wLDE2MC41IDQ4LjYsMTQ1LjMgMjIuMywxNDQuOSAyOS44LDEzMC4yIDYuMSwxMjMuNiAyMy4yLDExMi4wIDYuMSwxMDAuNCAyOS44LDkzLjggMjIuMyw3OS4xIDQ4LjYsNzguNyA1Mi4wLDYzLjUgNzYuMyw2OS40IDgyLjksMTcuMyAxMDguMCw2Ny40IDEyOS43LDU4LjcgMTM4LjQsNzMuMiAxNjQuMiw3MC40IDE2Mi4xLDg1LjcgMTg3LjcsODkuMiAxNzUuMSwxMDIuNyIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=') no-repeat center/100% 100%;
-    border:0;border-radius:0;box-shadow:none;padding:52px 52px 26px;
-    display:flex;align-items:center;justify-content:center;text-align:center;
-    filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
+  /* MOBILE: comic overlay - yellow narration inside the image bottom (older style),
+     white speech burst mostly ABOVE the image with only its tail dipping in. Tight gaps. */
+  .panels{gap:0}
+  .panel{position:relative;aspect-ratio:3/2;min-height:0;overflow:visible;margin:64px 0 0;display:block}
+  .panel .art-ph{position:absolute;inset:0;width:auto}
+  .panel .narr{position:absolute;left:8px;right:8px;bottom:8px;top:auto;width:auto;max-width:none;min-height:0;
+    margin:0;filter:none;background-image:none;background:var(--gold);border:3px solid #000;
+    box-shadow:3px 3px 0 rgba(0,0,0,.25);padding:8px 12px;font-size:12.5px;line-height:1.35;text-align:left}
+  .panel .bubble{position:absolute;left:50%;top:-62px;transform:translateX(-50%);right:auto;bottom:auto;
+    width:min(280px,86%);max-width:none;min-height:92px;margin:0;z-index:6;
+    background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMTg1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cG9seWdvbiBwb2ludHM9IjE5Ni4wLDc0LjAgMTc1LjEsODMuMCAxODcuNyw5Ni4wIDE2Mi4xLDk5LjQgMTY0LjIsMTE0LjEgMTM4LjQsMTExLjQgMTI5LjcsMTI1LjQgMTE5LjEsMTc2LjAgOTAuMCwxMjcuNyA3Ni4zLDExNS4xIDUyLjAsMTIwLjggNDguNiwxMDYuMSAyMi4zLDEwNS43IDI5LjgsOTEuNiA2LjEsODUuMiAyMy4yLDc0LjAgNi4xLDYyLjggMjkuOCw1Ni40IDIyLjMsNDIuMyA0OC42LDQxLjkgNTIuMCwyNy4yIDc2LjMsMzIuOSA5MC4wLDIwLjMgMTA4LjAsMzEuMCAxMjkuNywyMi42IDEzOC40LDM2LjYgMTY0LjIsMzMuOSAxNjIuMSw0OC42IDE4Ny43LDUyLjAgMTc1LjEsNjUuMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=') no-repeat center/100% 100%;border:0;border-radius:0;box-shadow:none;
+    padding:22px 40px 40px;font-size:12.5px;line-height:1.3;text-align:center;
+    display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.2))}
+  .panel .bubble::before,.panel .bubble::after{display:none}
   .lesson ul{grid-template-columns:1fr}
   .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
   .evo{flex:0 0 82%;scroll-snap-align:start}
