@@ -63,18 +63,18 @@ def _burst_up_uri(fill="#fff", spikes=15, inner=0.80, tail_i=22, tail_len=1.7):
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
 BURST_WHITE_UP = _burst_up_uri("#fff")
 
-def _burst_down_uri(fill="#fff", spikes=15, inner=0.80, tail_i=7, tail_len=1.9):
-    """spiky comic speech-burst with the pointed tail at the BOTTOM-centre (points down),
-    preserveAspectRatio=none so background-size:100% 100% fills the box."""
-    cx, cy, rx, ry = 100, 74, 96, 54
+def _burst_down_uri(fill="#fff", spikes=16, inner=0.82, tail_i=8, tail_len=1.42):
+    """naturally-proportioned WIDE comic speech-burst, tail at the bottom-centre (points down).
+    viewBox aspect (285:150 ~ 1.9) matches the bubble box so it fills without distorting spikes."""
+    cx, cy, rx, ry = 142, 62, 134, 56
     pts = []
     for i in range(spikes * 2):
         ang = math.pi * i / spikes
         r = tail_len if i == tail_i else (1.0 if i % 2 == 0 else inner)
         pts.append(f"{cx + rx*r*math.cos(ang):.1f},{cy + ry*r*math.sin(ang):.1f}")
-    svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 185" preserveAspectRatio="none">'
+    svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 150" preserveAspectRatio="none">'
            f'<polygon points="{" ".join(pts)}" fill="{fill}" stroke="#000" '
-           'stroke-width="3" stroke-linejoin="round"/></svg>')
+           'stroke-width="2.6" stroke-linejoin="round"/></svg>')
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
 BURST_WHITE_DOWN = _burst_down_uri("#fff")
 
@@ -209,12 +209,12 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .frame{border:4px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:6px 6px 0 #0002}
 .hero{border:5px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:8px 8px 0 #0002}
 .hero .grid{display:grid;grid-template-columns:1fr 1fr}
-.hero .copy{padding:48px 34px;display:flex;flex-direction:column;justify-content:center}
-.eyebrow{display:inline-block;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;font-size:13px;padding:4px 11px;margin-bottom:12px;letter-spacing:.6px}
+.hero .copy{padding:48px 34px;display:flex;flex-direction:column;justify-content:flex-start}
+.eyebrow{display:inline-block;align-self:flex-start;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;font-size:13px;padding:4px 11px;margin-bottom:12px;letter-spacing:.6px}
 .hero h1{font-size:54px;line-height:.92;margin:6px 0 14px;text-transform:uppercase;text-wrap:balance}
 .hero h1 .hl{color:var(--gold);-webkit-text-stroke:2px #000}
 .hero p.sub{font-size:16px;max-width:46ch;color:#222;margin-bottom:22px}
-.hero .btnrow{margin-top:34px}
+.hero .btnrow{margin-top:auto}
 .btnrow{display:flex;gap:12px;flex-wrap:wrap}
 .btn{font-family:'Bangers',sans-serif;font-size:19px;padding:12px 20px;border:3px solid #000;text-decoration:none;box-shadow:4px 4px 0 #000;cursor:pointer;display:inline-block;text-align:center;transition:transform .12s ease,box-shadow .12s ease}
 .btn.gold{background:var(--gold);color:#111;animation:ctaGlow 1.7s ease-in-out infinite}
@@ -373,7 +373,7 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   .cpage{border:0;box-shadow:none;background:transparent;padding:0;margin:14px 0}
   .cpage>.chapter:first-child{margin-top:20px}
   .hero .grid{grid-template-columns:1fr}.hero .art{min-height:250px;border-left:0;border-top:5px solid #000}
-  .hero h1{font-size:40px}.hero .copy{padding:24px 20px}.hero .btnrow{margin-top:20px}
+  .hero h1{font-size:34px;overflow-wrap:break-word;word-break:break-word}.hero .copy{padding:24px 20px}.hero .btnrow{margin-top:20px}
   /* single-line, shorter button rows */
   .btnrow{flex-wrap:nowrap}.btnrow .btn{flex:1;padding:10px 8px;font-size:15px;box-shadow:3px 3px 0 #000;white-space:nowrap}
   .askbar{font-size:13px;padding:10px 8px;line-height:1.25}
@@ -390,16 +390,16 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   /* MOBILE: comic overlay - yellow narration inside the image bottom (older style),
      white speech burst mostly ABOVE the image with only its tail dipping in. Tight gaps. */
   .panels{gap:0}
-  .panel{position:relative;aspect-ratio:3/2;min-height:0;overflow:visible;margin:64px 0 0;display:block}
+  .panel{position:relative;aspect-ratio:3/2;min-height:0;overflow:visible;margin:150px 0 0;display:block}
   .panel .art-ph{position:absolute;inset:0;width:auto}
   .panel .narr{position:absolute;left:8px;right:8px;bottom:8px;top:auto;width:auto;max-width:none;min-height:0;
     margin:0;filter:none;background-image:none;background:var(--gold);border:3px solid #000;
     box-shadow:3px 3px 0 rgba(0,0,0,.25);padding:8px 12px;font-size:12.5px;line-height:1.35;text-align:left}
-  .panel .bubble{position:absolute;left:50%;top:-62px;transform:translateX(-50%);right:auto;bottom:auto;
-    width:min(280px,86%);max-width:none;min-height:92px;margin:0;z-index:6;
+  .panel .bubble{position:absolute;left:50%;top:-134px;transform:translateX(-50%);right:auto;bottom:auto;
+    width:min(288px,90%);max-width:none;min-height:0;aspect-ratio:285/150;margin:0;z-index:6;
     background:url('__BURSTDN__') no-repeat center/100% 100%;border:0;border-radius:0;box-shadow:none;
-    padding:22px 40px 40px;font-size:12.5px;line-height:1.3;text-align:center;
-    display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.2))}
+    padding:24px 46px 40px;font-size:13px;line-height:1.32;text-align:center;
+    display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
   .panel .bubble::before,.panel .bubble::after{display:none}
   .lesson ul{grid-template-columns:1fr}
   .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
