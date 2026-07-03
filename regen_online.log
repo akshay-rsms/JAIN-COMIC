@@ -1,0 +1,17 @@
+
+=== bba-online ===
+  saved bba-online-master.png (1540 KB)
+  saved bba-online-hero.png (2086 KB)
+  saved bba-online-p1.png (2014 KB)
+  saved bba-online-p2.png (1976 KB)
+  saved bba-online-p3.png (2180 KB)
+  saved bba-online-p4.png (2014 KB)
+
+Done. Now run: py -3.12 build.py
+opt bba-online-hero.jpg 144 KB
+opt bba-online-p1.jpg 138 KB
+opt bba-online-p2.jpg 130 KB
+opt bba-online-p3.jpg 141 KB
+opt bba-online-p4.jpg 132 KB
+ONLINE IMAGES DONE
+ALL_DONE

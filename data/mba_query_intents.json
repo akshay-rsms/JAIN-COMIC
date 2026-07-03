@@ -1,0 +1,32 @@
+{
+  "source": "Search terms report (1).csv  (Google Ads, USDC - JAIN Online; ~4.02M rows, 610MB)",
+  "target_from_ams": {
+    "db": "usdc-prod / ams-cnpg-cluster (read-only SELECT)",
+    "top_program": {"name": "MBA", "applications": 12876},
+    "runner_ups": [{"MCA": 3380}, {"BBA": 3041}, {"BCA": 2641}, {"B.Com": 2016}],
+    "top_specialization": {"name": "Finance", "applications": 1685},
+    "spec_runner_ups": [
+      {"Finance and Business Analytics": 1397},
+      {"Human Resource Management and Finance": 1000},
+      {"Human Resource Management": 853},
+      {"Finance and Marketing": 666}
+    ],
+    "chosen_combo": "MBA / Finance"
+  },
+  "mba_intent_totals": {
+    "Duration / format (online)": {"clicks": 362210, "impr": 3447916, "cost": 53924905},
+    "Fees / affordability":      {"clicks": 159802, "impr": 1356206, "cost": 18263185},
+    "Best / comparison":         {"clicks": 60607,  "impr": 761620,  "cost": 3825263},
+    "Eligibility / admission":   {"clicks": 49561,  "impr": 498907,  "cost": 5482064},
+    "Specialization choice":     {"clicks": 43558,  "impr": 792843,  "cost": 3852523},
+    "Placement / salary":        {"clicks": 8390,   "impr": 136796,  "cost": 750898},
+    "Validity / recognition":    {"clicks": 5728,   "impr": 114715,  "cost": 730451}
+  },
+  "storyboard_mapping": {
+    "fees-roi": "Fees / affordability",
+    "online-flexible": "Duration / format (online)",
+    "best-college": "Best / comparison",
+    "eligibility-admission": "Eligibility / admission",
+    "finance-specialization": "Specialization choice (Finance)"
+  }
+}

@@ -1,0 +1,352 @@
+[
+ {
+  "n": 1,
+  "course": "MBA",
+  "label": "online: flagship",
+  "query": "online mba courses",
+  "count": 808
+ },
+ {
+  "n": 2,
+  "course": "MBA",
+  "label": "online: in India",
+  "query": "online mba courses in india",
+  "count": 551
+ },
+ {
+  "n": 3,
+  "course": "MBA",
+  "label": "online: working professionals",
+  "query": "mba for working professionals",
+  "count": 226
+ },
+ {
+  "n": 4,
+  "course": "MBA",
+  "label": "online: programs",
+  "query": "online mba programs",
+  "count": 707
+ },
+ {
+  "n": 5,
+  "course": "MBA",
+  "label": "fees",
+  "query": "mba courses fees",
+  "count": 716
+ },
+ {
+  "n": 6,
+  "course": "MBA",
+  "label": "fees: JAIN",
+  "query": "jain university mba fees",
+  "count": 473
+ },
+ {
+  "n": 7,
+  "course": "MBA",
+  "label": "fees: online",
+  "query": "online mba courses fees",
+  "count": 601
+ },
+ {
+  "n": 8,
+  "course": "MBA",
+  "label": "distance",
+  "query": "distance mba courses",
+  "count": 522
+ },
+ {
+  "n": 9,
+  "course": "MBA",
+  "label": "distance education",
+  "query": "mba distance education",
+  "count": 482
+ },
+ {
+  "n": 10,
+  "course": "MBA",
+  "label": "best: online",
+  "query": "best online mba in india",
+  "count": 383
+ },
+ {
+  "n": 11,
+  "course": "MBA",
+  "label": "best/top colleges",
+  "query": "top distance mba colleges in india",
+  "count": 277
+ },
+ {
+  "n": 12,
+  "course": "MBA",
+  "label": "reviews/ranking",
+  "query": "best distance mba in india",
+  "count": 277
+ },
+ {
+  "n": 13,
+  "course": "MBA",
+  "label": "eligibility",
+  "query": "mba course eligibility",
+  "count": 153
+ },
+ {
+  "n": 14,
+  "course": "MBA",
+  "label": "admission",
+  "query": "mba admission",
+  "count": 244
+ },
+ {
+  "n": 15,
+  "course": "MBA",
+  "label": "generic: courses",
+  "query": "mba courses",
+  "count": 493
+ },
+ {
+  "n": 16,
+  "course": "MBA",
+  "label": "scope/salary",
+  "query": "online mba salary in india",
+  "count": 35
+ },
+ {
+  "n": 17,
+  "course": "MBA",
+  "label": "spec: Digital Marketing",
+  "query": "mba in digital marketing",
+  "count": 227
+ },
+ {
+  "n": 18,
+  "course": "MBA",
+  "label": "spec: HR",
+  "query": "mba hr courses",
+  "count": 201
+ },
+ {
+  "n": 19,
+  "course": "MBA",
+  "label": "spec: Hospital/Healthcare",
+  "query": "mba in hospital management",
+  "count": 212
+ },
+ {
+  "n": 20,
+  "course": "MBA",
+  "label": "spec: Finance",
+  "query": "mba in finance",
+  "count": 193
+ },
+ {
+  "n": 21,
+  "course": "BBA",
+  "label": "online",
+  "query": "online bba course",
+  "count": 272
+ },
+ {
+  "n": 22,
+  "course": "BBA",
+  "label": "online (alt)",
+  "query": "bba online course",
+  "count": 246
+ },
+ {
+  "n": 23,
+  "course": "BBA",
+  "label": "fees: JAIN",
+  "query": "jain university bba fees structure",
+  "count": 339
+ },
+ {
+  "n": 24,
+  "course": "BBA",
+  "label": "fees: course",
+  "query": "bba course fees",
+  "count": 229
+ },
+ {
+  "n": 25,
+  "course": "BBA",
+  "label": "admission/eligibility",
+  "query": "bba admission",
+  "count": 113
+ },
+ {
+  "n": 26,
+  "course": "BBA",
+  "label": "generic: course",
+  "query": "bba course",
+  "count": 353
+ },
+ {
+  "n": 27,
+  "course": "BBA",
+  "label": "spec: Aviation",
+  "query": "bba in aviation",
+  "count": 95
+ },
+ {
+  "n": 28,
+  "course": "BBA",
+  "label": "spec: Digital Marketing",
+  "query": "bba in digital marketing",
+  "count": 110
+ },
+ {
+  "n": 29,
+  "course": "B.Com",
+  "label": "online",
+  "query": "bcom online course",
+  "count": 219
+ },
+ {
+  "n": 30,
+  "course": "B.Com",
+  "label": "online: for students",
+  "query": "online courses for bcom students",
+  "count": 184
+ },
+ {
+  "n": 31,
+  "course": "B.Com",
+  "label": "fees",
+  "query": "jain university online bcom fees",
+  "count": 179
+ },
+ {
+  "n": 32,
+  "course": "B.Com",
+  "label": "professional: ACCA",
+  "query": "jain university b com with acca fees",
+  "count": 132
+ },
+ {
+  "n": 33,
+  "course": "B.Com",
+  "label": "admission",
+  "query": "bcom online admission",
+  "count": 91
+ },
+ {
+  "n": 34,
+  "course": "B.Com",
+  "label": "spec: Accounting & Finance",
+  "query": "bcom accounts",
+  "count": 54
+ },
+ {
+  "n": 35,
+  "course": "MCA",
+  "label": "fees: JAIN",
+  "query": "jain university mca fees",
+  "count": 366
+ },
+ {
+  "n": 36,
+  "course": "MCA",
+  "label": "fees: structure",
+  "query": "jain university mca fees structure",
+  "count": 317
+ },
+ {
+  "n": 37,
+  "course": "MCA",
+  "label": "online",
+  "query": "mca online course",
+  "count": 304
+ },
+ {
+  "n": 38,
+  "course": "MCA",
+  "label": "distance",
+  "query": "mca distance education",
+  "count": 209
+ },
+ {
+  "n": 39,
+  "course": "MCA",
+  "label": "spec: Cybersecurity",
+  "query": "jain university mca cyber security",
+  "count": 99
+ },
+ {
+  "n": 40,
+  "course": "MCA",
+  "label": "admission/generic",
+  "query": "mca admission",
+  "count": 147
+ },
+ {
+  "n": 41,
+  "course": "M.Com",
+  "label": "distance",
+  "query": "mcom distance education",
+  "count": 187
+ },
+ {
+  "n": 42,
+  "course": "M.Com",
+  "label": "distance (alt)",
+  "query": "m com distance education",
+  "count": 169
+ },
+ {
+  "n": 43,
+  "course": "M.Com",
+  "label": "online",
+  "query": "online mcom course",
+  "count": 185
+ },
+ {
+  "n": 44,
+  "course": "M.Com",
+  "label": "fees",
+  "query": "jain university online m com fees",
+  "count": 163
+ },
+ {
+  "n": 45,
+  "course": "MA",
+  "label": "distance: English",
+  "query": "ma english distance education",
+  "count": 157
+ },
+ {
+  "n": 46,
+  "course": "MA",
+  "label": "distance: Economics",
+  "query": "ma economics distance education",
+  "count": 133
+ },
+ {
+  "n": 47,
+  "course": "MA",
+  "label": "distance: Psychology",
+  "query": "ma psychology distance education",
+  "count": 89
+ },
+ {
+  "n": 48,
+  "course": "MA",
+  "label": "online/distance",
+  "query": "ma distance education",
+  "count": 151
+ },
+ {
+  "n": 49,
+  "course": "BCA",
+  "label": "fees: JAIN",
+  "query": "jain university bca fees",
+  "count": 149
+ },
+ {
+  "n": 50,
+  "course": "BCA",
+  "label": "online",
+  "query": "jain university online bca",
+  "count": 152
+ }
+]

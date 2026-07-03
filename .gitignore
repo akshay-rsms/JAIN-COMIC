@@ -1,0 +1,19 @@
+# secrets - NEVER commit
+.env.local
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+
+# large reference-only master character sheets (not used by the pages)
+pages/img/*-master.png
+
+# scratch / temp
+scratchpad/
+*.tmp
+
+# os
+Thumbs.db
+.DS_Store

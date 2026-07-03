@@ -1,0 +1,77 @@
+{
+  "id": "bba-fees-reveal",
+  "intent": "Fees / affordability",
+  "program": "BBA",
+  "specialization": "Finance",
+  "seed_queries": [
+    {"q": "jain university bba fees", "clicks": 3077, "impr": 16068},
+    {"q": "bba course fees", "clicks": 1585, "impr": 11839},
+    {"q": "jain online bba fees", "clicks": 1363, "impr": 3093},
+    {"q": "jain university bba fees structure", "clicks": 906, "impr": 3709}
+  ],
+  "hero": {
+    "eyebrow": "THE STICKER SHOCK",
+    "headline_pre": "A REAL DEGREE FOR",
+    "highlight": "JUST ₹45,000",
+    "headline_post": "A YEAR.",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore electives",
+    "art_prompt": "A cheerful Indian boy around 18, fresh out of 12th, wide-eyed and happily surprised looking at a laptop showing an affordable fee, simple home setting, bright hopeful mood.",
+    "burst": "₹45K?!"
+  },
+  "statbar": [
+    {"big": "₹45,000", "label": "per year"},
+    {"big": "0% EMI", "label": "pay monthly"},
+    {"big": "15% OFF", "label": "pay upfront"},
+    {"big": "NAAC A++", "label": "accredited"}
+  ],
+  "panels": [
+    {"n": 1, "narration": "Aarav dreams of running his own shop.",
+     "dialogue": "One day, this will be 'Aarav & Co.'",
+     "img_prompt": "Indian teenage boy Aarav, 18, at a small roadside tea stall at dawn, sketching a little shop logo in a worn notebook, eyes full of dreams, warm golden morning light, modest wholesome."},
+    {"n": 2, "narration": "But a good degree felt out of reach.",
+     "dialogue": "Surely this will cost lakhs.",
+     "img_prompt": "Aarav under a blanket late at night, face lit only by phone glow, nervously checking a fee page, tense hopeful expression, a single light in a dark modest room."},
+    {"n": 3, "narration": "Then the real fee appeared on screen.",
+     "dialogue": "Just ₹45,000 a year, with 0% EMI?",
+     "img_prompt": "Close-up of Aarav's eyes widening with disbelief turning to hope, phone showing a clear affordable fee, a warm glow of relief breaking the darkness of the modest room."},
+    {"n": 4, "narration": "Together, they chose the smart, affordable path.",
+     "dialogue": "No loans, no lakhs. Just ₹3,750 a month!",
+     "img_prompt": "Warm wholesome family moment at a simple breakfast table: Aarav proudly holding up his university enrollment confirmation while his smiling parents celebrate beside him, everyone happy and supportive, bright hopeful morning light, joyful and encouraging. No cash, no money, no envelope shown, just a proud supportive family celebrating a good decision together."}
+  ],
+  "turn": {
+    "title": "Why The BBA Fee Is A Steal",
+    "points": [
+      "Just ₹45,000/year for Finance, Marketing or HR (₹50,000 for Digital Marketing & Data Science + AI).",
+      "Pay the full fee upfront and get a flat 15% discount.",
+      "Or split it into easy monthly EMI at 0% interest — no extra cost.",
+      "Only ₹2,500 one-time registration + ₹3,000/year exam fee. No hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {"name": "Priya Nair", "spec": "BBA FINANCE", "role": "Management Trainee", "metric": "PLACED", "stat": "₹45K / yr",
+       "quote": "I almost didn't apply — I thought a recognised BBA would be unaffordable. ₹45,000 a year with 0% EMI made it easy."},
+      {"name": "Rohit Kumar", "spec": "BBA · SEM 1", "role": "1st-Year Student", "metric": "0% EMI", "stat": "₹3,750 / mo",
+       "quote": "The 0% EMI meant no lump sum. I pay a small amount every month from my part-time job — and my degree keeps going."},
+      {"name": "Ananya Sharma", "spec": "BBA DIGITAL", "role": "Final Year", "metric": "15% OFF", "stat": "₹38,250 / yr",
+       "quote": "We paid the year upfront and got a flat 15% off. A UGC-entitled degree for this price felt unreal — no hidden charges."},
+      {"name": "Karthik Reddy", "spec": "BBA MARKETING", "role": "Graduated", "metric": "DEBT-FREE", "stat": "₹0 loan",
+       "quote": "I finished my BBA without a single education loan. The monthly EMI fit my budget, and I walked out debt-free."}
+    ],
+    "facts": [
+      {"k": "Fee", "v": "₹45,000/year (₹50,000 for Digital Mktg & Data Sci + AI)"},
+      {"k": "Upfront", "v": "15% discount on one-time full payment"},
+      {"k": "EMI", "v": "0% interest monthly installments / education loan"},
+      {"k": "Extras", "v": "₹2,500 one-time registration + ₹3,000/year exam fee"}
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹45K A YEAR?",
+    "sub": "Get your exact BBA fee + EMI / discount plan in 2 minutes. No pressure — just honest numbers and a clear next step.",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

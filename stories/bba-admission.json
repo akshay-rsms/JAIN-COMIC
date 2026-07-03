@@ -1,0 +1,132 @@
+{
+  "id": "bba-admission",
+  "intent": "Admission / how to apply",
+  "program": "BBA",
+  "specialization": "Admissions 2026",
+  "target_query": "bba admission",
+  "hero": {
+    "eyebrow": "ADMISSIONS OPEN 2026",
+    "headline_pre": "YOUR BBA ADMISSION,",
+    "highlight": "MADE SIMPLE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Start my application",
+    "cta2": "Check eligibility",
+    "art_prompt": "Neha, an 18 year old Indian girl fresh out of class 12, confidently starting an online college application on a laptop, relieved and hopeful, bright tidy home.",
+    "burst": "APPLY!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "apply from home"
+    },
+    {
+      "big": "12th PASS",
+      "label": "eligibility"
+    },
+    {
+      "big": "NO ENTRANCE",
+      "label": "merit based"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Fresh out of 12th, Neha wanted to apply for a BBA.",
+      "dialogue": "Where do I even start?",
+      "img_prompt": "Neha, 18, sitting with a laptop looking unsure at a confusing admissions page, question marks in her mind, modest home, hopeful but puzzled."
+    },
+    {
+      "n": 2,
+      "narration": "The forms and steps felt scattered and confusing.",
+      "dialogue": "Am I even eligible?",
+      "img_prompt": "Neha surrounded by scattered documents and notes, trying to make sense of admission requirements, slightly stressed but determined."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found one simple online admission process.",
+      "dialogue": "Just a few clear steps!",
+      "img_prompt": "Neha smiling with relief at a laptop showing a clean, simple step-by-step admission process, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "She applied in minutes, guided at every step.",
+      "dialogue": "My application is in!",
+      "img_prompt": "Neha happily submitting her application on a laptop, giving a small confident thumbs up, proud and relieved, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "How BBA Admission Works",
+    "points": [
+      "Eligibility is simple: pass class 12 in any stream.",
+      "The whole application is online, so you can apply from home in minutes.",
+      "No entrance exam, admission is merit based on your 12th marks.",
+      "Upload your documents, pay the registration fee, and a counsellor guides you through."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Neha Joshi",
+        "spec": "BBA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "APPLIED",
+        "stat": "in minutes",
+        "quote": "I thought admission would be stressful. The online steps were clear and a counsellor guided me throughout."
+      },
+      {
+        "name": "Rohan Gupta",
+        "spec": "BBA ONLINE",
+        "role": "1st-Year Student",
+        "metric": "12th PASS",
+        "stat": "any stream",
+        "quote": "I came from a science background and still joined BBA easily. No entrance exam, just my 12th marks."
+      },
+      {
+        "name": "Aisha Khan",
+        "spec": "BBA HR",
+        "role": "2nd-Year Student",
+        "metric": "FROM HOME",
+        "stat": "fully online",
+        "quote": "I applied from my phone at home. Uploading documents and paying the fee took only a few minutes."
+      },
+      {
+        "name": "Karan Mehta",
+        "spec": "BBA MARKETING",
+        "role": "Final Year",
+        "metric": "GUIDED",
+        "stat": "step by step",
+        "quote": "Every time I had a doubt, my counsellor answered. Admission felt easy and well supported."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Eligibility",
+        "v": "Pass in class 12 (any stream)"
+      },
+      {
+        "k": "Process",
+        "v": "100% online application, apply from home"
+      },
+      {
+        "k": "Selection",
+        "v": "Merit based on 12th marks, no entrance exam"
+      },
+      {
+        "k": "Support",
+        "v": "Dedicated counsellor guides every step"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO APPLY",
+    "highlight": "FOR YOUR BBA?",
+    "sub": "",
+    "button": "Start my application",
+    "burst": "GO!"
+  }
+}

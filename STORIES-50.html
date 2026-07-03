@@ -1,0 +1,517 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fdf3da;--card:#fffdf5;--ink:#241d0f;--muted:#736a52;--navy:#1a237e;--gold:#f5b301;--line:#e8dcba;--chip:#fff6d9;--tgt:#eef0ff}
+@media(prefers-color-scheme:dark){:root{--bg:#14121b;--card:#201c2c;--ink:#efe9dd;--muted:#a49b86;--navy:#aeb4ff;--gold:#f5b301;--line:#342e44;--chip:#2a2438;--tgt:#232a4d}}
+:root[data-theme=light]{--bg:#fdf3da;--card:#fffdf5;--ink:#241d0f;--muted:#736a52;--navy:#1a237e;--gold:#f5b301;--line:#e8dcba;--chip:#fff6d9;--tgt:#eef0ff}
+:root[data-theme=dark]{--bg:#14121b;--card:#201c2c;--ink:#efe9dd;--muted:#a49b86;--navy:#aeb4ff;--gold:#f5b301;--line:#342e44;--chip:#2a2438;--tgt:#232a4d}
+body{background:var(--bg);color:var(--ink);font-family:'Segoe UI',system-ui,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:980px;margin:0 auto;padding:40px 20px 72px}
+.display{font-family:'Arial Black','Segoe UI',Impact,sans-serif;font-weight:900;letter-spacing:-.5px;line-height:1}
+header.top{border-bottom:4px solid var(--gold);padding-bottom:22px}
+header.top .kick{font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+header.top h1{font-size:clamp(30px,5vw,48px);color:var(--navy);margin:8px 0 8px;text-wrap:balance}
+header.top p{color:var(--muted);max-width:74ch;font-size:15px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 2px}
+.legend b{background:var(--navy);color:#fff;font-size:12px;font-weight:800;padding:5px 10px;border-radius:999px;letter-spacing:.5px}
+.legend b span{color:var(--gold)}
+h2.course{font-family:'Arial Black',sans-serif;font-weight:900;font-size:22px;color:var(--navy);margin:40px 0 4px;display:flex;align-items:baseline;gap:12px;border-top:2px solid var(--line);padding-top:26px}
+h2.course .cnt{font-size:12px;font-weight:800;color:var(--gold);letter-spacing:1px}
+.grid{display:grid;gap:16px;margin-top:16px}
+.story{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px}
+.shead{display:flex;align-items:flex-start;gap:12px}
+.num{flex:0 0 auto;width:34px;height:34px;border-radius:9px;background:var(--gold);color:#1a1400;font-family:'Arial Black',sans-serif;font-weight:900;font-size:15px;display:flex;align-items:center;justify-content:center}
+.shead .meta{min-width:0;flex:1}
+.shead .tag{font-size:11px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase;color:var(--gold)}
+.shead h3{font-size:16.5px;color:var(--ink);font-weight:800;margin:1px 0 2px}
+.target{margin:12px 0 14px;background:var(--tgt);border:1px solid var(--line);border-radius:9px;padding:8px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px}
+.target .lbl{font-size:10.5px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--navy)}
+.target .q{font-family:'Consolas','SF Mono',monospace;font-weight:700;color:var(--ink)}
+.target .cnt{margin-left:auto;font-size:11px;font-weight:800;color:var(--muted);white-space:nowrap}
+.panels{display:grid;gap:11px;border-top:1px dashed var(--line);padding-top:12px}
+.panel{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start}
+.panel .pn{font-family:'Arial Black',sans-serif;font-weight:900;font-size:13px;color:#fff;background:var(--navy);width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.panel .cap{font-weight:700;font-size:14.5px}
+.panel .bub{display:inline-block;margin-top:5px;background:var(--chip);border:1px solid var(--gold);color:var(--ink);font-size:13.5px;font-style:italic;padding:4px 11px;border-radius:14px 14px 14px 3px}
+.panel .art{display:block;margin-top:6px;font-size:12px;color:var(--muted)}
+.panel .art b{color:var(--gold);font-style:normal;letter-spacing:.5px}
+footer.end{margin-top:48px;border-top:2px solid var(--line);padding-top:18px;color:var(--muted);font-size:12.5px}
+@media(max-width:560px){.wrap{padding:26px 14px 56px}}
+</style>
+<div class='wrap'>
+<header class='top'><div class='kick'>JAIN Online &middot; Demand-Driven Landing Pages</div>
+<h1 class='display'>50 Landing-Page Stories</h1>
+<p>Each page is aimed at a <b>real, high-volume search query</b> from the terms report (query &amp; count shown on every card). Same converting arc &mdash; <b>dream &rarr; the wall &rarr; the JAIN Online reveal &rarr; the win</b> &mdash; with the wall/reveal tuned to the query's intent (fees, online, distance, best/recognised, eligibility, specialisation).</p>
+<div class='legend'>
+<b>MBA <span>20</span></b>
+<b>BBA <span>8</span></b>
+<b>B.Com <span>6</span></b>
+<b>MCA <span>6</span></b>
+<b>M.Com <span>4</span></b>
+<b>MA <span>4</span></b>
+<b>BCA <span>2</span></b>
+</div></header>
+<h2 class='course'>MBA <span class='cnt'>20 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>01</div><div class='meta'><div class='tag'>MBA &middot; Online — flagship</div><h3>Nikhil, 28 — wants an MBA but can&#x27;t leave his job</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mba courses</span><span class='cnt'>808 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Nikhil scrolled every &#x27;online MBA courses&#x27; result and closed the tab, unsure.</div><div class='bub'>&ldquo;Can I really do an MBA while working?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Young man at night scrolling search results on a laptop, office bag nearby.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Campus classes clashed with the shifts he couldn&#x27;t afford to lose.</div><div class='bub'>&ldquo;I can&#x27;t quit to sit in a classroom.&rdquo;</div><span class='art'><b>ART</b> &nbsp;A campus timetable versus his work desk — torn between them.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then he found it — a full online MBA, learn anytime, recognised degree.</div><div class='bub'>&ldquo;Class after work? That works!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at the laptop showing an online MBA, warm evening light.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Now he studies at 10 pm and leads at 10 am — no pause, no quitting.</div><div class='bub'>&ldquo;Working AND learning. Finally.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Nikhil confident at work by day, studying by night, split scene.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>02</div><div class='meta'><div class='tag'>MBA &middot; Online — in India</div><h3>Ananya, 30 — wary of foreign, dollar-priced options</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mba courses in india</span><span class='cnt'>551 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Every &#x27;online MBA&#x27; ad Ananya saw was foreign, flashy, priced in dollars.</div><div class='bub'>&ldquo;Is there a real Indian one?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman at a laptop seeing overseas MBA ads, skeptical.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>She needed a UGC-recognised Indian degree that employers here trust.</div><div class='bub'>&ldquo;Will Indian companies accept it?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried, comparing logos and &#x27;recognised?&#x27; notes.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a UGC-entitled online MBA from an Indian university, NAAC A++.</div><div class='bub'>&ldquo;Recognised, Indian, online — yes!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at the laptop, NAAC A++ and UGC badges glowing.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Her HR verifies it instantly; the promotion goes through.</div><div class='bub'>&ldquo;Recognised where it matters.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Ananya&#x27;s degree accepted, HR nods, proud moment.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>03</div><div class='meta'><div class='tag'>MBA &middot; Online — working professionals</div><h3>Rakesh, 34 — 12 years&#x27; experience, no degree to show</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba for working professionals</span><span class='cnt'>226 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Rakesh trains new managers who out-rank him on paper.</div><div class='bub'>&ldquo;Experience isn&#x27;t opening the next door.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man mentoring juniors who wear manager badges.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A campus MBA meant a career break he simply couldn&#x27;t take.</div><div class='bub'>&ldquo;I can&#x27;t stop working at 34.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at home, family and bills, high fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an MBA built for working professionals: weekends and online.</div><div class='bub'>&ldquo;Made for people like me!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at the laptop, a &#x27;for working professionals&#x27; MBA.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Two years on, his experience finally has the title to match.</div><div class='bub'>&ldquo;Manager. On paper too.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Rakesh promoted, confident, team behind him.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>04</div><div class='meta'><div class='tag'>MBA &middot; Online — programs</div><h3>Sneha, 27 — overwhelmed by too many &#x27;programs&#x27;</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mba programs</span><span class='cnt'>707 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>A hundred &#x27;online MBA programs&#x27; — Sneha had no idea which was real.</div><div class='bub'>&ldquo;Which one actually counts?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman staring at a wall of program ads, confused.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Some were cheap and fake; the real ones felt out of budget.</div><div class='bub'>&ldquo;Real ones cost a bomb, right?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried, comparing prices and &#x27;recognised?&#x27; flags.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — one UGC-entitled online MBA program, affordable and flexible.</div><div class='bub'>&ldquo;Real AND affordable — this one!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief landing on a trustworthy program, a glow.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She enrols in the program that&#x27;s actually recognised — and priced right.</div><div class='bub'>&ldquo;Chose right. Finally.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Sneha enrolled, confident, a welcome screen.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>05</div><div class='meta'><div class='tag'>MBA &middot; Fees</div><h3>Vikram, 29 — braced for the worst when he searched fees</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba courses fees</span><span class='cnt'>716 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Vikram typed &#x27;mba courses fees&#x27; expecting numbers that would end the dream.</div><div class='bub'>&ldquo;Please don&#x27;t be in lakhs...&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man tensely searching MBA fees on a phone at night.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>The big B-schools wanted 10-20 lakh he&#x27;d never have.</div><div class='bub'>&ldquo;That&#x27;s a house, not a degree.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Shocked at huge fee figures on the screen.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a recognised online MBA at a fraction of the cost, 0% EMI.</div><div class='bub'>&ldquo;Wait — I can actually pay this!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable fee and EMI, warm glow.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He enrols on a monthly plan — no loan, no lakhs.</div><div class='bub'>&ldquo;Big degree. Small instalments.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Vikram enrolling confidently, an EMI plan on screen.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>06</div><div class='meta'><div class='tag'>MBA &middot; Fees — JAIN</div><h3>Priya, 31 — heard JAIN was good, feared the price</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university mba fees</span><span class='cnt'>473 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Priya kept hearing JAIN was reputable — surely that meant expensive.</div><div class='bub'>&ldquo;Good college = huge fees?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman searching &#x27;jain university mba fees&#x27;, hopeful but nervous.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A reputed name usually meant a reputed price tag.</div><div class='bub'>&ldquo;Can I even afford a good one?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at the laptop, a quality-versus-cost dilemma.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then the fee loaded — affordable, with EMI, and NAAC A++ behind it.</div><div class='bub'>&ldquo;Reputed AND affordable?!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Pleasant shock at an affordable JAIN fee, accreditation badges.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She gets the respected degree without the scary number.</div><div class='bub'>&ldquo;Quality, not lakhs.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Priya enrolled at JAIN Online, proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>07</div><div class='meta'><div class='tag'>MBA &middot; Fees — online</div><h3>Arjun, 26 — assumed &#x27;online&#x27; still meant costly</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mba courses fees</span><span class='cnt'>601 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Arjun figured even online MBAs would cost a fortune.</div><div class='bub'>&ldquo;Online, but still pricey?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man checking online MBA fees, doubtful.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Some &#x27;online&#x27; programs charged more than campus ones.</div><div class='bub'>&ldquo;Why is this so expensive?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried, comparing inflated online fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MBA that&#x27;s genuinely affordable, pay-monthly.</div><div class='bub'>&ldquo;Finally — online AND affordable!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable online MBA fee.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He starts learning this month — for less than he feared per year.</div><div class='bub'>&ldquo;Smart choice, small cost.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Arjun studying online, satisfied.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>08</div><div class='meta'><div class='tag'>MBA &middot; Distance</div><h3>Kavya, 33 — no top B-school anywhere near her town</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>distance mba courses</span><span class='cnt'>522 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>In Kavya&#x27;s town, the nearest good B-school was eight hours away.</div><div class='bub'>&ldquo;Do I have to leave everything?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman looking at a map, her small town far from the cities.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Relocating for a campus meant leaving family and job behind.</div><div class='bub'>&ldquo;I can&#x27;t move my whole life.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Torn between home and a distant city.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a distance MBA: learn from her town, degree recognised nationwide.</div><div class='bub'>&ldquo;The B-school comes to me!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at the laptop at home, a distance MBA.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She earns a national-grade MBA without leaving her hometown.</div><div class='bub'>&ldquo;Small town. Big degree.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Kavya graduating from home, proud family.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>09</div><div class='meta'><div class='tag'>MBA &middot; Distance education</div><h3>Imran, 35 — climbed on a part-time bachelor&#x27;s, wants to finish</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba distance education</span><span class='cnt'>482 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Imran clawed up with a part-time bachelor&#x27;s; the ceiling returned.</div><div class='bub'>&ldquo;One more degree to break through.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man at a desk, a glass ceiling of light above him.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Full-time study was never an option with a family to run.</div><div class='bub'>&ldquo;No time to sit in a class.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried, balancing family and work.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an MBA by distance education: flexible, affordable, recognised.</div><div class='bub'>&ldquo;Learn on my own hours!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at the laptop, a distance-education MBA.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He breaks the ceiling — degree done, on his terms.</div><div class='bub'>&ldquo;Made it. My way.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Imran promoted, confident.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>10</div><div class='meta'><div class='tag'>MBA &middot; Best — online</div><h3>Meera, 28 — burned once by a worthless certificate</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>best online mba in india</span><span class='cnt'>383 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Meera once paid for an &#x27;online course&#x27; no employer recognised.</div><div class='bub'>&ldquo;Never wasting money on fake again.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman frustrated, a useless certificate in hand.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>This time she searched &#x27;best online MBA in India&#x27; — trust was everything.</div><div class='bub'>&ldquo;Is it actually recognised?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Carefully checking rankings and accreditations.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a UGC-entitled, NAAC A++ online MBA, ranked and real.</div><div class='bub'>&ldquo;This one&#x27;s the real deal!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at legitimate badges and rankings.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Her new degree passes every background check.</div><div class='bub'>&ldquo;Recognised. Verified. Mine.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Meera&#x27;s credential verified, HR approves.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>11</div><div class='meta'><div class='tag'>MBA &middot; Top colleges</div><h3>Sandeep, 32 — wants a name that impresses on a CV</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>top distance mba colleges in india</span><span class='cnt'>277 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Sandeep wanted a distance MBA that still looked strong on a CV.</div><div class='bub'>&ldquo;Will recruiters respect it?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man polishing his CV, unsure.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Many distance colleges felt second-rate.</div><div class='bub'>&ldquo;Not just any college.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Comparing college names, doubtful.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a top-ranked distance MBA: NAAC A++, industry-aligned.</div><div class='bub'>&ldquo;A name that opens doors!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a top-college listing, rankings.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Recruiters recognise it instantly.</div><div class='bub'>&ldquo;CV upgraded.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Sandeep in an interview, the interviewer nods.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>12</div><div class='meta'><div class='tag'>MBA &middot; Reviews / ranking</div><h3>Divya, 30 — reads every review before she commits</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>best distance mba in india</span><span class='cnt'>277 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Divya reads reviews for everything — a degree deserved the same.</div><div class='bub'>&ldquo;What do real students say?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman reading reviews and ratings on a laptop.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Flashy ads told her nothing about real outcomes.</div><div class='bub'>&ldquo;Ads aren&#x27;t proof.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Skeptical at glossy ads.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a highly-reviewed, top-ranked distance MBA, alumni wins everywhere.</div><div class='bub'>&ldquo;The reviews are real!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Glowing student reviews and outcomes on screen.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She joins the batch the reviews raved about.</div><div class='bub'>&ldquo;Chose by proof, not ads.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Divya enrolled, a five-star vibe.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>13</div><div class='meta'><div class='tag'>MBA &middot; Eligibility</div><h3>Farhan, 27 — average marks, sure he wouldn&#x27;t qualify</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba course eligibility</span><span class='cnt'>153 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Farhan assumed his average marks locked him out of any MBA.</div><div class='bub'>&ldquo;Am I even eligible?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man hesitating over &#x27;eligibility&#x27; on a laptop.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Big schools demanded high scores and entrance ranks.</div><div class='bub'>&ldquo;They only want toppers.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Intimidating eligibility criteria on screen.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a simple eligibility: a bachelor&#x27;s degree, that&#x27;s it.</div><div class='bub'>&ldquo;I qualify?! Really?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an easy eligibility checklist, green ticks.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He applies in minutes — and gets in.</div><div class='bub'>&ldquo;Eligible after all.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Farhan&#x27;s acceptance screen, delighted.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>14</div><div class='meta'><div class='tag'>MBA &middot; Admission</div><h3>Neha, 29 — dreads long, confusing admission processes</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba admission</span><span class='cnt'>244 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Neha put off her MBA for years, dreading the admission maze.</div><div class='bub'>&ldquo;Too many forms, too much hassle.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman overwhelmed by stacks of paperwork.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Campus admissions meant tests, queues, and travel.</div><div class='bub'>&ldquo;I don&#x27;t have time for all this.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Long queues and entrance-test stress.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a fully online admission: apply, upload, done.</div><div class='bub'>&ldquo;Admission in minutes?!&rdquo;</div><span class='art'><b>ART</b> &nbsp;A simple online application flow, relief.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She&#x27;s enrolled before the weekend ends.</div><div class='bub'>&ldquo;That was actually easy.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Neha with an &#x27;Admitted&#x27; confirmation, smiling.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>15</div><div class='meta'><div class='tag'>MBA &middot; Generic — courses</div><h3>Rohit, 26 — knows he wants &#x27;an MBA&#x27;, nothing more</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba courses</span><span class='cnt'>493 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Rohit knew he wanted &#x27;an MBA&#x27; — but had no idea where to start.</div><div class='bub'>&ldquo;So many courses... which one?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man overwhelmed by MBA course options.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Every option looked costly, rigid, or confusing.</div><div class='bub'>&ldquo;Is there a simple, doable one?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Confused at a cluttered comparison.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — one clear, flexible, affordable online MBA with guidance.</div><div class='bub'>&ldquo;A clear path — at last!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a simple, guided MBA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>A mentor maps his specialisation and he begins.</div><div class='bub'>&ldquo;From lost to enrolled.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Rohit with a mentor, a confident start.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>16</div><div class='meta'><div class='tag'>MBA &middot; Scope / salary</div><h3>Aisha, 31 — needs proof it&#x27;ll actually pay off</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mba salary in india</span><span class='cnt'>35 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Aisha wouldn&#x27;t spend two years unless the numbers made sense.</div><div class='bub'>&ldquo;Will this actually pay off?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman weighing salary-growth charts.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>She feared spending on a degree that changed nothing.</div><div class='bub'>&ldquo;What if my salary doesn&#x27;t move?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Doubtful at a flat salary line.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then she saw the outcomes — alumni salary jumps, real roles.</div><div class='bub'>&ldquo;The ROI is real!&rdquo;</div><span class='art'><b>ART</b> &nbsp;A rising salary graph, alumni roles listed.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Eighteen months later, her pay grade proves it.</div><div class='bub'>&ldquo;Paid for itself.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Aisha with a raise letter, satisfied.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>17</div><div class='meta'><div class='tag'>MBA &middot; Specialisation — Digital Marketing</div><h3>Kabir, 27 — self-taught marketer chasing a lead role</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba in digital marketing</span><span class='cnt'>227 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Kabir runs campaigns but keeps getting passed for lead roles.</div><div class='bub'>&ldquo;I need the credential to lead.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man running campaigns, still a junior title.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A specialised MBA felt costly and campus-bound.</div><div class='bub'>&ldquo;Can&#x27;t quit to specialise.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fees and a campus timetable.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MBA in Digital Marketing, affordable and flexible.</div><div class='bub'>&ldquo;Specialise while I work!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at an MBA Digital Marketing page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He&#x27;s promoted to Digital Marketing Lead.</div><div class='bub'>&ldquo;From doer to leader.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Kabir leading a marketing team, confident.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>18</div><div class='meta'><div class='tag'>MBA &middot; Specialisation — HR</div><h3>Fatima, 30 — the team&#x27;s unofficial HR, wants it official</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba hr courses</span><span class='cnt'>201 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Everyone leans on Fatima for people problems — minus the HR title.</div><div class='bub'>&ldquo;Make my role official.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman counselling a colleague warmly.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>An HR MBA on campus meant leaving her job.</div><div class='bub'>&ldquo;I can&#x27;t step away to study.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried, job versus course.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MBA in HR: weekends, budget EMI.</div><div class='bub'>&ldquo;Title, here I come!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at an MBA HR page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She&#x27;s appointed Head of HR.</div><div class='bub'>&ldquo;People are my profession now.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Fatima as HR Head, a nameplate on her desk.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>19</div><div class='meta'><div class='tag'>MBA &middot; Specialisation — Hospital Mgmt</div><h3>Priya, 32 — a nurse who really runs the ward</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba in hospital management</span><span class='cnt'>212 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Priya runs the ward better than anyone — without the manager badge.</div><div class='bub'>&ldquo;I hold this place together.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Nurse coordinating a busy hospital ward.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A hospital-management MBA meant quitting nursing.</div><div class='bub'>&ldquo;I can&#x27;t leave the floor.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Tired post-shift, worried at fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MBA in Hospital Management, study between shifts.</div><div class='bub'>&ldquo;Care by day, degree by night!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an MBA Hospital Management page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She&#x27;s promoted to manage the whole department.</div><div class='bub'>&ldquo;Nurse to manager.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Priya in an admin role, proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>20</div><div class='meta'><div class='tag'>MBA &middot; Specialisation — Finance</div><h3>Karan, 27 — great with numbers, stuck without the degree</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mba in finance</span><span class='cnt'>193 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Karan reads markets for fun; his title still says &#x27;executive.&#x27;</div><div class='bub'>&ldquo;I want a career in finance.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man reading market charts eagerly.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A finance MBA felt like lakhs and a career pause.</div><div class='bub'>&ldquo;Too costly to switch.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MBA in Finance: affordable, keep earning.</div><div class='bub'>&ldquo;Switch without the free-fall!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at an MBA Finance page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>New title: Financial Analyst.</div><div class='bub'>&ldquo;Numbers are my job now.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Karan at a finance desk, confident.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>BBA <span class='cnt'>8 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>21</div><div class='meta'><div class='tag'>BBA &middot; Online</div><h3>Aditya, 18 — minds the family shop, can&#x27;t attend full-time</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online bba course</span><span class='cnt'>272 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Aditya minds the family shop by day; college clashes with all of it.</div><div class='bub'>&ldquo;I can&#x27;t sit in class all day.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen at a shop counter, a college flyer set aside.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A campus BBA meant abandoning the shop that feeds them.</div><div class='bub'>&ldquo;Who runs this if I go?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Torn between the shop and college.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online BBA: study anytime, a real degree.</div><div class='bub'>&ldquo;Learn AND mind the shop!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a laptop on the counter.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He runs the shop by day and earns his BBA by night.</div><div class='bub'>&ldquo;Both. At once.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Aditya studying after closing, proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>22</div><div class='meta'><div class='tag'>BBA &middot; Online (alt)</div><h3>Riya, 18 — small town, no good college nearby</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba online course</span><span class='cnt'>246 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Riya&#x27;s town had no college with a real BBA.</div><div class='bub'>&ldquo;Do I have to move away?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen girl looking toward a distant city.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Moving to a city cost more than the course itself.</div><div class='bub'>&ldquo;Hostel and fees? Too much.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at hostel and city costs.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online BBA she could do from home, recognised.</div><div class='bub'>&ldquo;College, from my room!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Delighted at a laptop at home.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She&#x27;s a BBA student without leaving home.</div><div class='bub'>&ldquo;No move. Full degree.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Riya studying at home, family proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>23</div><div class='meta'><div class='tag'>BBA &middot; Fees — JAIN</div><h3>Aarav, 18 — first-gen dreamer bracing for the fee</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university bba fees structure</span><span class='cnt'>339 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Dawn in Hubballi — Aarav opens the JAIN BBA fee structure, heart pounding.</div><div class='bub'>&ldquo;Please don&#x27;t be in lakhs.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen at a tea stall checking fees on a phone.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A business degree felt like it was only for rich kids.</div><div class='bub'>&ldquo;Not for a boy like me?&rdquo;</div><span class='art'><b>ART</b> &nbsp;A hopeful face dimming at the thought of cost.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then the structure loaded — ₹45,000/year, 0% EMI, no hidden charges.</div><div class='bub'>&ldquo;₹45,000? I can do this!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Eyes lighting up at a clear fee breakdown.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Appa slides over a savings envelope; Aarav enrols.</div><div class='bub'>&ldquo;Step one — done.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Father handing over an envelope, mother teary and happy.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>24</div><div class='meta'><div class='tag'>BBA &middot; Fees — course</div><h3>Sneha, 18 — comparing fees across every college</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba course fees</span><span class='cnt'>229 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Sneha listed every BBA&#x27;s fees — most made her stomach drop.</div><div class='bub'>&ldquo;Why is a degree so costly?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen comparing high fee figures in a notebook.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>The cheaper ones weren&#x27;t even recognised.</div><div class='bub'>&ldquo;Cheap OR real — never both?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Torn between price and recognition.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a recognised BBA at ₹45,000/year with EMI.</div><div class='bub'>&ldquo;Affordable AND real!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable, recognised fee.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She picks the one that&#x27;s both.</div><div class='bub'>&ldquo;Smartest choice on my list.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Sneha enrolling, satisfied.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>25</div><div class='meta'><div class='tag'>BBA &middot; Admission</div><h3>Neha, 18 — just finished 12th, unsure how to apply</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba admission</span><span class='cnt'>113 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Fresh out of 12th, Neha found BBA admissions confusing.</div><div class='bub'>&ldquo;Where do I even start?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen puzzling over admission steps.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Entrance forms and deadlines felt overwhelming.</div><div class='bub'>&ldquo;So many forms and dates!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Overwhelmed by paperwork.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a simple online admission after 12th, no entrance stress.</div><div class='bub'>&ldquo;Apply online? That&#x27;s it?&rdquo;</div><span class='art'><b>ART</b> &nbsp;An easy online application flow.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Admitted before the week ends.</div><div class='bub'>&ldquo;That was simple.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Neha with an &#x27;Admitted&#x27; screen, delighted.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>26</div><div class='meta'><div class='tag'>BBA &middot; Generic — course</div><h3>Ishaan, 18 — knows he wants business, not much else</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba course</span><span class='cnt'>353 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Ishaan knew &#x27;business&#x27; was his path — the how was a blur.</div><div class='bub'>&ldquo;A BBA... but which, how?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen unsure among options.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Every route looked expensive or complicated.</div><div class='bub'>&ldquo;Is there a simple way in?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Confused at cluttered options.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a clear, affordable online BBA with guidance.</div><div class='bub'>&ldquo;A simple path — yes!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a guided BBA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>A counsellor picks his elective; he begins.</div><div class='bub'>&ldquo;From clueless to enrolled.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Ishaan with a counsellor, confident.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>27</div><div class='meta'><div class='tag'>BBA &middot; Specialisation — Aviation</div><h3>Farhan, 18 — grew up watching planes</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba in aviation</span><span class='cnt'>95 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>From his rooftop, Farhan dreams of running airport operations.</div><div class='bub'>&ldquo;I belong at the airport.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen watching a plane, eyes bright.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Aviation courses looked glamorous — and priced like it.</div><div class='bub'>&ldquo;Sky-high fees?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at a pricey brochure.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable online BBA in Aviation Management.</div><div class='bub'>&ldquo;My runway just opened!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a BBA Aviation page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Ground-ops trainee at a real airport.</div><div class='bub'>&ldquo;Cleared for take-off.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Farhan in an airport uniform, tarmac behind.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>28</div><div class='meta'><div class='tag'>BBA &middot; Specialisation — Digital Marketing</div><h3>Kabir, 18 — turns memes viral, wants it as a career</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bba in digital marketing</span><span class='cnt'>110 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Kabir&#x27;s posts go viral; everyone calls it &#x27;just a hobby.&#x27;</div><div class='bub'>&ldquo;This can be a career.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen with viral posts around him.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A degree for it? He assumed it cost a bomb.</div><div class='bub'>&ldquo;Talent&#x27;s free. Degrees aren&#x27;t.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Doubtful at fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online BBA in Digital Marketing: affordable, EMI.</div><div class='bub'>&ldquo;Turn viral into a career!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a BBA Digital Marketing page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>A local brand hires him in year one.</div><div class='bub'>&ldquo;Memes to metrics.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Kabir running a brand&#x27;s socials, proud.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>B.Com <span class='cnt'>6 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>29</div><div class='meta'><div class='tag'>B.Com &middot; Online</div><h3>Pooja, 18 — runs the family shop&#x27;s books</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bcom online course</span><span class='cnt'>219 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Pooja keeps the shop&#x27;s accounts; a campus B.Com would pull her away.</div><div class='bub'>&ldquo;I can&#x27;t leave the shop.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen doing ledgers at a counter.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>City college meant travel, hostel, and lost help at home.</div><div class='bub'>&ldquo;Who minds the shop?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Torn between shop and college.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online B.Com: study from the counter.</div><div class='bub'>&ldquo;Books and business, together!&rdquo;</div><span class='art'><b>ART</b> &nbsp;A laptop on the shop counter, happy.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Customers by day, coursework by night.</div><div class='bub'>&ldquo;Shopkeeper today, CA tomorrow.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Pooja serving a customer, books beside her.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>30</div><div class='meta'><div class='tag'>B.Com &middot; Online — for students</div><h3>Manish, 19 — working part-time, studying on the side</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online courses for bcom students</span><span class='cnt'>184 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Manish works part-time; regular college hours were impossible.</div><div class='bub'>&ldquo;I have to earn while I learn.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen at a part-time job, tired.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Fixed classes clashed with every shift.</div><div class='bub'>&ldquo;No time for a timetable.&rdquo;</div><span class='art'><b>ART</b> &nbsp;A shift schedule versus a class schedule.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online B.Com he could fit around work.</div><div class='bub'>&ldquo;Study on my schedule!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a flexible online B.Com.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He earns and studies — no compromise.</div><div class='bub'>&ldquo;Both boxes ticked.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Manish working and studying, split scene, proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>31</div><div class='meta'><div class='tag'>B.Com &middot; Fees</div><h3>Vikram, 18 — smart, but money is tight at home</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university online bcom fees</span><span class='cnt'>179 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Vikram&#x27;s marks were strong; the family budget wasn&#x27;t.</div><div class='bub'>&ldquo;Can we afford a real degree?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen watching his parents count money.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Good colleges seemed to want money they didn&#x27;t have.</div><div class='bub'>&ldquo;Quality feels out of reach.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fee figures.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable online B.Com fee, pay-monthly.</div><div class='bub'>&ldquo;This fits our budget!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable fee and EMI.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>First-gen commerce student, enrolled.</div><div class='bub'>&ldquo;First of many firsts.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Vikram enrolled, family proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>32</div><div class='meta'><div class='tag'>B.Com &middot; Professional — ACCA</div><h3>Aisha, 19 — wants a global accounting career</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university b com with acca fees</span><span class='cnt'>132 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Aisha dreams of auditing for companies worldwide.</div><div class='bub'>&ldquo;I want a global finance career.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen with a globe and calculator.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Global qualifications sounded impossibly expensive.</div><div class='bub'>&ldquo;Global = a fortune, right?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at overseas costs.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a B.Com with an ACCA pathway: affordable, EMI.</div><div class='bub'>&ldquo;World-class, within budget!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a B.Com + ACCA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She clears her first ACCA paper.</div><div class='bub'>&ldquo;Local roots, global ledger.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Aisha celebrating, a world map behind.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>33</div><div class='meta'><div class='tag'>B.Com &middot; Admission</div><h3>Harish, 18 — missed the regular-college cutoffs</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bcom online admission</span><span class='cnt'>91 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Harish missed the local college cutoffs by a whisker.</div><div class='bub'>&ldquo;Did I miss my only chance?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen dejected at a cutoff list.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>He feared waiting a whole year to reapply.</div><div class='bub'>&ldquo;A year lost?&rdquo;</div><span class='art'><b>ART</b> &nbsp;A calendar, time slipping away.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — open online B.Com admission: apply now, after 12th.</div><div class='bub'>&ldquo;I can start this term!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an open admission page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Enrolled — no year wasted.</div><div class='bub'>&ldquo;Back on track.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Harish admitted, relieved and proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>34</div><div class='meta'><div class='tag'>B.Com &middot; Specialisation — Accounting</div><h3>Sana, 20 — already does neighbours&#x27; accounts</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>bcom accounts</span><span class='cnt'>54 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Sana keeps books for half the neighbourhood already.</div><div class='bub'>&ldquo;I could do this professionally.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Young woman helping with accounts.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A proper degree felt like a cost she couldn&#x27;t justify.</div><div class='bub'>&ldquo;Is the paper worth the price?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at a desk of ledgers.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable online B.Com in Accounting &amp; Finance.</div><div class='bub'>&ldquo;Turn skill into a career!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a B.Com Accounts page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She opens a small accounting desk.</div><div class='bub'>&ldquo;Accountant. Official soon.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Sana at her own desk, clients waiting.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>MCA <span class='cnt'>6 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>35</div><div class='meta'><div class='tag'>MCA &middot; Fees — JAIN</div><h3>Karthik, 23 — helpdesk coder eyeing a real dev role</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university mca fees</span><span class='cnt'>366 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Karthik searched the JAIN MCA fee, bracing for lakhs.</div><div class='bub'>&ldquo;Please be affordable.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man checking MCA fees at night.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Master&#x27;s degrees usually cost more than he earned.</div><div class='bub'>&ldquo;On my salary? Doubtful.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fee figures.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable MCA fee, 0% EMI, keep the job.</div><div class='bub'>&ldquo;This fits my budget!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable MCA fee.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>First real app shipped; title: Developer.</div><div class='bub'>&ldquo;Helpdesk to codebase.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Karthik demoing an app, proud.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>36</div><div class='meta'><div class='tag'>MCA &middot; Fees — structure</div><h3>Ritika, 24 — wants every rupee spelled out</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university mca fees structure</span><span class='cnt'>317 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Ritika wanted the full fee structure — no hidden shocks.</div><div class='bub'>&ldquo;What&#x27;s the real total?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman scanning a fee breakdown carefully.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Other colleges buried costs in the fine print.</div><div class='bub'>&ldquo;Hidden fees everywhere.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Skeptical at fine print.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a clear MCA fee structure: tuition, exam, EMI, done.</div><div class='bub'>&ldquo;All clear, no surprises!&rdquo;</div><span class='art'><b>ART</b> &nbsp;A transparent fee table, relief.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She enrols knowing exactly what she&#x27;ll pay.</div><div class='bub'>&ldquo;No surprises. Signed.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Ritika enrolling confidently.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>37</div><div class='meta'><div class='tag'>MCA &middot; Online</div><h3>Naveen, 26 — sysadmin who can&#x27;t attend day classes</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mca online course</span><span class='cnt'>304 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Naveen keeps servers alive on rotating shifts — day college is impossible.</div><div class='bub'>&ldquo;My hours are all over.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man in a server room, odd hours.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A campus MCA needed fixed daytime attendance.</div><div class='bub'>&ldquo;I can&#x27;t be there 9-to-5.&rdquo;</div><span class='art'><b>ART</b> &nbsp;A shift clash with class times.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online MCA: learn on his own schedule.</div><div class='bub'>&ldquo;Study around my shifts!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an online MCA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He moves from sysadmin to cloud engineer.</div><div class='bub'>&ldquo;Server room to cloud.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Naveen presenting a cloud diagram.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>38</div><div class='meta'><div class='tag'>MCA &middot; Distance</div><h3>Prakash, 27 — BCA grad, no dev master&#x27;s near him</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mca distance education</span><span class='cnt'>209 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Prakash&#x27;s BCA plateaued; no good MCA campus near his town.</div><div class='bub'>&ldquo;Do I have to relocate?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man at a desk, a distant-city map.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Moving for a master&#x27;s meant losing his income.</div><div class='bub'>&ldquo;Can&#x27;t afford to move and study.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at costs.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an MCA by distance education: learn from home, recognised.</div><div class='bub'>&ldquo;The master&#x27;s comes to me!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a distance MCA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Promoted to Senior Software Engineer.</div><div class='bub'>&ldquo;Ceiling? Gone.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Prakash leading a code review.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>39</div><div class='meta'><div class='tag'>MCA &middot; Specialisation — Cybersecurity</div><h3>Zoya, 24 — spots every scam, wants to defend for real</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university mca cyber security</span><span class='cnt'>99 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Zoya flags phishing before anyone clicks — she wants it as a career.</div><div class='bub'>&ldquo;I could defend companies.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman flagging a scam email.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A cybersecurity master&#x27;s sounded elite and pricey.</div><div class='bub'>&ldquo;Is that world affordable?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable MCA in Cyber Security, online.</div><div class='bub'>&ldquo;Defender mode: unlocked!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at an MCA Cyber Security page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She lands a security-analyst role.</div><div class='bub'>&ldquo;Ethical hacker. Employed.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Zoya at a security dashboard.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>40</div><div class='meta'><div class='tag'>MCA &middot; Admission</div><h3>Aditya, 25 — dreads entrance tests and queues</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mca admission</span><span class='cnt'>147 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Aditya kept postponing his MCA, dreading the admission grind.</div><div class='bub'>&ldquo;Entrance tests again?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man avoiding a stack of forms.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Campus admission meant tests, travel, and waiting.</div><div class='bub'>&ldquo;No time for all that.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Long queue and test stress.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — a simple online MCA admission after graduation.</div><div class='bub'>&ldquo;Apply online, done!&rdquo;</div><span class='art'><b>ART</b> &nbsp;An easy online application.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Enrolled in a weekend.</div><div class='bub'>&ldquo;That was painless.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Aditya admitted, relieved.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>M.Com <span class='cnt'>4 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>41</div><div class='meta'><div class='tag'>M.Com &middot; Distance</div><h3>Divya, 29 — best accountant, no time for campus</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>mcom distance education</span><span class='cnt'>187 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Divya&#x27;s the sharpest accountant around — and the least promoted.</div><div class='bub'>&ldquo;They want a master&#x27;s.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman at a file-piled desk.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Campus classes with a job and family? Impossible.</div><div class='bub'>&ldquo;No time to attend.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Juggling work and home.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an M.Com by distance: study after hours, affordable.</div><div class='bub'>&ldquo;Grow without pausing life!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a distance M.Com page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Master&#x27;s in hand, she gets the role she earned.</div><div class='bub'>&ldquo;Senior Accountant. Finally.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Divya with a certificate, recognised.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>42</div><div class='meta'><div class='tag'>M.Com &middot; Distance (alt)</div><h3>Mohan, 30 — bank officer eyeing the manager&#x27;s cabin</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>m com distance education</span><span class='cnt'>169 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Mohan&#x27;s a solid officer; the manager&#x27;s cabin needs a master&#x27;s.</div><div class='bub'>&ldquo;One degree from that door.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Officer glancing at a manager&#x27;s cabin.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Evenings were gone after the branch closed.</div><div class='bub'>&ldquo;No time after work.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Tired late nights.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an M.Com by distance: study nights, easy fees.</div><div class='bub'>&ldquo;The cabin&#x27;s in reach!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a distance M.Com page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>New title on the door: Branch Manager.</div><div class='bub'>&ldquo;Officer to manager.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Mohan in the manager&#x27;s cabin, confident.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>43</div><div class='meta'><div class='tag'>M.Com &middot; Online</div><h3>Kavya, 28 — wants to specialise while working</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>online mcom course</span><span class='cnt'>185 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Kavya wanted to specialise in finance without quitting.</div><div class='bub'>&ldquo;Upskill, but keep earning.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman at an accounts desk.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Fixed classes clashed with office hours.</div><div class='bub'>&ldquo;Can&#x27;t attend 9-to-5 classes.&rdquo;</div><span class='art'><b>ART</b> &nbsp;A schedule clash.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online M.Com: flexible and affordable.</div><div class='bub'>&ldquo;Learn on my hours!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an online M.Com page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She steps up to a finance-analyst role.</div><div class='bub'>&ldquo;Specialised. Promoted.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Kavya presenting a forecast.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>44</div><div class='meta'><div class='tag'>M.Com &middot; Fees</div><h3>Sunil, 32 — stuck at the same grade for years</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university online m com fees</span><span class='cnt'>163 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Ten years in, Sunil&#x27;s still at the same grade — a master&#x27;s is the key.</div><div class='bub'>&ldquo;Experience isn&#x27;t enough.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man at a long-held desk.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>He feared a good master&#x27;s would cost too much.</div><div class='bub'>&ldquo;Can I afford to level up?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at fees.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable online M.Com fee, pay-monthly.</div><div class='bub'>&ldquo;Never too costly to grow!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at an affordable fee.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He steps into a finance-lead role.</div><div class='bub'>&ldquo;Same man, new grade.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Sunil in a lead role, confident.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>MA <span class='cnt'>4 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>45</div><div class='meta'><div class='tag'>MA &middot; Distance — English</div><h3>Aparna, 26 — a teacher who wants to teach literature</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>ma english distance education</span><span class='cnt'>157 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Aparna teaches by day and writes stories by night.</div><div class='bub'>&ldquo;I want to teach literature.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teacher in a modest classroom, books everywhere.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A master&#x27;s meant leaving her school and students.</div><div class='bub'>&ldquo;I can&#x27;t abandon my class.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Torn between students and a prospectus.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — MA English by distance: study anywhere, affordable.</div><div class='bub'>&ldquo;Keep teaching AND grow!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Relief at a distance MA English page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>Now she&#x27;s &#x27;Aparna, MA&#x27; — a scholar for her students.</div><div class='bub'>&ldquo;Lifelong learner. Literally.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Aparna teaching, MA certificate framed.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>46</div><div class='meta'><div class='tag'>MA &middot; Distance — Economics</div><h3>Rohit, 27 — data-entry clerk who wants to do policy</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>ma economics distance education</span><span class='cnt'>133 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Rohit types economic data all day and itches to interpret it.</div><div class='bub'>&ldquo;I want to shape policy.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man at a data-entry desk.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>An economics master&#x27;s felt costly and time-heavy.</div><div class='bub'>&ldquo;Between job and money? Tough.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at a laptop.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — MA Economics by distance: affordable, flexible.</div><div class='bub'>&ldquo;From data to decisions!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a distance MA Economics page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He co-authors his first policy brief.</div><div class='bub'>&ldquo;Analyst. On the record.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Rohit presenting a brief.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>47</div><div class='meta'><div class='tag'>MA &middot; Distance — Psychology</div><h3>Meher, 25 — the friend everyone leans on</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>ma psychology distance education</span><span class='cnt'>89 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Meher is everyone&#x27;s 3 a.m. call; she wants to help for real.</div><div class='bub'>&ldquo;I could be a counsellor.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Woman comforting a friend.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A psychology master&#x27;s sounded long and pricey.</div><div class='bub'>&ldquo;Can I afford to help professionally?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at home.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — MA Psychology by distance: budget fees, flexible.</div><div class='bub'>&ldquo;Empathy as a profession!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a distance MA Psychology page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She starts her counselling practicum.</div><div class='bub'>&ldquo;Listener to counsellor.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Meher in a calm counselling room.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>48</div><div class='meta'><div class='tag'>MA &middot; Distance — general</div><h3>Vikas, 28 — civil-services aspirant, short on time and money</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>ma distance education</span><span class='cnt'>151 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Vikas preps for civil services between shifts — time and money run thin.</div><div class='bub'>&ldquo;I can&#x27;t study full-time.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Man studying late after work.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Another degree felt like one cost too many.</div><div class='bub'>&ldquo;A fee I can&#x27;t manage?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at a modest desk.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an MA by distance: affordable, alongside his prep.</div><div class='bub'>&ldquo;Sharpen prep AND degree!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excited at a distance MA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>He clears prelims — with an edge.</div><div class='bub'>&ldquo;Future officer, loading.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Vikas celebrating a cleared exam.</span></div></div>
+</div></article>
+</div>
+<h2 class='course'>BCA <span class='cnt'>2 PAGES</span></h2><div class='grid'>
+<article class='story'>
+<div class='shead'><div class='num'>49</div><div class='meta'><div class='tag'>BCA &middot; Fees — JAIN</div><h3>Rahul, 18 — self-taught small-town coder</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university bca fees</span><span class='cnt'>149 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Rahul taught himself to code on slow small-town internet.</div><div class='bub'>&ldquo;I&#x27;ll build things the world uses.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen coding on an old laptop at night.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>A city computer degree cost more than the family earned.</div><div class='bub'>&ldquo;Tech degrees aren&#x27;t for us.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Excitement fading at high fees, father working behind.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an affordable JAIN online BCA: small fee, pay-monthly.</div><div class='bub'>&ldquo;I can do this from home!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Face lighting up at the fee page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>His first program runs — Software Engineer, loading.</div><div class='bub'>&ldquo;Small town. Big code.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Rahul as the code runs, dawn light.</span></div></div>
+</div></article>
+<article class='story'>
+<div class='shead'><div class='num'>50</div><div class='meta'><div class='tag'>BCA &middot; Online</div><h3>Isha, 18 — no tech college near her town</h3></div></div>
+<div class='target'><span class='lbl'>&#127919; Target query</span><span class='q'>jain university online bca</span><span class='cnt'>152 in report</span></div>
+<div class='panels'>
+<div class='panel'><div class='pn'>1</div><div><div class='cap'>Isha loves building apps; no tech college sits near her town.</div><div class='bub'>&ldquo;Do I have to leave home?&rdquo;</div><span class='art'><b>ART</b> &nbsp;Teen with an app idea, a distant city.</span></div></div>
+<div class='panel'><div class='pn'>2</div><div><div class='cap'>Moving to a city for a BCA cost more than the degree.</div><div class='bub'>&ldquo;Hostel and fees? Too much.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Worried at city costs.</span></div></div>
+<div class='panel'><div class='pn'>3</div><div><div class='cap'>Then — an online BCA she could do from home, recognised.</div><div class='bub'>&ldquo;A tech degree, from my room!&rdquo;</div><span class='art'><b>ART</b> &nbsp;Delighted at an online BCA page.</span></div></div>
+<div class='panel'><div class='pn'>4</div><div><div class='cap'>She ships her first app in first year.</div><div class='bub'>&ldquo;Coder. From home.&rdquo;</div><span class='art'><b>ART</b> &nbsp;Isha deploying an app, proud.</span></div></div>
+</div></article>
+</div>
+<footer class='end'>50 demand-driven stories &middot; 7 courses &middot; each mapped to a real query from the search-terms report. Counts are query occurrences in the report. Ready to build on the locked template.</footer></div>

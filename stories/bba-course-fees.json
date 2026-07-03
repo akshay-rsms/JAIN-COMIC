@@ -1,0 +1,132 @@
+{
+  "id": "bba-course-fees",
+  "intent": "Fees / affordability",
+  "program": "BBA",
+  "specialization": "Finance",
+  "target_query": "bba course fees",
+  "hero": {
+    "eyebrow": "THE FEE COMPARISON",
+    "headline_pre": "A RECOGNISED BBA,",
+    "highlight": "JUST ₹45,000/YR.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Sneha, an 18 year old Indian girl, happily surprised at a laptop showing an affordable BBA fee after comparing many colleges, bright hopeful mood, tidy home.",
+    "burst": "₹45K!"
+  },
+  "statbar": [
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "15% OFF",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sneha compared BBA fees, college after college.",
+      "dialogue": "Why is a degree so costly?",
+      "img_prompt": "Sneha, 18, at a desk comparing several high college-fee figures in a notebook, worried and overwhelmed, papers around her, modest home."
+    },
+    {
+      "n": 2,
+      "narration": "Most good options ran into several lakhs.",
+      "dialogue": "Is a real degree only for the rich?",
+      "img_prompt": "Sneha looking discouraged at a laptop showing an expensive fee, chin in hand, soft disappointed expression, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised BBA at ₹45,000 a year.",
+      "dialogue": "Affordable and recognised?",
+      "img_prompt": "Sneha's eyes widening with hope at a laptop showing a clear, affordable, recognised BBA fee, warm glow of relief."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled on a 0% EMI she could manage.",
+      "dialogue": "A real degree, no debt!",
+      "img_prompt": "Sneha smiling proudly holding a blank enrollment confirmation at home, calm and confident, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why This BBA Fee Is A Steal",
+    "points": [
+      "Just ₹45,000/year for Finance, Marketing or HR (₹50,000 for Digital Marketing & Data Science + AI).",
+      "Pay the full fee upfront and get a flat 15% discount.",
+      "Or split it into easy monthly EMI at 0% interest, no extra cost.",
+      "Only ₹2,500 one-time registration + ₹3,000/year exam fee. No hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sneha Pillai",
+        "spec": "BBA FINANCE",
+        "role": "1st-Year Student",
+        "metric": "₹45K / yr",
+        "stat": "recognised",
+        "quote": "I compared everywhere. A UGC-entitled BBA at ₹45,000 a year was the clear, honest choice."
+      },
+      {
+        "name": "Arjun Das",
+        "spec": "BBA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹3,750 / mo",
+        "quote": "The 0% EMI meant no lump sum. I pay a small amount each month and my degree keeps going."
+      },
+      {
+        "name": "Nisha Verma",
+        "spec": "BBA DIGITAL",
+        "role": "Final Year",
+        "metric": "15% OFF",
+        "stat": "₹42,500 / yr",
+        "quote": "We paid the year upfront and got a flat 15% off. A recognised degree at this price felt unreal."
+      },
+      {
+        "name": "Vikram Rao",
+        "spec": "BBA MARKETING",
+        "role": "Graduated",
+        "metric": "DEBT-FREE",
+        "stat": "₹0 loan",
+        "quote": "I finished my BBA without a single education loan. The monthly plan fit my budget perfectly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Fee",
+        "v": "₹45,000/year (₹50,000 for Digital Mktg & Data Sci + AI)"
+      },
+      {
+        "k": "Upfront",
+        "v": "15% discount on one-time full payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest monthly instalments / education loan"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration + ₹3,000/year exam fee"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹45K A YEAR?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

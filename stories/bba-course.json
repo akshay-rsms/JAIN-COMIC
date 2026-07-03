@@ -1,0 +1,132 @@
+{
+  "id": "bba-course",
+  "intent": "Generic / course overview",
+  "program": "BBA",
+  "specialization": "Online",
+  "target_query": "bba course",
+  "hero": {
+    "eyebrow": "START YOUR BUSINESS JOURNEY",
+    "headline_pre": "YOUR BBA,",
+    "highlight": "ONE CLEAR PATH.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BBA plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Ishaan, an 18 year old Indian boy, confident and hopeful, choosing a business path on a laptop, bright modern home, aspirational mood.",
+    "burst": "LET'S GO!"
+  },
+  "statbar": [
+    {
+      "big": "5 ELECTIVES",
+      "label": "choose your path"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "0% EMI",
+      "label": "from ₹45,000"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Ishaan knew he wanted business, but not the how.",
+      "dialogue": "A BBA, but which one?",
+      "img_prompt": "Ishaan, 18, thoughtful in front of a laptop, imagining different business career paths, curious and a little unsure, modern home."
+    },
+    {
+      "n": 2,
+      "narration": "Too many colleges, electives and unclear costs.",
+      "dialogue": "This is overwhelming.",
+      "img_prompt": "Ishaan looking overwhelmed by many open browser options and brochures, rubbing his head, cluttered desk, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a clear, affordable online BBA.",
+      "dialogue": "One simple path, finally!",
+      "img_prompt": "Ishaan smiling with clarity at a laptop showing a clean BBA page with clear electives, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "He chose an elective and started with guidance.",
+      "dialogue": "My business journey begins!",
+      "img_prompt": "Ishaan confidently beginning his first online lesson on a laptop, notebook ready, determined and happy, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "Why Start Your BBA Here",
+    "points": [
+      "Choose from 5 industry electives: Finance, Marketing, HR, Digital Marketing, Data Science & AI.",
+      "Study 100% online, anytime, from anywhere. No campus, no commute.",
+      "Affordable from ₹45,000/year with 0% interest EMI.",
+      "Real AI tools, included micro-credentials and mentor support from semester 1."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Ishaan Nair",
+        "spec": "BBA FINANCE",
+        "role": "1st-Year Student",
+        "metric": "CLEAR PATH",
+        "stat": "guided",
+        "quote": "I knew I wanted business but not the details. The clear electives and guidance made my choice easy."
+      },
+      {
+        "name": "Tanvi Shah",
+        "spec": "BBA ONLINE",
+        "role": "2nd-Year Student",
+        "metric": "5 ELECTIVES",
+        "stat": "my pick",
+        "quote": "Being able to pick my elective meant the degree actually matched the career I wanted."
+      },
+      {
+        "name": "Aditya Kumar",
+        "spec": "BBA DIGITAL",
+        "role": "Final Year",
+        "metric": "AI TOOLS",
+        "stat": "from sem 1",
+        "quote": "Learning real AI tools from the first semester made me job-ready, not just degree-ready."
+      },
+      {
+        "name": "Pooja Reddy",
+        "spec": "BBA MARKETING",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised BBA, learned online at my pace. It opened the first door in my career."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "Fee",
+        "v": "₹45,000/year (₹50,000 for Digital Mktg & Data Sci + AI)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest monthly instalments / education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO BEGIN",
+    "highlight": "YOUR BBA?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,24 @@
+=== Ch2 panels (panels-only, reuse master) ===
+
+=== bba-fees-reveal ===
+  saved bba-fees-reveal-p1.png (2360 KB)
+  saved bba-fees-reveal-p2.png (2127 KB)
+  saved bba-fees-reveal-p3.png (2325 KB)
+  saved bba-fees-reveal-p4.png (2314 KB)
+
+Done. Now run: py -3.12 build.py
+=== Ch4 side images ===
+  saved ch4-ai.png (1844 KB)
+  saved ch4-cred.png (2286 KB)
+  saved ch4-learn.png (1638 KB)
+CH4 DONE
+=== Optimize new PNGs -> JPG ===
+optimized bba-fees-reveal-p1.jpg 173 KB
+optimized bba-fees-reveal-p2.jpg 150 KB
+optimized bba-fees-reveal-p3.jpg 166 KB
+optimized bba-fees-reveal-p4.jpg 189 KB
+optimized ch4-ai.jpg 208 KB
+optimized ch4-cred.jpg 346 KB
+optimized ch4-learn.jpg 155 KB
+OPTIMIZE DONE
+ALL IMAGE WORK DONE

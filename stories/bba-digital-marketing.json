@@ -1,0 +1,132 @@
+{
+  "id": "bba-digital-marketing",
+  "intent": "Specialisation / Digital Marketing",
+  "program": "BBA",
+  "specialization": "Digital Marketing",
+  "target_query": "bba in digital marketing",
+  "hero": {
+    "eyebrow": "TURN VIRAL INTO A CAREER",
+    "headline_pre": "A BBA IN",
+    "highlight": "DIGITAL MARKETING.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BBA plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Kabir, an 18 year old Indian boy, excited at a laptop showing rising social media engagement, creative and confident, modern home, aspirational mood.",
+    "burst": "VIRAL!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Kabir could turn any post into a trend.",
+      "dialogue": "Everyone shares my posts!",
+      "img_prompt": "Kabir, 18, cheerfully creating content on a laptop and phone, social engagement rising, creative energetic mood, modern room."
+    },
+    {
+      "n": 2,
+      "narration": "But he had no degree to build a career on it.",
+      "dialogue": "Is this just a hobby?",
+      "img_prompt": "Kabir looking thoughtful, wondering how to turn his social media skill into a real career, laptop open, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a BBA in Digital Marketing, online.",
+      "dialogue": "Turn viral into a career!",
+      "img_prompt": "Kabir's face lighting up with excitement at a laptop showing a BBA in Digital Marketing, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled and began learning the real craft.",
+      "dialogue": "From posts to marketing!",
+      "img_prompt": "Kabir confidently starting his first digital marketing lesson on a laptop, notebook ready, focused and happy, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "Why A BBA In Digital Marketing",
+    "points": [
+      "Learn the real craft: SEO, social media, online ads, content and analytics.",
+      "Apply real AI marketing tools from your very first semester.",
+      "₹50,000/year with 0% interest EMI, or 15% off on upfront payment.",
+      "A UGC-entitled, NAAC A++ recognised degree employers trust."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Kabir Sen",
+        "spec": "BBA DIGITAL",
+        "role": "1st-Year Student",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I was already good at social media. This degree turned that skill into a real, respected career path."
+      },
+      {
+        "name": "Ananya Iyer",
+        "spec": "BBA DIGITAL",
+        "role": "2nd-Year Student",
+        "metric": "AI TOOLS",
+        "stat": "from sem 1",
+        "quote": "Learning real AI marketing tools from semester one made my campaigns actually work."
+      },
+      {
+        "name": "Dev Sharma",
+        "spec": "BBA DIGITAL",
+        "role": "Final Year",
+        "metric": "0% EMI",
+        "stat": "easy EMI",
+        "quote": "The 0% EMI let me start straight after 12th instead of waiting. Best decision I made."
+      },
+      {
+        "name": "Priya Menon",
+        "spec": "BBA DIGITAL",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised BBA plus real digital skills. That mix got me hired quickly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "SEO, social media, online ads, content & analytics"
+      },
+      {
+        "k": "Fee",
+        "v": "₹50,000/year, 15% off on upfront payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest monthly instalments / education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO GO",
+    "highlight": "VIRAL?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "bba-online-home",
+  "intent": "Online / study from home",
+  "program": "BBA",
+  "specialization": "Online",
+  "target_query": "bba online course",
+  "hero": {
+    "eyebrow": "NO COLLEGE NEARBY?",
+    "headline_pre": "A REAL BBA,",
+    "highlight": "100% FROM HOME.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BBA plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Riya, an 18 year old Indian girl in a modest salwar-kameez, smiling as she studies on a laptop at a tidy desk at home, bright hopeful daytime, warm and aspirational.",
+    "burst": "FROM HOME!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NO RELOCATION",
+      "label": "stay at home"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Riya's town had no college with a real BBA.",
+      "dialogue": "Do I have to move away?",
+      "img_prompt": "Riya, 18, in a modest salwar-kameez standing at her window looking toward a faraway city skyline, a BBA brochure in hand, thoughtful and hopeful, small-town Indian home."
+    },
+    {
+      "n": 2,
+      "narration": "Leaving home for a distant hostel felt daunting.",
+      "dialogue": "So far from my family?",
+      "img_prompt": "Riya looking worried while glancing between a packed bag and a family photo on the wall, warm modest room, torn expression."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised BBA she could do online.",
+      "dialogue": "College, from my own room!",
+      "img_prompt": "Riya's face lighting up with relief and excitement at a laptop showing an online BBA, warm glow, tidy home study corner."
+    },
+    {
+      "n": 4,
+      "narration": "Now she studies at home, her degree on track.",
+      "dialogue": "No move, a full degree.",
+      "img_prompt": "Riya happily attending an online class on her laptop at home, notebook beside her, proud parents smiling in the background, warm and encouraging."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online BBA Just Works",
+    "points": [
+      "Study 100% online, anytime, from your phone or laptop. No campus, no commute.",
+      "The same UGC-entitled, NAAC A++ BBA as on-campus, recognised everywhere.",
+      "Just ₹45,000/year with 0% interest EMI, or 15% off on upfront payment.",
+      "Weekend live classes plus recordings, so learning fits around your life."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Riya Menon",
+        "spec": "BBA ONLINE",
+        "role": "1st-Year Student",
+        "metric": "FROM HOME",
+        "stat": "no hostel",
+        "quote": "There was no good college in my town. Studying online let me earn a real BBA without leaving home."
+      },
+      {
+        "name": "Sana Iqbal",
+        "spec": "BBA ONLINE",
+        "role": "2nd-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹3,750 / mo",
+        "quote": "The monthly EMI fit my budget, and weekend classes fit my schedule. It just worked."
+      },
+      {
+        "name": "Divya Rao",
+        "spec": "BBA MARKETING",
+        "role": "Final Year",
+        "metric": "RECOGNISED",
+        "stat": "UGC-entitled",
+        "quote": "A recognised degree earned from home. My internship team accepted it without a second thought."
+      },
+      {
+        "name": "Meena S",
+        "spec": "BBA ONLINE",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "on my terms",
+        "quote": "I studied around my family responsibilities and still graduated on time. That flexibility changed everything."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "Fee",
+        "v": "₹45,000/year (₹50,000 for Digital Mktg & Data Sci + AI)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest monthly instalments / education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO STUDY",
+    "highlight": "FROM HOME?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

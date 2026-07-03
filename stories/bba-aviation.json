@@ -1,0 +1,132 @@
+{
+  "id": "bba-aviation",
+  "intent": "Specialisation / Aviation",
+  "program": "BBA",
+  "specialization": "Aviation Mgmt",
+  "target_query": "bba in aviation",
+  "hero": {
+    "eyebrow": "FOR FUTURE AVIATION LEADERS",
+    "headline_pre": "A BBA IN",
+    "highlight": "AVIATION MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BBA plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Farhan, an 18 year old Indian boy, looking up hopefully as a plane flies overhead, a laptop showing an aviation management course, bright sky, aspirational mood.",
+    "burst": "CLEARED!"
+  },
+  "statbar": [
+    {
+      "big": "AVIATION MGMT",
+      "label": "specialisation"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Farhan grew up watching planes climb the sky.",
+      "dialogue": "One day, that is my world.",
+      "img_prompt": "Farhan, 18, on a rooftop looking up with wonder as an airplane flies overhead, hopeful dreamy expression, warm evening sky, modest Indian neighbourhood."
+    },
+    {
+      "n": 2,
+      "narration": "But aviation careers felt distant and unclear.",
+      "dialogue": "Is this dream out of reach?",
+      "img_prompt": "Farhan looking uncertain at a laptop, aviation career pages open, thoughtful and a little discouraged, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a BBA in Aviation Management, online.",
+      "dialogue": "My runway just opened!",
+      "img_prompt": "Farhan's face lighting up with excitement at a laptop showing a BBA in Aviation Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled on an affordable 0% EMI plan.",
+      "dialogue": "Cleared for take-off!",
+      "img_prompt": "Farhan smiling confidently holding a blank enrollment confirmation, looking ready and determined, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why A BBA In Aviation Management",
+    "points": [
+      "Build the business and management skills the aviation industry hires for.",
+      "Study 100% online, anytime, so you can learn from anywhere.",
+      "Affordable fees with 0% interest monthly EMI.",
+      "A UGC-entitled, NAAC A++ recognised degree employers trust."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Farhan Ali",
+        "spec": "BBA AVIATION",
+        "role": "1st-Year Student",
+        "metric": "MY DREAM",
+        "stat": "on track",
+        "quote": "I always loved aviation. A management degree in it, done online, made the dream finally reachable."
+      },
+      {
+        "name": "Zoya Khan",
+        "spec": "BBA AVIATION",
+        "role": "2nd-Year Student",
+        "metric": "0% EMI",
+        "stat": "easy EMI",
+        "quote": "The monthly EMI meant I could start now instead of waiting years to save up."
+      },
+      {
+        "name": "Rahul Nair",
+        "spec": "BBA ONLINE",
+        "role": "Final Year",
+        "metric": "RECOGNISED",
+        "stat": "UGC-entitled",
+        "quote": "A recognised degree focused on the industry I want. That combination is hard to find."
+      },
+      {
+        "name": "Sameer Roy",
+        "spec": "BBA AVIATION",
+        "role": "Graduated",
+        "metric": "FLEXIBLE",
+        "stat": "learn anytime",
+        "quote": "Online learning let me study around my part-time work while building toward an aviation career."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Focus",
+        "v": "Business & management skills for the aviation industry"
+      },
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "EMI",
+        "v": "Affordable fees with 0% interest monthly instalments"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR",
+    "highlight": "TAKE-OFF?",
+    "sub": "",
+    "button": "Get my BBA plan",
+    "burst": "GO!"
+  }
+}

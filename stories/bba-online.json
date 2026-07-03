@@ -1,0 +1,72 @@
+{
+  "id": "bba-online",
+  "intent": "Online / flexibility",
+  "program": "BBA",
+  "specialization": "Online",
+  "target_query": "online bba course",
+  "hero": {
+    "eyebrow": "STUDY ON YOUR TERMS",
+    "headline_pre": "A REAL BBA,",
+    "highlight": "100% ONLINE.",
+    "headline_post": "",
+    "sub": "Study anytime, from anywhere. Keep your job, your shop, your whole life, and still earn a UGC-entitled, NAAC A++ BBA.",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore electives",
+    "art_prompt": "Aditya, 18, cheerfully using a laptop at his family's small neighbourhood shop counter, running the shop and studying online at the same time, bright hopeful daytime, warm and aspirational.",
+    "burst": "ONLINE!"
+  },
+  "statbar": [
+    {"big": "100% ONLINE", "label": "study anywhere"},
+    {"big": "LEARN ANYTIME", "label": "your schedule"},
+    {"big": "0% EMI", "label": "pay monthly"},
+    {"big": "NAAC A++", "label": "accredited"}
+  ],
+  "panels": [
+    {"n": 1, "narration": "By day, Aditya runs the family shop.",
+     "dialogue": "I can't sit in class all day.",
+     "img_prompt": "Aditya, 18, at his family's small shop counter serving a customer, a college admission flyer set aside, looking a little torn, warm daytime."},
+    {"n": 2, "narration": "A campus degree meant leaving it all.",
+     "dialogue": "Who minds the shop if I go?",
+     "img_prompt": "Aditya looking worried, glancing between the busy family shop and a city-college brochure in his hand, modest setting."},
+    {"n": 3, "narration": "Then he found an online BBA.",
+     "dialogue": "Learn AND mind the shop!",
+     "img_prompt": "Aditya's face lighting up with relief and excitement at a laptop on the shop counter showing an online BBA, warm glow."},
+    {"n": 4, "narration": "Now he studies once the shutters close.",
+     "dialogue": "Both. At once.",
+     "img_prompt": "Aditya happily studying on a laptop late at night in the closed family shop, books beside him, proud and determined."}
+  ],
+  "turn": {
+    "title": "Why Online BBA Just Works",
+    "points": [
+      "Study 100% online, anytime, from your phone or laptop. No campus, no commute.",
+      "The same UGC-entitled, NAAC A++ BBA as on-campus, recognised everywhere.",
+      "Just ₹45,000/year with 0% interest EMI, or 15% off on upfront payment.",
+      "Weekend live classes plus recordings, so learning fits around your work."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {"name": "Aditya Rao", "spec": "BBA ONLINE", "role": "1st-Year Student", "metric": "KEPT MY SHOP", "stat": "runs shop",
+       "quote": "I study after the shutters close. I never had to choose between earning and learning."},
+      {"name": "Sneha K", "spec": "BBA ONLINE", "role": "2nd-Year Student", "metric": "FROM HOME", "stat": "no hostel",
+       "quote": "No good college near my town. Online BBA let me study from home, no relocation, no hostel."},
+      {"name": "Rahul M", "spec": "BBA MARKETING", "role": "Final Year", "metric": "0% EMI", "stat": "₹3,750 / mo",
+       "quote": "Weekend live classes fit around my part-time job, and the monthly EMI fit my budget."},
+      {"name": "Priya S", "spec": "BBA ONLINE", "role": "Graduated", "metric": "PLACED", "stat": "recognised",
+       "quote": "A recognised degree, earned online while I worked. My employer accepted it instantly."}
+    ],
+    "facts": [
+      {"k": "Mode", "v": "100% online, learn anytime with weekend live classes"},
+      {"k": "Fee", "v": "₹45,000/year (₹50,000 for Digital Mktg & Data Sci + AI)"},
+      {"k": "EMI", "v": "0% interest monthly instalments / education loan"},
+      {"k": "Recognition", "v": "UGC-entitled, NAAC A++ accredited"}
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO STUDY",
+    "highlight": "ON YOUR TERMS?",
+    "sub": "Get your online BBA plan in 2 minutes. Study anytime, keep your life, earn a recognised degree.",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}
