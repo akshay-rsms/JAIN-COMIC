@@ -49,6 +49,20 @@ def _burst_tail_uri(fill="#fff", spikes=15, inner=0.80, tail_i=10, tail_len=1.85
 
 BURST_WHITE = _burst_tail_uri("#fff")
 
+def _burst_up_uri(fill="#fff", spikes=15, inner=0.80, tail_i=22, tail_len=1.7):
+    """spiky comic speech-burst with the pointed tail at the TOP (points up to the speaker)."""
+    cx, cy, rx, ry = 100, 112, 96, 56
+    pts = []
+    for i in range(spikes * 2):
+        ang = math.pi * i / spikes
+        r = tail_len if i == tail_i else (1.0 if i % 2 == 0 else inner)
+        pts.append(f"{cx + rx*r*math.cos(ang):.1f},{cy + ry*r*math.sin(ang):.1f}")
+    svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 185" preserveAspectRatio="none">'
+           f'<polygon points="{" ".join(pts)}" fill="{fill}" stroke="#000" '
+           'stroke-width="3" stroke-linejoin="round"/></svg>')
+    return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
+BURST_WHITE_UP = _burst_up_uri("#fff")
+
 # pop-art decoration SVGs (from brand assets)
 STAR_SVG = ('<svg viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">'
   '<path d="M19.1317 5.33203L25.0437 17.3095L38.2619 19.23L28.696 28.5541L30.9541 41.7207L19.1317 35.5046L7.30779 41.7207L9.56581 28.5541L0 19.23L13.2198 17.3095L19.1317 5.33203Z" fill="#231244"/>'
@@ -365,11 +379,12 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   .panel .narr,.panel .bubble{position:static;inset:auto;left:auto;right:auto;top:auto;bottom:auto;
     width:auto;max-width:none;min-height:0;filter:none;background-image:none;box-shadow:3px 3px 0 rgba(0,0,0,.25);
     font-size:13px;line-height:1.4;text-align:left;justify-content:flex-start}
-  .panel .narr{order:2;margin:11px 12px 0;background:var(--gold);border:3px solid #000;padding:10px 14px}
-  .panel .bubble{order:3;position:relative;margin:11px 12px 13px;background:#fff;border:3px solid #000;
-    border-radius:14px;padding:12px 15px;display:block}
-  .panel .bubble::before{content:"";position:absolute;top:-13px;left:26px;border:7px solid transparent;border-bottom-color:#000}
-  .panel .bubble::after{content:"";position:absolute;top:-9px;left:27px;border:6px solid transparent;border-bottom-color:#fff}
+  .panel .narr{order:2;margin:11px 12px 2px;background:var(--gold);border:3px solid #000;padding:10px 14px}
+  .panel .bubble{order:3;align-self:center;margin:0 0 13px;width:min(300px,90%);min-height:150px;
+    background:url('__BURSTUP__') no-repeat center/100% 100%;
+    border:0;border-radius:0;box-shadow:none;padding:52px 52px 26px;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
   .lesson ul{grid-template-columns:1fr}
   .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
   .evo{flex:0 0 82%;scroll-snap-align:start}
@@ -384,7 +399,7 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
 @media(max-width:430px){.statbar{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat{border-bottom:2px solid #0002}}
 @media(prefers-reduced-motion:reduce){.overlay{transition:none}html{scroll-behavior:auto}.btn.gold,.navcta{animation:none}}
 """
-CSS = CSS.replace("__CLOUDW__", CLOUD_WHITE).replace("__CLOUDG__", CLOUD_GOLD).replace("__BURSTW__", BURST_WHITE)
+CSS = CSS.replace("__CLOUDW__", CLOUD_WHITE).replace("__CLOUDG__", CLOUD_GOLD).replace("__BURSTW__", BURST_WHITE).replace("__BURSTUP__", BURST_WHITE_UP)
 
 JS = """
 (function(){

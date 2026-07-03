@@ -239,11 +239,12 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   .panel .narr,.panel .bubble{position:static;inset:auto;left:auto;right:auto;top:auto;bottom:auto;
     width:auto;max-width:none;min-height:0;filter:none;background-image:none;box-shadow:3px 3px 0 rgba(0,0,0,.25);
     font-size:13px;line-height:1.4;text-align:left;justify-content:flex-start}
-  .panel .narr{order:2;margin:11px 12px 0;background:var(--gold);border:3px solid #000;padding:10px 14px}
-  .panel .bubble{order:3;position:relative;margin:11px 12px 13px;background:#fff;border:3px solid #000;
-    border-radius:14px;padding:12px 15px;display:block}
-  .panel .bubble::before{content:"";position:absolute;top:-13px;left:26px;border:7px solid transparent;border-bottom-color:#000}
-  .panel .bubble::after{content:"";position:absolute;top:-9px;left:27px;border:6px solid transparent;border-bottom-color:#fff}
+  .panel .narr{order:2;margin:11px 12px 2px;background:var(--gold);border:3px solid #000;padding:10px 14px}
+  .panel .bubble{order:3;align-self:center;margin:0 0 13px;width:min(300px,90%);min-height:150px;
+    background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMTg1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cG9seWdvbiBwb2ludHM9IjE5Ni4wLDExMi4wIDE3NS4xLDEyMS4zIDE4Ny43LDEzNC44IDE2Mi4xLDEzOC4zIDE2NC4yLDE1My42IDEzOC40LDE1MC44IDEyOS43LDE2NS4zIDEwOC4wLDE1Ni42IDkwLjAsMTY3LjcgNzYuMywxNTQuNiA1Mi4wLDE2MC41IDQ4LjYsMTQ1LjMgMjIuMywxNDQuOSAyOS44LDEzMC4yIDYuMSwxMjMuNiAyMy4yLDExMi4wIDYuMSwxMDAuNCAyOS44LDkzLjggMjIuMyw3OS4xIDQ4LjYsNzguNyA1Mi4wLDYzLjUgNzYuMyw2OS40IDgyLjksMTcuMyAxMDguMCw2Ny40IDEyOS43LDU4LjcgMTM4LjQsNzMuMiAxNjQuMiw3MC40IDE2Mi4xLDg1LjcgMTg3LjcsODkuMiAxNzUuMSwxMDIuNyIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=') no-repeat center/100% 100%;
+    border:0;border-radius:0;box-shadow:none;padding:52px 52px 26px;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
   .lesson ul{grid-template-columns:1fr}
   .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
   .evo{flex:0 0 82%;scroll-snap-align:start}
