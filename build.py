@@ -404,10 +404,9 @@ footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:cente
   .lesson ul{grid-template-columns:1fr}
   .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
   .evo{flex:0 0 82%;scroll-snap-align:start}
-  .power{grid-template-columns:1fr;display:flex;flex-direction:column}
-  .power .pimg{min-height:0;width:min(215px,56%);aspect-ratio:3/4;align-self:center;margin:16px auto 2px;
-    border:3px solid #000;box-shadow:4px 4px 0 rgba(0,0,0,.2);background-position:center top}
-  .power .pbodyc{padding:12px 20px 20px}
+  .power{grid-template-columns:1fr}
+  .power .pimg{min-height:0;width:auto;aspect-ratio:4/3;border-right:0;border-bottom:4px solid #000;background-position:center}
+  .power .pbodyc{padding:16px 20px}
   .facts .frow{grid-template-columns:1fr}
   .final .fgrid{grid-template-columns:1fr}
   .final .fart{padding:0 22px 26px;max-width:440px;margin:0 auto}

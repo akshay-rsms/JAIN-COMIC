@@ -31,10 +31,10 @@ JOBS = {
  "prog-hr": ("4:3", 4/3, "A warm, friendly modest Indian student in their late teens, upper body, with a welcoming open posture and kind smile; conveys people skills and human resources, approachable and supportive."),
  "prog-digital": ("4:3", 4/3, "A modern modest Indian male student in his late teens, upper body, holding a phone that shows a simple abstract rising trend; creative and confident; conveys digital marketing and social media."),
  "prog-datasci": ("4:3", 4/3, "A focused modest Indian female student in her late teens, upper body, at a laptop showing a simple abstract bar chart; curious and analytical; conveys data science and AI."),
- # ---- Chapter 4: special powers (3:4 portrait) ----
- "ch4-ai": ("3:4", 3/4, "A modest Indian student happily working on a laptop, applying modern tools, a subtle warm glow on the screen; confident and capable; conveys mastering AI tools from day one."),
- "ch4-cred": ("3:4", 3/4, "A proud modest Indian student holding up a completely blank framed certificate with a confident smile; conveys earning extra micro-credentials alongside the degree."),
- "ch4-learn": ("3:4", 3/4, "A modest Indian student attending a live online class on a laptop while wearing simple headphones, in a cosy warm home study corner; conveys flexible, well-supported online learning."),
+ # ---- Chapter 4: special powers (4:3 landscape) ----
+ "ch4-ai": ("4:3", 4/3, "A modest Indian student happily working on a laptop at a desk, applying modern tools, a subtle warm glow on the screen; confident and capable; wide landscape scene; conveys mastering AI tools from day one."),
+ "ch4-cred": ("4:3", 4/3, "A proud modest Indian student at a desk holding up a completely blank framed certificate with a confident smile; wide landscape scene; conveys earning extra micro-credentials alongside the degree."),
+ "ch4-learn": ("4:3", 4/3, "A modest Indian student attending a live online class on a laptop while wearing simple headphones, in a cosy warm home study corner; wide landscape scene; conveys flexible, well-supported online learning."),
 }
 
 def key():
