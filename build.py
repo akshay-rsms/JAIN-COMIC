@@ -201,13 +201,13 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 /* ---------- chapter labels ---------- */
 .chapter{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:30px 0 12px}
 .chapter .tag{background:var(--gold);color:#000;font-family:'Bangers',sans-serif;font-size:18px;padding:6px 16px;letter-spacing:.5px;border:2px solid #000;box-shadow:3px 3px 0 #000}
-.chapter .pg{background:#fff;border:3px solid #000;font-family:'Bangers',sans-serif;padding:4px 10px;font-size:14px;white-space:nowrap}
+.chapter .pg{display:none}
 /* each chapter enclosed as a comic 'page' */
-.cpage{border:3px solid #000;background:var(--paper);padding:8px 20px 24px;margin:24px 0;box-shadow:8px 8px 0 rgba(0,0,0,.13)}
+.cpage{border:0;background:transparent;padding:0;margin:26px 0}
 .cpage>.chapter:first-child{margin-top:14px}
 /* ---------- hero ---------- */
-.frame{border:4px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:6px 6px 0 #0002}
-.hero{border:5px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:8px 8px 0 #0002}
+.frame{border:4px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:none}
+.hero{border:5px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:none}
 .hero .grid{display:grid;grid-template-columns:1fr 1fr}
 .hero .copy{padding:48px 34px;display:flex;flex-direction:column;justify-content:flex-start}
 .eyebrow{display:inline-block;align-self:flex-start;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;font-size:13px;padding:4px 11px;margin-bottom:12px;letter-spacing:.6px}
@@ -256,7 +256,7 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .bubble{position:absolute;right:6px;top:4px;width:250px;max-width:calc(100% - 14px);min-height:158px;background:url('__BURSTW__') no-repeat;background-size:100% 100%;
   padding:32px 58px 66px;font-size:12px;line-height:1.3;font-weight:700;color:#000;text-align:center;z-index:5;
   display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
-.lesson{border:4px solid #000;background:var(--navy);color:#fff;padding:22px 26px;margin-top:14px;box-shadow:6px 6px 0 #0002}
+.lesson{border:4px solid #000;background:var(--navy);color:#fff;padding:22px 26px;margin-top:14px;box-shadow:none}
 .lesson h3{font-size:26px;color:var(--gold);margin-bottom:12px;text-transform:uppercase}
 .lesson ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .lesson li{display:flex;gap:9px;font-size:14px;align-items:flex-start}
@@ -267,7 +267,7 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .tabs button:last-child{border-right:0}
 .tabs button.active{background:var(--gold)}
 .cardscroll{display:flex;align-items:flex-start;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
-.pcard{flex:0 0 300px;scroll-snap-align:start;border:4px solid #000;background:#fff;box-shadow:5px 5px 0 #0002;display:flex;flex-direction:column}
+.pcard{flex:0 0 300px;scroll-snap-align:start;border:4px solid #000;background:#fff;box-shadow:none;display:flex;flex-direction:column}
 .pcard .thumb{height:230px;border-bottom:4px solid #000;background:var(--gold);position:relative;background-size:cover;background-position:center top}
 .pcard .thumb .num{position:absolute;top:0;right:0;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;padding:2px 9px;font-size:16px}
 .pcard .thumb .bubble2{position:absolute;left:8px;bottom:8px;right:8px;background:#fff;border:2px solid #000;border-radius:10px;padding:5px 8px;font-size:11px;font-weight:600}
@@ -276,7 +276,7 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .pcard .meta{font-size:12px;color:#444;font-weight:600}
 .pcard .view{margin-top:auto;font-family:'Bangers',sans-serif;background:var(--gold);border:3px solid #000;padding:8px;text-align:center;font-size:15px;text-decoration:none;color:#111}
 /* ---------- Ch4 Special Power ---------- */
-.power{border:4px solid #000;color:#fff;margin-bottom:16px;box-shadow:6px 6px 0 #0002;position:relative;display:grid;grid-template-columns:210px 1fr;overflow:hidden}
+.power{border:4px solid #000;color:#fff;margin-bottom:16px;box-shadow:none;position:relative;display:grid;grid-template-columns:210px 1fr;overflow:hidden}
 .power.p1{background:var(--navy)}.power.p2{background:#111}.power.p3{background:var(--navy)}
 .power .pimg{border-right:4px solid #000;background:#0a0f2c center/cover no-repeat;min-height:270px}
 .power .pbodyc{padding:30px 30px;display:flex;flex-direction:column;justify-content:center}
@@ -301,7 +301,7 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .qcol{flex:1;min-width:0}
 /* ---------- Ch5 Character Evolution (4 story cards) ---------- */
 .evos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.evo{border:3px solid #000;background:#fff;overflow:hidden;box-shadow:5px 5px 0 #0002;display:flex;flex-direction:column;min-height:370px}
+.evo{border:3px solid #000;background:#fff;overflow:hidden;box-shadow:none;display:flex;flex-direction:column;min-height:370px}
 .evo .top{padding:9px 12px;color:#fff;display:flex;justify-content:space-between;align-items:center;background:var(--navy);border-bottom:3px solid #000}
 .evo.alt .top{background:#111}
 .evo .top .sid{font-size:10px;font-weight:800;letter-spacing:1px}
@@ -317,13 +317,13 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .evo .rolebox .tag{display:inline-flex;align-items:center;gap:5px;margin-top:7px;background:var(--navy);color:#fff;font-size:9px;font-weight:700;letter-spacing:.5px;padding:3px 7px}
 .evo .rolebox .tag img{height:12px;display:block;background:#fff;border-radius:50%}
 .evo .qbubble{background:var(--paper);border:2px solid #000;border-radius:12px;padding:9px 11px;font-size:11.5px;font-style:italic;color:#222;box-shadow:2px 2px 0 #0002;margin-top:auto}
-.facts{border:4px solid #000;background:#111;color:#fff;padding:18px 20px;margin-top:16px;box-shadow:6px 6px 0 #0002}
+.facts{border:4px solid #000;background:#111;color:#fff;padding:18px 20px;margin-top:16px;box-shadow:none}
 .facts h3{font-size:22px;color:var(--gold);margin-bottom:10px;text-transform:uppercase}
 .facts .frow{display:grid;grid-template-columns:1fr 1fr;gap:2px 24px}
 .facts .row{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid #ffffff26;font-size:13.5px}
 .facts .row b{font-family:'Bangers',sans-serif;font-size:18px;color:var(--gold);min-width:84px}
 /* ---------- Ch6 Meet Sensei (gold header, cream body) ---------- */
-.sensei{border:4px solid #000;background:var(--paper);color:#111;overflow:hidden;box-shadow:6px 6px 0 #0002}
+.sensei{border:4px solid #000;background:var(--paper);color:#111;overflow:hidden;box-shadow:none}
 .sensei .shead{padding:12px 18px;display:flex;align-items:center;gap:12px;border-bottom:4px solid #000;background:var(--gold)}
 .sensei .avatar{width:38px;height:38px;background:#111;display:flex;align-items:center;justify-content:center;font-family:'Bangers',sans-serif;color:var(--gold);font-size:20px;border:2px solid #000}
 .sensei .shead .nm{font-family:'Bangers',sans-serif;font-size:20px;color:#111;line-height:1}
@@ -358,7 +358,7 @@ footer .fleft{flex:1 1 300px;display:flex;flex-direction:column;gap:16px;align-i
 footer .flogo{background:#fff;border:3px solid #000;box-shadow:4px 4px 0 #000;padding:7px 11px;display:inline-flex}
 footer .flogo img{height:30px;display:block}
 footer .fbul{list-style:disc;padding-left:20px;color:#c4c6e6;font-size:13.5px;line-height:1.8;max-width:46ch}
-footer .fask{position:relative;flex:0 1 470px;background:#fff;color:#111;border:3px solid #000;box-shadow:8px 8px 0 rgba(0,0,0,.4);padding:22px 24px}
+footer .fask{position:relative;flex:0 1 470px;background:#fff;color:#111;border:3px solid #000;box-shadow:none;padding:22px 24px}
 footer .fask .qmark{position:absolute;top:-30px;right:16px;font-family:'Bangers',sans-serif;font-size:66px;line-height:1;color:#fff;-webkit-text-stroke:3px #000;paint-order:stroke;text-shadow:3px 3px 0 rgba(0,0,0,.28);transform:rotate(6deg)}
 footer .fask h3{font-family:'Bangers',sans-serif;font-size:25px;letter-spacing:.5px;margin-bottom:8px;color:#111}
 footer .fask p{font-size:13.5px;color:#333;line-height:1.55;margin-bottom:16px;max-width:52ch}
