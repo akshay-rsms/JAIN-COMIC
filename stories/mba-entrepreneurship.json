@@ -1,0 +1,132 @@
+{
+  "id": "mba-entrepreneurship",
+  "intent": "Specialisation / Entrepreneurship and Leadership",
+  "program": "MBA",
+  "specialization": "Entrepreneurship and Leadership",
+  "target_query": "mba in entrepreneurship",
+  "hero": {
+    "eyebrow": "BUILD YOUR OWN VENTURE",
+    "headline_pre": "AN MBA IN",
+    "highlight": "ENTREPRENEURSHIP AND LEADERSHIP.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Nikhil, a 28 year old Indian man in smart-casual, energetic and confident, sketching a business idea on a clean board, modern startup space, aspirational and driven.",
+    "burst": "BUILD!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Nikhil was already good at building ideas at work.",
+      "dialogue": "I had ideas, but no playbook.",
+      "img_prompt": "Nikhil, 28, enthusiastically sketching a business idea on a clean whiteboard, driven and creative, modern startup space."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I build a real business?",
+      "img_prompt": "Nikhil looking thoughtful, wondering how to turn his idea into a real, fundable business, laptop open, tidy workspace."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Entrepreneurship and Leadership.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Nikhil's face lighting up at a laptop showing an online MBA in Entrepreneurship and Leadership, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Nikhil enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Nikhil confidently starting his first venture creation lesson on a laptop, notebook and business plan beside him, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Entrepreneurship and Leadership",
+    "points": [
+      "Master the real craft: venture creation, business planning, fundraising and leadership.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Nikhil Rao",
+        "spec": "MBA STARTUP",
+        "role": "Founder",
+        "metric": "MY IDEA",
+        "stat": "now a venture",
+        "quote": "I had ideas but no playbook. This MBA gave me the framework to actually build."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA STARTUP",
+        "role": "2nd-Year Student",
+        "metric": "FUNDRAISING",
+        "stat": "job-ready",
+        "quote": "Learning business planning and fundraising made my venture real, not just a dream."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MBA STARTUP",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me learn to build a business while still earning."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA STARTUP",
+        "role": "Graduated",
+        "metric": "LAUNCHED",
+        "stat": "my startup",
+        "quote": "A recognised MBA plus real founder skills gave me the confidence to launch."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Venture creation, business planning, fundraising and leadership"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "ENTREPRENEURSHIP AND LEADERSHIP?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

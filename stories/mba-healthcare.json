@@ -1,0 +1,132 @@
+{
+  "id": "mba-healthcare",
+  "intent": "Specialisation / Healthcare Management",
+  "program": "MBA",
+  "specialization": "Healthcare Management",
+  "target_query": "mba in healthcare management",
+  "hero": {
+    "eyebrow": "LEAD IN HEALTHCARE",
+    "headline_pre": "AN MBA IN",
+    "highlight": "HEALTHCARE MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Ananya, a 29 year old Indian woman in smart professional attire, warm and confident, managing a modern hospital corridor with staff, caring and aspirational, clean bright setting.",
+    "burst": "CARE!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Ananya was already good at working in healthcare at work.",
+      "dialogue": "I wanted to improve how care is run.",
+      "img_prompt": "Ananya, 29, a caring healthcare professional helping organise a busy but calm hospital ward, modern clean hospital."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA she did not have.",
+      "dialogue": "How do I manage a hospital?",
+      "img_prompt": "Ananya looking thoughtful, wondering how to move into healthcare management and leadership, clipboard in hand, hospital corridor."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an online MBA in Healthcare Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Ananya's face lighting up at a laptop showing an online MBA in Healthcare Management, warm hopeful glow, tidy home."
+    },
+    {
+      "n": 4,
+      "narration": "Ananya enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Ananya confidently starting her first healthcare management lesson on a laptop at home, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Healthcare Management",
+    "points": [
+      "Master the real craft: hospital operations, health systems, healthcare quality and medical administration.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Ananya Nair",
+        "spec": "MBA HEALTHCARE",
+        "role": "Healthcare Professional",
+        "metric": "MY MISSION",
+        "stat": "now a career",
+        "quote": "I wanted to improve care delivery. This MBA gave me the tools to actually lead it."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA HEALTHCARE",
+        "role": "2nd-Year Student",
+        "metric": "OPERATIONS",
+        "stat": "job-ready",
+        "quote": "Learning hospital operations and quality systems made me ready to manage, not just assist."
+      },
+      {
+        "name": "Imran Ali",
+        "spec": "MBA HEALTHCARE",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI and online classes let me study while working full shifts."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA HEALTHCARE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "admin lead",
+        "quote": "A recognised MBA plus real healthcare skills got me into a hospital administration role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Hospital operations, health systems, healthcare quality and medical administration"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "HEALTHCARE MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

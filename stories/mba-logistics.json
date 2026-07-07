@@ -1,0 +1,132 @@
+{
+  "id": "mba-logistics",
+  "intent": "Specialisation / Logistics & Supply Chain Management",
+  "program": "MBA",
+  "specialization": "Logistics & Supply Chain Management",
+  "target_query": "mba in logistics and supply chain management",
+  "hero": {
+    "eyebrow": "MOVE THE WORLD FORWARD",
+    "headline_pre": "AN MBA IN",
+    "highlight": "LOGISTICS & SUPPLY CHAIN MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Vikram, a 29 year old Indian man in smart-casual with a safety-friendly professional look, confident, overseeing an organised modern warehouse with shelves, aspirational and capable.",
+    "burst": "DELIVER!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Vikram was already good at keeping operations moving at work.",
+      "dialogue": "I kept everything moving on time.",
+      "img_prompt": "Vikram, 29, confidently coordinating an organised modern warehouse, capable and focused, clean industrial setting."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I run the whole chain?",
+      "img_prompt": "Vikram looking thoughtful, wondering how to move from supervising to leading the whole supply chain, tablet in hand, warehouse."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Logistics & Supply Chain Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Vikram's face lighting up at a laptop showing an online MBA in Logistics and Supply Chain Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Vikram enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Vikram confidently starting his first supply chain lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Logistics & Supply Chain Management",
+    "points": [
+      "Master the real craft: supply chain design, procurement, warehousing and global logistics.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Vikram Das",
+        "spec": "MBA SUPPLY CHAIN",
+        "role": "Operations Lead",
+        "metric": "MY STRENGTH",
+        "stat": "now a career",
+        "quote": "I kept things moving. This MBA turned that into a real supply chain leadership path."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA SUPPLY CHAIN",
+        "role": "2nd-Year Student",
+        "metric": "GLOBAL LOGISTICS",
+        "stat": "job-ready",
+        "quote": "Learning procurement and global logistics made me ready to lead, not just supervise."
+      },
+      {
+        "name": "Imran Ali",
+        "spec": "MBA SUPPLY CHAIN",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me upskill while running a busy warehouse full time."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA SUPPLY CHAIN",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "SCM lead",
+        "quote": "A recognised MBA plus real supply chain skills got me into a management role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Supply chain design, procurement, warehousing and global logistics"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "LOGISTICS & SUPPLY CHAIN MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mcom-course-fees",
+  "intent": "Fees / affordability",
+  "program": "M.Com",
+  "specialization": "Accounting and Finance",
+  "target_query": "mcom course fees",
+  "hero": {
+    "eyebrow": "THE FEE COMPARISON",
+    "headline_pre": "A RECOGNISED M.COM,",
+    "highlight": "JUST ₹45,000/YR.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Priya, a 24 year old Indian commerce graduate woman in smart-casual, happily surprised at a laptop showing an affordable M.Com fee, bright hopeful mood, tidy home.",
+    "burst": "₹45K!"
+  },
+  "statbar": [
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "DISCOUNT",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Priya compared M.Com fees across many options.",
+      "dialogue": "Why is a master's so costly?",
+      "img_prompt": "Priya, 24, at a desk comparing several high fee figures in a notebook, concerned and focused, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Most good options ran into lakhs.",
+      "dialogue": "Is further study only for the rich?",
+      "img_prompt": "Priya looking discouraged at a laptop showing an expensive fee, chin in hand, soft disappointed expression, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised M.Com at ₹45,000 a year.",
+      "dialogue": "Affordable and recognised?",
+      "img_prompt": "Priya's eyes widening with hope at a laptop showing a clear, affordable, recognised M.Com fee, warm glow of relief."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled on a 0% EMI she could manage.",
+      "dialogue": "A master's, no heavy debt!",
+      "img_prompt": "Priya smiling confidently holding a blank enrollment confirmation at home, calm and assured, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why This M.Com Fee Is A Steal",
+    "points": [
+      "Just ₹90,000 for the full 2-year M.Com (₹45,000/year). A recognised master's at a fair, honest price.",
+      "Pay upfront and get a discount, or split it into easy 0% interest EMI.",
+      "0% interest EMI from about ₹3,750/month, so there is no heavy lump sum.",
+      "Only ₹2,500 one-time registration. Clear fees, no hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Priya Pillai",
+        "spec": "M.COM",
+        "role": "Working Professional",
+        "metric": "₹45K / yr",
+        "stat": "recognised",
+        "quote": "I compared everywhere. A UGC-entitled M.Com at ₹45,000 a year was the clear, honest choice."
+      },
+      {
+        "name": "Karan Das",
+        "spec": "M.COM · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹3,750 / mo",
+        "quote": "The 0% EMI meant no lump sum. I pay a small amount each month and my degree keeps going."
+      },
+      {
+        "name": "Nisha Verma",
+        "spec": "M.COM ACCA",
+        "role": "Career Switcher",
+        "metric": "DISCOUNT",
+        "stat": "paid upfront",
+        "quote": "We paid upfront and got a clear discount. A recognised master's at this price felt fair."
+      },
+      {
+        "name": "Vikram Rao",
+        "spec": "M.COM",
+        "role": "Graduated",
+        "metric": "DEBT-LIGHT",
+        "stat": "no burden",
+        "quote": "I finished my M.Com without a heavy loan. The monthly plan fit my budget perfectly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Fee",
+        "v": "₹90,000 for the full 2-year M.Com (₹45,000/year)"
+      },
+      {
+        "k": "Upfront",
+        "v": "Discount on one-time full payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹3,750/month, or an education loan"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration. No hidden charges."
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹45K A YEAR?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

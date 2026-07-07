@@ -1,0 +1,132 @@
+{
+  "id": "bcom-international-finance",
+  "intent": "Specialisation / International Finance (ACCA)",
+  "program": "B.Com",
+  "specialization": "International Finance & Accounting",
+  "target_query": "bcom acca",
+  "hero": {
+    "eyebrow": "GLOBALLY ACCREDITED B.COM",
+    "headline_pre": "A B.COM WITH",
+    "highlight": "ACCA, UK.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my B.Com plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Karan, a 19 year old Indian commerce student in smart-casual, confident, studying global finance on a laptop with a subtle international feel, modern home, aspirational.",
+    "burst": "GLOBAL!"
+  },
+  "statbar": [
+    {
+      "big": "ACCA, UK",
+      "label": "global accreditation"
+    },
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Karan wanted a finance career without borders.",
+      "dialogue": "I want to work globally.",
+      "img_prompt": "Karan, 19, confidently studying global finance on a laptop at home, curious and ambitious, modern room."
+    },
+    {
+      "n": 2,
+      "narration": "But a plain degree felt too local for his dream.",
+      "dialogue": "How do I go global?",
+      "img_prompt": "Karan looking thoughtful, wondering how to build an international finance career, a laptop open, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a B.Com integrated with ACCA, UK.",
+      "dialogue": "Global, and affordable!",
+      "img_prompt": "Karan's face lighting up with excitement at a laptop showing a B.Com accredited by ACCA UK, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled and began building a global edge.",
+      "dialogue": "From local to global!",
+      "img_prompt": "Karan confidently starting his first international finance lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why A B.Com With ACCA, UK",
+    "points": [
+      "Master global finance, IFRS and international accounting on an ACCA-aligned syllabus.",
+      "Earn a globally recognised edge, accredited by ACCA, UK, alongside your degree.",
+      "All at the same affordable fee: ₹1,35,000 for the full 3-year B.Com (₹45,000/year), with 0% interest EMI.",
+      "A UGC-entitled, NAAC A++ B.Com, with the added global weight of ACCA."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Karan Rao",
+        "spec": "B.COM ACCA",
+        "role": "1st-Year Student",
+        "metric": "GLOBAL",
+        "stat": "ACCA edge",
+        "quote": "I wanted a borderless finance career. An ACCA-integrated B.Com made that possible from day one."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "B.COM ACCA",
+        "role": "2nd-Year Student",
+        "metric": "IFRS",
+        "stat": "job-ready",
+        "quote": "The ACCA-aligned syllabus and IFRS made me ready for global finance roles."
+      },
+      {
+        "name": "Aman Gupta",
+        "spec": "B.COM ACCA",
+        "role": "Final Year",
+        "metric": "SAME FEE",
+        "stat": "no premium",
+        "quote": "A globally accredited degree at the same affordable fee. That felt like a genuine head start."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "B.COM ACCA",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "global-ready",
+        "quote": "A globally recognised B.Com got me noticed for international finance roles."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Global finance, IFRS, ACCA-aligned syllabus, international accounting"
+      },
+      {
+        "k": "Accreditation",
+        "v": "Accredited by ACCA, UK, recognised globally"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,35,000 for the full 3-year B.Com (₹45,000/year), same as the standard B.Com"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online B.Com, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO GO",
+    "highlight": "GLOBAL?",
+    "sub": "",
+    "button": "Get my B.Com plan",
+    "burst": "GO!"
+  }
+}

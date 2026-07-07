@@ -1,0 +1,132 @@
+{
+  "id": "jain-online",
+  "intent": "Brand / all programs",
+  "program": "JAIN",
+  "specialization": "Online University",
+  "target_query": "jain university online courses",
+  "hero": {
+    "eyebrow": "ONE UNIVERSITY, MANY PATHS",
+    "headline_pre": "JAIN ONLINE,",
+    "highlight": "YOUR DEGREE AWAITS.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Talk to a counsellor",
+    "cta2": "Explore programmes",
+    "art_prompt": "Aditya, a 22 year old Indian student in smart-casual, confident and hopeful, exploring online degree options on a laptop at home, aspirational bright mood.",
+    "burst": "EXPLORE!"
+  },
+  "statbar": [
+    {
+      "big": "7 PROGRAMMES",
+      "label": "UG & PG"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    },
+    {
+      "big": "UGC",
+      "label": "entitled"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Aditya wanted a recognised degree that fit his life.",
+      "dialogue": "Which university do I trust?",
+      "img_prompt": "Aditya, 22, at a laptop exploring university options, curious and hopeful, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Countless options made the choice confusing.",
+      "dialogue": "So many claims, who is real?",
+      "img_prompt": "Aditya looking a little overwhelmed by many browser options on a laptop, rubbing his head, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found JAIN Online, recognised and complete.",
+      "dialogue": "One trusted university!",
+      "img_prompt": "Aditya's face lighting up with clarity at a laptop showing a clean JAIN Online programmes page, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "He picked his programme and began with guidance.",
+      "dialogue": "My degree journey begins!",
+      "img_prompt": "Aditya confidently starting his first online lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why Choose JAIN Online",
+    "points": [
+      "Seven UGC-entitled programmes: MBA, BBA, MCA, BCA, B.Com, M.Com and MA.",
+      "Study 100% online with weekend live classes, from anywhere, around your life.",
+      "NAAC A++ accredited degrees, recognised for jobs, promotions and higher study.",
+      "Affordable fees with 0% interest EMI, plus real AI tools and mentor support."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Aditya Rao",
+        "spec": "JAIN ONLINE",
+        "role": "Student",
+        "metric": "7 PATHS",
+        "stat": "one trusted uni",
+        "quote": "I wanted one university I could trust. JAIN gave me a recognised degree that fit my life."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "JAIN ONLINE",
+        "role": "Working Professional",
+        "metric": "NAAC A++",
+        "stat": "recognised",
+        "quote": "A NAAC A++, UGC-entitled degree earned online. It was accepted without a second thought."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "JAIN ONLINE",
+        "role": "Career Switcher",
+        "metric": "0% EMI",
+        "stat": "affordable",
+        "quote": "Affordable fees and 0% EMI meant I could finally start, without a heavy burden."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "JAIN ONLINE",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "supported",
+        "quote": "Real support and a recognised degree opened the next door in my career."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Programmes",
+        "v": "MBA, BBA, MCA, BCA, B.Com, M.Com, MA"
+      },
+      {
+        "k": "Mode",
+        "v": "100% online, weekend live classes"
+      },
+      {
+        "k": "Recognition",
+        "v": "NAAC A++ accredited, UGC-entitled online degrees"
+      },
+      {
+        "k": "Support",
+        "v": "0% EMI, AI tools, mentor guidance"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO FIND",
+    "highlight": "YOUR PROGRAMME?",
+    "sub": "",
+    "button": "Talk to a counsellor",
+    "burst": "GO!"
+  }
+}

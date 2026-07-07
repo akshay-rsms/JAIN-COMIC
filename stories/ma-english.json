@@ -1,0 +1,132 @@
+{
+  "id": "ma-english",
+  "intent": "Subject / English",
+  "program": "MA",
+  "specialization": "English",
+  "target_query": "ma english distance education",
+  "hero": {
+    "eyebrow": "FOR LOVERS OF LANGUAGE",
+    "headline_pre": "AN MA IN",
+    "highlight": "ENGLISH.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MA plan",
+    "cta2": "Explore subjects",
+    "art_prompt": "Ananya, a 24 year old Indian graduate woman in a modest kurti, warm and thoughtful, reading literature with a laptop and books at home, aspirational literary mood.",
+    "burst": "WORDS!"
+  },
+  "statbar": [
+    {
+      "big": "₹22,500",
+      "label": "per year"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Ananya loved literature and the craft of language.",
+      "dialogue": "Words are my world.",
+      "img_prompt": "Ananya, 24, happily reading a book with a laptop nearby at home, warm thoughtful, tidy room with books."
+    },
+    {
+      "n": 2,
+      "narration": "But turning that love into a career needed a master's.",
+      "dialogue": "How do I teach or write?",
+      "img_prompt": "Ananya looking thoughtful, wondering how to build a career in English, books and a laptop around her, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an MA in English, online.",
+      "dialogue": "My literary path starts here!",
+      "img_prompt": "Ananya's face lighting up with excitement at a laptop showing an MA in English, warm hopeful glow, books nearby."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled and immersed in literature.",
+      "dialogue": "From reader to scholar!",
+      "img_prompt": "Ananya confidently starting her first MA English lesson on a laptop, open book and notebook beside her, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MA In English",
+    "points": [
+      "Study literature, linguistics, literary theory and academic writing in depth.",
+      "A strong path to teaching, content, editing, civil services and research.",
+      "Wonderfully affordable: ₹45,000 for the full 2-year MA (₹22,500/year), with 0% interest EMI available.",
+      "A UGC-entitled, NAAC A++ MA in English, recognised for jobs and further study."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Ananya Iyer",
+        "spec": "MA ENGLISH",
+        "role": "1st-Year Student",
+        "metric": "MY PASSION",
+        "stat": "now a path",
+        "quote": "I loved literature. This MA turned that love into a real path toward teaching."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MA ENGLISH",
+        "role": "2nd-Year Student",
+        "metric": "FROM HOME",
+        "stat": "online",
+        "quote": "I studied literature deeply from home, around my other responsibilities."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MA ENGLISH",
+        "role": "Career Switcher",
+        "metric": "0% EMI",
+        "stat": "₹1,875 / mo",
+        "quote": "So affordable. The small monthly EMI made a master's in English easy to start."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MA ENGLISH",
+        "role": "Graduated",
+        "metric": "TEACHING",
+        "stat": "recognised",
+        "quote": "A recognised MA in English got me into the teaching role I always wanted."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Literature, linguistics, literary theory, academic writing"
+      },
+      {
+        "k": "Great for",
+        "v": "Teaching, content, editing, civil services, research"
+      },
+      {
+        "k": "Fee",
+        "v": "₹45,000 for the full 2-year MA (₹22,500/year)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR A LIFE",
+    "highlight": "IN LETTERS?",
+    "sub": "",
+    "button": "Get my MA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mca-course",
+  "intent": "Generic / course overview",
+  "program": "MCA",
+  "specialization": "Online",
+  "target_query": "mca course",
+  "hero": {
+    "eyebrow": "BUILD A REAL TECH CAREER",
+    "headline_pre": "YOUR MCA,",
+    "highlight": "ONE CLEAR PATH.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Rahul, a 23 year old Indian graduate man in a casual collared shirt, confident and hopeful, choosing a tech career path on a laptop in a modern home, aspirational mood.",
+    "burst": "LET'S GO!"
+  },
+  "statbar": [
+    {
+      "big": "5 SPECIALISATIONS",
+      "label": "choose your path"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "₹40,000",
+      "label": "per semester"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Rahul had a degree, but wanted a serious tech career.",
+      "dialogue": "I want to build real software.",
+      "img_prompt": "Rahul, 23, at a laptop coding simple shapes, curious and driven, modern tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Too many courses and unclear paths left him unsure.",
+      "dialogue": "Which one actually helps?",
+      "img_prompt": "Rahul looking a little overwhelmed by many open browser options on a laptop, rubbing his head, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a clear, recognised online MCA.",
+      "dialogue": "One solid path, finally!",
+      "img_prompt": "Rahul smiling with clarity at a laptop showing a clean MCA page with specialisations, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "He picked a specialisation and started with guidance.",
+      "dialogue": "My tech career begins!",
+      "img_prompt": "Rahul confidently starting his first MCA lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why Start Your MCA Here",
+    "points": [
+      "Choose from in-demand tech specialisations: Data Science, AI, Cloud, Cyber Security, Full Stack.",
+      "Study 100% online with weekend live classes, so you can learn while you work.",
+      "Just ₹1,60,000 for the full 2-year MCA (₹40,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "Real, hands-on tech tools and mentor support from your very first semester."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Rahul Nair",
+        "spec": "MCA DATA SCIENCE",
+        "role": "Recent Graduate",
+        "metric": "CLEAR PATH",
+        "stat": "guided",
+        "quote": "I had a degree but no direction. The clear specialisations and guidance made my tech path obvious."
+      },
+      {
+        "name": "Tanvi Shah",
+        "spec": "MCA ONLINE",
+        "role": "1st-Year Student",
+        "metric": "5 PATHS",
+        "stat": "my pick",
+        "quote": "Picking my specialisation meant the degree matched the exact tech job I wanted."
+      },
+      {
+        "name": "Aditya Kumar",
+        "spec": "MCA CLOUD",
+        "role": "Working Professional",
+        "metric": "HANDS-ON",
+        "stat": "from sem 1",
+        "quote": "Real, hands-on projects from semester one made me genuinely job-ready, not just certified."
+      },
+      {
+        "name": "Pooja Reddy",
+        "spec": "MCA CYBER SECURITY",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised MCA, learned online at my pace. It opened the first real door in tech."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Choose",
+        "v": "Data Science, AI, Cloud, Cyber Security, Full Stack"
+      },
+      {
+        "k": "Mode",
+        "v": "100% online, weekend live classes, learn while you work"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,60,000 for the full 2-year MCA (₹40,000/semester)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO BEGIN",
+    "highlight": "YOUR MCA?",
+    "sub": "",
+    "button": "Get my MCA plan",
+    "burst": "GO!"
+  }
+}

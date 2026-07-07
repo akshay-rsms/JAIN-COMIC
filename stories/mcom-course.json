@@ -1,0 +1,132 @@
+{
+  "id": "mcom-course",
+  "intent": "Generic / course overview",
+  "program": "M.Com",
+  "specialization": "Online",
+  "target_query": "mcom course",
+  "hero": {
+    "eyebrow": "TAKE COMMERCE FURTHER",
+    "headline_pre": "YOUR M.COM,",
+    "highlight": "100% ONLINE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my M.Com plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Aditya, a 23 year old Indian commerce graduate man in smart-casual, confident and hopeful, studying advanced accounts on a laptop at home, aspirational mood.",
+    "burst": "LEVEL UP!"
+  },
+  "statbar": [
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Aditya finished his B.Com and wanted to go further.",
+      "dialogue": "A degree deeper in finance.",
+      "img_prompt": "Aditya, 23, at a laptop reviewing advanced accounts, ambitious and focused, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "A campus M.Com clashed with his job and plans.",
+      "dialogue": "Can I study and still work?",
+      "img_prompt": "Aditya looking thoughtful, glancing between work files and a laptop, modern room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a recognised M.Com he could do online.",
+      "dialogue": "Advanced, and flexible!",
+      "img_prompt": "Aditya's face lighting up at a laptop showing a 100% online M.Com, warm glow, cosy home study corner."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled and deepened his expertise.",
+      "dialogue": "From graduate to expert!",
+      "img_prompt": "Aditya confidently starting his first M.Com lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online M.Com Just Works",
+    "points": [
+      "Go deeper: advanced accounting, finance, taxation and research, fully online.",
+      "Options integrated with ACCA (UK) and CPA (US) for a global professional edge.",
+      "₹90,000 for the full 2-year M.Com (₹45,000/year), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ M.Com, recognised for jobs, teaching and further study."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Aditya Rao",
+        "spec": "M.COM",
+        "role": "Working Professional",
+        "metric": "DEEPER",
+        "stat": "expertise",
+        "quote": "My B.Com opened the door. The M.Com made me the finance expert my role needed."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "M.COM ACCA",
+        "role": "1st-Year Student",
+        "metric": "GLOBAL",
+        "stat": "ACCA edge",
+        "quote": "The ACCA-integrated option gave my M.Com a genuine global edge."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "M.COM",
+        "role": "Career Switcher",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI and online classes let me study while working full time."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "M.COM",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "recognised",
+        "quote": "A recognised M.Com plus real skills moved me into a senior finance role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Advanced accounting, finance, taxation, research"
+      },
+      {
+        "k": "Global",
+        "v": "ACCA (UK) and CPA (US) integrated options"
+      },
+      {
+        "k": "Fee",
+        "v": "₹90,000 for the full 2-year M.Com (₹45,000/year)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online M.Com, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO GO",
+    "highlight": "DEEPER?",
+    "sub": "",
+    "button": "Get my M.Com plan",
+    "burst": "GO!"
+  }
+}

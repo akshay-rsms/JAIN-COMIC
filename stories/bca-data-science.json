@@ -1,0 +1,132 @@
+{
+  "id": "bca-data-science",
+  "intent": "Specialisation / Data Science",
+  "program": "BCA",
+  "specialization": "Data Science",
+  "target_query": "bca in data science",
+  "hero": {
+    "eyebrow": "TURN DATA INTO A CAREER",
+    "headline_pre": "A BCA IN",
+    "highlight": "DATA SCIENCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Neha, an 18 year old Indian student, focused and confident, studying a clean data chart on a laptop at home, analytical and aspirational mood.",
+    "burst": "INSIGHT!"
+  },
+  "statbar": [
+    {
+      "big": "₹49,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Neha loved finding patterns and solving puzzles.",
+      "dialogue": "Data is where I shine.",
+      "img_prompt": "Neha, 18, happily exploring a simple data chart on a laptop at home, curious and analytical, tidy room."
+    },
+    {
+      "n": 2,
+      "narration": "But a data career needed real, early training.",
+      "dialogue": "How do I start young?",
+      "img_prompt": "Neha looking thoughtful, wondering how to build a data science career, a laptop with a simple chart open, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a BCA in Data Science, online.",
+      "dialogue": "My data career starts here!",
+      "img_prompt": "Neha's face lighting up with excitement at a laptop showing a BCA in Data Science, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled and began mastering the craft.",
+      "dialogue": "From curious to qualified!",
+      "img_prompt": "Neha confidently starting her first data science lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why A BCA In Data Science",
+    "points": [
+      "Master the real craft early: Python, data visualisation, statistics and AI basics.",
+      "Apply real, hands-on projects and included micro-credentials from semester one.",
+      "₹1,47,000 for the full 3-year BCA (₹49,000/year), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ BCA that tech employers recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Neha Rao",
+        "spec": "BCA DATA SCIENCE",
+        "role": "1st-Year Student",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I loved data. This BCA turned that into a real, early start in a data career."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "BCA DATA SCIENCE",
+        "role": "2nd-Year Student",
+        "metric": "HANDS-ON",
+        "stat": "from sem 1",
+        "quote": "Real projects from semester one made me genuinely job-ready, right after 12th."
+      },
+      {
+        "name": "Aman Gupta",
+        "spec": "BCA DATA SCIENCE",
+        "role": "Final Year",
+        "metric": "0% EMI",
+        "stat": "₹4,083 / mo",
+        "quote": "The 0% EMI let me start straight after 12th instead of waiting years to save up."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "BCA DATA SCIENCE",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised BCA plus real data skills got me hired into a data role quickly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Python, data visualisation, statistics, AI basics"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,47,000 for the full 3-year BCA (₹49,000/year)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹4,083/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online BCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR A",
+    "highlight": "DATA CAREER?",
+    "sub": "",
+    "button": "Get my BCA plan",
+    "burst": "GO!"
+  }
+}

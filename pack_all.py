@@ -16,7 +16,10 @@ NAME = {
 }
 def share_name(sid):
     if sid in NAME: return NAME[sid]
-    return "JAIN-" + sid.replace("bba-", "BBA-").title().replace("Bba", "BBA") + ".html"
+    ACR = {"bba","mba","mca","bca","ma","hr","it","ai","acca"}
+    SPECIAL = {"bcom":"BCom","mcom":"MCom","jain":"University"}
+    parts = [SPECIAL.get(p, p.upper() if p in ACR else p.title()) for p in sid.split("-")]
+    return "JAIN-" + "-".join(parts) + ".html"
 
 def datauri(fn):
     mime = mimetypes.guess_type(fn)[0] or "image/png"
@@ -41,6 +44,12 @@ def pack(sid):
     print(f"  {sid:24} -> share/{out.name}  ({len(src)//1024} KB)")
 
 if __name__ == "__main__":
-    ids = sys.argv[1:] or [p.stem for p in sorted(PAGES.glob("*.html")) if p.stem.startswith("bba")]
+    args = sys.argv[1:]
+    if args in (["mba"], ["bba"]):
+        ids = [p.stem for p in sorted(PAGES.glob("*.html")) if p.stem.startswith(args[0])]
+    elif args:
+        ids = args
+    else:
+        ids = [p.stem for p in sorted(PAGES.glob("*.html")) if p.stem.startswith(("bba", "mba"))]
     for sid in ids: pack(sid)
     print(f"\nPackaged {len(ids)} page(s) into {SHARE}")

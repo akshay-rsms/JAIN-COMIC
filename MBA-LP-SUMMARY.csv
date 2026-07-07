@@ -1,0 +1,22 @@
+#,Landing page,Target query,Queries,Impressions,Clicks,CTR %,Avg CPC (INR),Cost (INR),% of impressions,% of clicks,% of cost
+1,MBA in Human Resource Management,mba in human resource management,2123,165675,10200,6.16,140.12,1429228,2.0,1.4,1.5
+2,MBA in Finance,mba in finance,3018,150963,8422,5.58,113.33,954436,1.8,1.1,1.0
+3,MBA in Healthcare Management,mba in healthcare management,1779,186996,11858,6.34,118.79,1408612,2.2,1.6,1.5
+4,MBA in Marketing,mba in marketing,1630,84615,4739,5.60,77.53,367434,1.0,0.6,0.4
+5,MBA in Data Science & Analytics,mba in business analytics,1170,70212,3354,4.78,159.00,533302,0.8,0.5,0.6
+6,MBA in Logistics & Supply Chain,mba in logistics and supply chain management,772,73053,4790,6.56,192.03,919847,0.9,0.6,1.0
+7,MBA in Operations Management,mba in operations management,504,35282,1404,3.98,151.36,212508,0.4,0.2,0.2
+8,MBA in Information Technology Mgmt,mba in information technology management,295,36333,1787,4.92,104.12,186068,0.4,0.2,0.2
+9,MBA in Project Management,mba in project management,318,31527,2280,7.23,166.05,378603,0.4,0.3,0.4
+10,MBA in Digital Marketing,mba in digital marketing,303,30043,2104,7.00,108.01,227249,0.4,0.3,0.2
+11,MBA in International Business,mba in international business,303,20192,1233,6.11,73.28,90359,0.2,0.2,0.1
+12,MBA in International Finance,mba in international finance,208,22277,3513,15.77,169.64,595938,0.3,0.5,0.6
+13,MBA in Entrepreneurship,mba in entrepreneurship,312,11697,452,3.86,142.65,64478,0.1,0.1,0.1
+14,MBA in Strategy & Leadership,mba in strategy and leadership,166,5030,438,8.71,37.14,16267,0.1,0.1,0.0
+15,MBA Fees (JAIN),jain university mba fees,352,261665,59455,22.72,162.59,9666749,3.1,8.0,10.3
+16,MBA Course Fees,mba course fees,18385,742674,70608,9.51,82.44,5821042,8.9,9.5,6.2
+17,MBA Admission,mba admission,13288,412579,44503,10.79,129.49,5762473,4.9,6.0,6.2
+18,MBA Distance / From Home,distance mba,5729,749982,55052,7.34,167.34,9212589,9.0,7.4,9.9
+19,MBA Online,online mba,7653,1924871,258612,13.44,145.72,37685479,23.0,34.8,40.3
+20,MBA Course (generic),mba course,84860,3337496,197735,5.92,90.85,17964765,40.0,26.6,19.2
+,TOTAL,,143168,8353162,742539,8.89,125.92,93497429,100.0,100.0,100.0

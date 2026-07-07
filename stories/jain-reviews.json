@@ -1,0 +1,132 @@
+{
+  "id": "jain-reviews",
+  "intent": "Brand / trust & recognition",
+  "program": "JAIN",
+  "specialization": "Reviews & Recognition",
+  "target_query": "jain university reviews",
+  "hero": {
+    "eyebrow": "TRUSTED & RECOGNISED",
+    "headline_pre": "JAIN ONLINE,",
+    "highlight": "REAL & RECOGNISED.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Talk to a counsellor",
+    "cta2": "Explore programmes",
+    "art_prompt": "Rahul, a 23 year old Indian student in smart-casual, reassured and confident, reading positive information on a laptop at home, trusting hopeful mood.",
+    "burst": "TRUSTED!"
+  },
+  "statbar": [
+    {
+      "big": "NAAC A++",
+      "label": "top grade"
+    },
+    {
+      "big": "UGC",
+      "label": "entitled"
+    },
+    {
+      "big": "PLACEMENT",
+      "label": "support"
+    },
+    {
+      "big": "THOUSANDS",
+      "label": "of learners"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Rahul wanted proof that an online degree was respected.",
+      "dialogue": "Is it truly recognised?",
+      "img_prompt": "Rahul, 23, at a laptop carefully researching, a little sceptical but hopeful, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "He worried an online degree might not be valued.",
+      "dialogue": "Will employers accept it?",
+      "img_prompt": "Rahul looking thoughtful and cautious at a laptop, weighing his options, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he saw JAIN's NAAC A++ grade and UGC entitlement.",
+      "dialogue": "Real recognition, proven!",
+      "img_prompt": "Rahul's face relaxing into a confident smile at a laptop showing strong accreditation and positive reviews, warm reassured glow."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled, confident in a respected degree.",
+      "dialogue": "A degree that counts!",
+      "img_prompt": "Rahul confidently starting his studies on a laptop, calm and assured, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "Why JAIN Online Is Trusted",
+    "points": [
+      "Accredited by NAAC with a top A++ grade, a mark of real quality.",
+      "UGC-entitled online degrees, the same value as on-campus, recognised for jobs and higher study.",
+      "Dedicated placement support, industry projects and mentor guidance.",
+      "Trusted by thousands of learners across India and beyond."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Rahul Nair",
+        "spec": "JAIN ONLINE",
+        "role": "Student",
+        "metric": "RECOGNISED",
+        "stat": "NAAC A++",
+        "quote": "I needed proof it was respected. NAAC A++ and UGC entitlement settled it for me."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "JAIN ONLINE",
+        "role": "Working Professional",
+        "metric": "ACCEPTED",
+        "stat": "by employer",
+        "quote": "My employer accepted my JAIN degree without hesitation. That recognition mattered."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "JAIN ONLINE",
+        "role": "Career Switcher",
+        "metric": "PLACEMENT",
+        "stat": "supported",
+        "quote": "The placement support and real projects made my degree count in interviews."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "JAIN ONLINE",
+        "role": "Graduated",
+        "metric": "TRUSTED",
+        "stat": "thousands",
+        "quote": "Joining a university thousands already trusted gave me real confidence."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Accreditation",
+        "v": "NAAC A++ (top grade)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online degrees, same value as on-campus"
+      },
+      {
+        "k": "Careers",
+        "v": "Placement support, industry projects, mentor guidance"
+      },
+      {
+        "k": "Community",
+        "v": "Trusted by thousands of learners"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO JOIN A",
+    "highlight": "TRUSTED UNIVERSITY?",
+    "sub": "",
+    "button": "Talk to a counsellor",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mba-hr",
+  "intent": "Specialisation / Human Resource Management",
+  "program": "MBA",
+  "specialization": "Human Resource Management",
+  "target_query": "mba in human resource management",
+  "hero": {
+    "eyebrow": "LEAD THE PEOPLE FUNCTION",
+    "headline_pre": "AN MBA IN",
+    "highlight": "HUMAN RESOURCE MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Divya, a 28 year old Indian woman in business-casual, warm and confident, leading a friendly team discussion, modern office, approachable and aspirational.",
+    "burst": "PEOPLE!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Divya was already good at handling people at work.",
+      "dialogue": "People always came to me for help.",
+      "img_prompt": "Divya, 28, warmly helping colleagues at work, natural people person, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA she did not have.",
+      "dialogue": "How do I lead HR for real?",
+      "img_prompt": "Divya looking thoughtful, wondering how to move from helping people to leading HR, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an online MBA in Human Resource Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Divya's face lighting up at a laptop showing an online MBA in Human Resource Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Divya enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Divya confidently starting her first HR management lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Human Resource Management",
+    "points": [
+      "Master the real craft: talent acquisition, performance management, HR analytics and labour law.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Divya Iyer",
+        "spec": "MBA HR",
+        "role": "People Manager",
+        "metric": "MY STRENGTH",
+        "stat": "now a career",
+        "quote": "I always loved supporting people. This MBA turned that into a real HR leadership path."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA HR",
+        "role": "2nd-Year Student",
+        "metric": "HR ANALYTICS",
+        "stat": "job-ready",
+        "quote": "Learning HR analytics and modern tools made me far more than a coordinator."
+      },
+      {
+        "name": "Aman Gupta",
+        "spec": "MBA HR",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI and weekend classes let me grow into HR without leaving work."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA HR",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "to HR lead",
+        "quote": "A recognised MBA plus real people skills got me into an HR leadership role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Talent acquisition, performance management, HR analytics and labour law"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "HUMAN RESOURCE MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

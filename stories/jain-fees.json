@@ -1,0 +1,132 @@
+{
+  "id": "jain-fees",
+  "intent": "Brand / fees",
+  "program": "JAIN",
+  "specialization": "Fees",
+  "target_query": "jain university fees",
+  "hero": {
+    "eyebrow": "JAIN ONLINE FEES",
+    "headline_pre": "JAIN FEES,",
+    "highlight": "CLEAR & AFFORDABLE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore programmes",
+    "art_prompt": "Sneha, a 21 year old Indian student in smart-casual, reassured and hopeful, reviewing a clear affordable fee breakdown on a laptop at home, bright mood.",
+    "burst": "CLEAR!"
+  },
+  "statbar": [
+    {
+      "big": "FROM ₹22,500",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "DISCOUNT",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sneha searched for the real cost of a JAIN degree.",
+      "dialogue": "What will it actually cost?",
+      "img_prompt": "Sneha, 21, at a laptop searching for clear fee information, curious and focused, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Other sites showed vague numbers and hidden extras.",
+      "dialogue": "Just show me the full fee.",
+      "img_prompt": "Sneha looking a little frustrated at a laptop showing unclear, incomplete fee information, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found JAIN's fees, clear and affordable.",
+      "dialogue": "Transparent, and doable!",
+      "img_prompt": "Sneha's face relaxing with relief at a laptop showing a clean, clear fee breakdown, warm reassured glow."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled with total clarity on the cost.",
+      "dialogue": "No surprises, just growth!",
+      "img_prompt": "Sneha smiling confidently at her laptop after enrolling, calm and assured, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "JAIN Online Fees, Made Clear",
+    "points": [
+      "Affordable across the board: UG from about ₹45,000/year, MA from just ₹22,500/year.",
+      "Pay upfront for a discount, or choose 0% interest EMI to spread the cost.",
+      "Only ₹2,500 one-time registration. Clear fees, no hidden charges.",
+      "Every programme is NAAC A++ accredited and UGC-entitled."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sneha Pillai",
+        "spec": "JAIN FEES",
+        "role": "Student",
+        "metric": "CLEAR",
+        "stat": "no surprises",
+        "quote": "I just wanted the real number. JAIN showed the full fee clearly, with no hidden extras."
+      },
+      {
+        "name": "Karan Mehta",
+        "spec": "JAIN ONLINE",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "monthly",
+        "quote": "The monthly EMI made a recognised degree easy to plan. I knew my exact cost from day one."
+      },
+      {
+        "name": "Ritu Sharma",
+        "spec": "JAIN ONLINE",
+        "role": "Career Switcher",
+        "metric": "AFFORDABLE",
+        "stat": "UG & PG",
+        "quote": "Whether UG or PG, the fees were genuinely affordable and clearly explained."
+      },
+      {
+        "name": "Manoj K",
+        "spec": "JAIN ONLINE",
+        "role": "Graduated",
+        "metric": "NO HIDDEN",
+        "stat": "as promised",
+        "quote": "No hidden charges appeared, ever. The fee I saw at the start was exactly what I paid."
+      }
+    ],
+    "facts": [
+      {
+        "k": "UG fees",
+        "v": "From about ₹45,000/year (BBA, B.Com, BCA)"
+      },
+      {
+        "k": "PG fees",
+        "v": "MA from ₹22,500/year; MBA, MCA, M.Com affordable too"
+      },
+      {
+        "k": "Payment",
+        "v": "0% interest EMI or an upfront discount"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration. No hidden charges."
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO SEE",
+    "highlight": "YOUR EXACT FEE?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

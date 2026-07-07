@@ -1,0 +1,132 @@
+{
+  "id": "mca-data-science",
+  "intent": "Specialisation / Data Science",
+  "program": "MCA",
+  "specialization": "Data Science",
+  "target_query": "mca in data science",
+  "hero": {
+    "eyebrow": "TURN DATA INTO A CAREER",
+    "headline_pre": "AN MCA IN",
+    "highlight": "DATA SCIENCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Neha, a 24 year old Indian graduate woman in smart-casual, focused and confident, studying a clean data dashboard on a laptop, modern home, analytical and aspirational.",
+    "burst": "INSIGHT!"
+  },
+  "statbar": [
+    {
+      "big": "₹40,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Neha loved finding patterns and solving problems.",
+      "dialogue": "Data is where I shine.",
+      "img_prompt": "Neha, 24, happily exploring a simple data chart on a laptop at home, curious and analytical, modern room."
+    },
+    {
+      "n": 2,
+      "narration": "But a data science career needed real depth.",
+      "dialogue": "How do I go pro?",
+      "img_prompt": "Neha looking thoughtful, wondering how to build a data science career, a laptop with a simple chart open, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an MCA in Data Science, online.",
+      "dialogue": "My data career starts here!",
+      "img_prompt": "Neha's face lighting up with excitement at a laptop showing an MCA in Data Science, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled and began mastering the real craft.",
+      "dialogue": "From curious to qualified!",
+      "img_prompt": "Neha confidently starting her first data science lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MCA In Data Science",
+    "points": [
+      "Master the real craft: Python, machine learning, data visualisation and big data.",
+      "Apply real AI and analytics tools on hands-on projects from your very first semester.",
+      "₹1,60,000 for the full 2-year MCA (₹40,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MCA that tech employers recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Neha Rao",
+        "spec": "MCA DATA SCIENCE",
+        "role": "Recent Graduate",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I loved data. This MCA turned that into a real, in-demand data science career."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MCA DATA SCIENCE",
+        "role": "1st-Year Student",
+        "metric": "HANDS-ON",
+        "stat": "from sem 1",
+        "quote": "Real machine-learning projects from semester one made me genuinely job-ready."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MCA DATA SCIENCE",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me move into data science without quitting my job."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MCA DATA SCIENCE",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised MCA plus real data skills got me hired into a data role quickly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Python, machine learning, data visualisation, big data"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,60,000 for the full 2-year MCA (₹40,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹6,667/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR A",
+    "highlight": "DATA CAREER?",
+    "sub": "",
+    "button": "Get my MCA plan",
+    "burst": "GO!"
+  }
+}

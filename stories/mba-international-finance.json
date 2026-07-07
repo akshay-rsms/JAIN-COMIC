@@ -1,0 +1,132 @@
+{
+  "id": "mba-international-finance",
+  "intent": "Specialisation / International Finance",
+  "program": "MBA",
+  "specialization": "International Finance",
+  "target_query": "mba in international finance",
+  "hero": {
+    "eyebrow": "GLOBALLY ACCREDITED FINANCE",
+    "headline_pre": "AN MBA IN",
+    "highlight": "INTERNATIONAL FINANCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Varun, a 28 year old Indian man in smart professional attire, confident, studying global finance on a laptop, modern office with a subtle international feel, aspirational.",
+    "burst": "GLOBAL!"
+  },
+  "statbar": [
+    {
+      "big": "ACCA, UK",
+      "label": "global accreditation"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Varun was already good at working in finance at work.",
+      "dialogue": "I wanted a finance career without borders.",
+      "img_prompt": "Varun, 28, confidently analysing global finance figures on a laptop, sharp and engaged, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I go global in finance?",
+      "img_prompt": "Varun looking thoughtful, wondering how to build a globally recognised finance career, laptop with charts, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in International Finance.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Varun's face lighting up at a laptop showing an online MBA in International Finance accredited by ACCA UK, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Varun enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Varun confidently starting his first international finance lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In International Finance",
+    "points": [
+      "Master global finance, IFRS and international accounting on an ACCA-aligned syllabus.",
+      "Earn a globally accredited qualification recognised well beyond India.",
+      "₹4,00,000 for the full globally accredited MBA, with 0% interest EMI available.",
+      "A UGC-entitled, NAAC A++ online MBA, with the added weight of ACCA, UK."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Varun Rao",
+        "spec": "MBA INTL FINANCE",
+        "role": "Finance Associate",
+        "metric": "GLOBAL",
+        "stat": "now a career",
+        "quote": "I wanted a borderless finance career. An ACCA-aligned MBA made that real."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA INTL FINANCE",
+        "role": "2nd-Year Student",
+        "metric": "IFRS & ACCA",
+        "stat": "job-ready",
+        "quote": "The ACCA-aligned syllabus and IFRS made me ready for global finance roles."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "MBA INTL FINANCE",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me pursue a globally accredited finance MBA without quitting."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA INTL FINANCE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "global finance",
+        "quote": "A globally recognised MBA got me into an international finance role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Global finance, IFRS, ACCA-aligned syllabus, international accounting"
+      },
+      {
+        "k": "Accreditation",
+        "v": "Accredited by ACCA, UK, recognised globally"
+      },
+      {
+        "k": "Fee",
+        "v": "₹4,00,000 for the globally accredited 2-year MBA"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "INTERNATIONAL FINANCE?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,444 @@
+<meta charset="utf-8">
+<title>JAIN ONLINE - B.Com International Finance &amp; Accounting - A B.COM WITH ACCA, UK.</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A B.COM WITH ACCA, UK. - JAIN Online B.Com International Finance &amp; Accounting">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Anton&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+/* DISCIPLINED PALETTE - only 4 colours: one blue (navy), one yellow (gold), white, black.
+   The old accent vars (red/purple/blue/green) are remapped onto navy/black so nothing off-brand can appear. */
+:root{--navy:#1a237e;--ink:#111;--gold:#f5b301;--gold2:#f5b301;--paper:#fdf3da;
+  --red:#1a237e;--purple:#111111;--blue:#1a237e;--green:#1a237e}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:'Inter',system-ui,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--paper);line-height:1.5;overflow-x:clip}
+.display,h1,h2,h3,.chip,.bangers{font-family:'Bangers','Anton','Arial Black',Impact,sans-serif;letter-spacing:.02em;font-weight:400}
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+.halftone{background-image:radial-gradient(var(--dot,#0001) 1.4px,transparent 1.5px);background-size:9px 9px}
+img{max-width:100%}
+/* ---------- header ---------- */
+header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;border-bottom:4px solid #000}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{display:inline-flex;align-items:center;text-decoration:none}
+.logo .chip{background:#fff;border:3px solid #000;box-shadow:3px 3px 0 #000;padding:5px 10px;display:flex;align-items:center}
+.logo .chip img{height:30px;display:block}
+.navcta{background:var(--gold);color:#111;border:3px solid #000;padding:8px 15px;font-family:'Bangers',sans-serif;
+  font-size:17px;text-decoration:none;box-shadow:3px 3px 0 #000;display:none}
+.hamburger{display:inline-flex;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px;margin-left:12px}
+.hamburger span{width:26px;height:3px;background:#fff;display:block;border-radius:2px}
+.navtoggle{position:absolute;opacity:0;pointer-events:none}
+/* ---------- nav overlay (navy comic, like the SVG) ---------- */
+.overlay{position:fixed;inset:0;z-index:80;background:var(--navy);border:4px solid #000;
+  transform:translateX(100%);transition:transform .28s ease;display:flex;flex-direction:column;
+  padding:28px 22px 26px;overflow-y:auto}
+.navtoggle:checked ~ .overlay{transform:translateX(0)}
+.overlay .ohead{display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid #ffffff26;padding-bottom:14px;margin-bottom:6px}
+.overlay .ohead .ttl{font-family:'Bangers',sans-serif;color:#ffebc8;font-size:30px}
+.overlay .close{font-size:34px;color:#fff;background:none;border:0;cursor:pointer;line-height:1;padding:0 6px}
+.overlay a.item{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;
+  padding:16px 4px;border-bottom:1px solid #ffffff1f}
+.overlay a.item .n{font-family:'Bangers',sans-serif;color:var(--gold2);font-size:24px;min-width:34px}
+.overlay a.item .l{font-family:'Bangers',sans-serif;font-size:22px;letter-spacing:.5px;color:#fff}
+.overlay a.item:hover .l{color:var(--gold)}
+.overlay .octa{margin-top:auto;background:var(--gold2);color:#111;border:3px solid #000;text-align:center;
+  font-family:'Bangers',sans-serif;font-size:22px;padding:14px;text-decoration:none;box-shadow:4px 4px 0 #000}
+/* ---------- chapter labels ---------- */
+.chapter{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:30px 0 12px}
+.chapter .tag{background:var(--gold);color:#000;font-family:'Bangers',sans-serif;font-size:18px;padding:6px 16px;letter-spacing:.5px;border:2px solid #000;box-shadow:3px 3px 0 #000}
+.chapter .pg{display:none}
+/* each chapter enclosed as a comic 'page' */
+.cpage{border:0;background:transparent;padding:0;margin:26px 0}
+.cpage>.chapter:first-child{margin-top:14px}
+/* ---------- hero ---------- */
+.frame{border:4px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:none}
+.hero{border:5px solid #000;background:#fff;position:relative;overflow:hidden;box-shadow:none}
+.hero .grid{display:grid;grid-template-columns:1fr 1fr}
+.hero .copy{padding:48px 34px;display:flex;flex-direction:column;justify-content:flex-start}
+.eyebrow{display:inline-block;align-self:flex-start;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;font-size:13px;padding:4px 11px;margin-bottom:12px;letter-spacing:.6px}
+.hero h1{font-size:54px;line-height:.92;margin:6px 0 14px;text-transform:uppercase;text-wrap:balance}
+.hero h1 .hl{color:var(--gold);-webkit-text-stroke:2px #000}
+.hero p.sub{font-size:16px;max-width:46ch;color:#222;margin-bottom:22px}
+.hero .btnrow{margin-top:auto}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap}
+.btn{font-family:'Bangers',sans-serif;font-size:19px;padding:12px 20px;border:3px solid #000;text-decoration:none;box-shadow:4px 4px 0 #000;cursor:pointer;display:inline-block;text-align:center;transition:transform .12s ease,box-shadow .12s ease}
+.btn.gold{background:var(--gold);color:#111;animation:ctaGlow 1.7s ease-in-out infinite}
+.btn.ghost{background:#fff;color:#111}
+.btn:hover{transform:translate(-3px,-3px);box-shadow:7px 7px 0 #000}
+.btn.gold:hover{animation:ctaWiggle .4s ease-in-out}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #000}
+@keyframes ctaGlow{0%,100%{filter:drop-shadow(0 0 0 rgba(245,179,1,0))}50%{filter:drop-shadow(0 0 10px rgba(245,179,1,.9))}}
+@keyframes ctaWiggle{0%,100%{transform:translate(-3px,-3px) rotate(0)}25%{transform:translate(-3px,-3px) rotate(-1.5deg)}75%{transform:translate(-3px,-3px) rotate(1.5deg)}}
+/* consistent hover for the other CTA-style buttons */
+.navcta,.pcard .view,.overlay .octa,.sensei .inrow .send,.askbar{transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
+.navcta:hover,.overlay .octa:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 #000}
+.navcta{animation:ctaGlow 1.7s ease-in-out infinite}
+.pcard .view:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 #000;background:#111;color:var(--gold)}
+.sensei .inrow .send:hover{background:#111;color:var(--gold)}
+.sensei .inrow .send:hover svg{fill:var(--gold)}
+.askbar:hover{background:#111;letter-spacing:.5px}
+.hero .art{position:relative;border-left:5px solid #000;min-height:440px;background:var(--navy);background-size:cover;background-position:50% 30%}
+.burst{position:absolute;font-family:'Bangers',sans-serif;color:#fff;-webkit-text-stroke:2px #000;font-size:38px;transform:rotate(-10deg)}
+.prompt{position:absolute;left:10px;right:10px;font-size:10px;color:#9a7b00;background:#fff8e0;border:1px dashed #caa64a;padding:5px 7px;z-index:2;line-height:1.3}
+.prompt b{color:#7a5e00}
+/* stats */
+.statbar{background:var(--gold);border:4px solid #000;margin-top:-2px;display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{text-align:center;padding:14px 8px;border-right:2px solid #0002}
+.stat:last-child{border-right:0}
+.stat b{font-family:'Bangers',sans-serif;font-size:26px;display:block;line-height:1}
+.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.askbar{display:block;background:#000;color:var(--gold);text-align:center;font-family:'Bangers',sans-serif;
+  font-size:20px;padding:12px;border:4px solid #000;border-top:0;text-decoration:none}
+/* ---------- story panels (Ch2) ---------- */
+.panels{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.panel{min-height:380px}
+.panel .art-ph{position:absolute;inset:0;background:repeating-linear-gradient(45deg,#fff,#fff 16px,#faf3df 16px,#faf3df 32px);background-size:cover;background-position:center}
+.panel .num{position:absolute;top:0;left:0;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;font-size:17px;padding:2px 9px;z-index:3}
+.panel .pprompt{position:absolute;top:32px;left:9px;right:9px;font-size:10px;color:#9a7b00;background:#fff8e0;border:1px dashed #caa64a;padding:5px 7px;z-index:2;line-height:1.3}
+.narr{position:absolute;left:9px;bottom:9px;max-width:calc(100% - 90px);background:var(--gold);border:3px solid #000;
+  padding:10px 14px;font-size:13px;line-height:1.32;font-weight:700;color:#000;text-align:left;z-index:4;
+  box-shadow:3px 3px 0 rgba(0,0,0,.28)}
+.bubble{position:absolute;right:6px;top:4px;width:250px;max-width:calc(100% - 14px);min-height:158px;background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMTg1Ij48cG9seWdvbiBwb2ludHM9IjE5Ni4wLDcwLjAgMTc1LjEsNzkuNiAxODcuNyw5My42IDE2Mi4xLDk3LjMgMTY0LjIsMTEzLjEgMTM4LjQsMTEwLjIgMTI5LjcsMTI1LjIgMTA4LjAsMTE2LjEgOTAuMCwxMjcuNyA3Ni4zLDExNC4xIDExLjIsMTYyLjkgNDguNiwxMDQuNSAyMi4zLDEwNC4xIDI5LjgsODguOSA2LjEsODIuMSAyMy4yLDcwLjAgNi4xLDU3LjkgMjkuOCw1MS4xIDIyLjMsMzUuOSA0OC42LDM1LjUgNTIuMCwxOS44IDc2LjMsMjUuOSA5MC4wLDEyLjMgMTA4LjAsMjMuOSAxMjkuNywxNC44IDEzOC40LDI5LjggMTY0LjIsMjYuOSAxNjIuMSw0Mi43IDE4Ny43LDQ2LjQgMTc1LjEsNjAuNCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=') no-repeat;background-size:100% 100%;
+  padding:32px 58px 66px;font-size:12px;line-height:1.3;font-weight:700;color:#000;text-align:center;z-index:5;
+  display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
+.lesson{border:4px solid #000;background:var(--navy);color:#fff;padding:22px 26px;margin-top:14px;box-shadow:none}
+.lesson h3{font-size:26px;color:var(--gold);margin-bottom:12px;text-transform:uppercase}
+.lesson ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.lesson li{display:flex;gap:9px;font-size:14px;align-items:flex-start}
+.lesson li .k{font-family:'Bangers',sans-serif;color:var(--gold);font-size:19px;line-height:1}
+/* ---------- Ch3 Program Universe ---------- */
+.tabs{display:flex;gap:0;border:4px solid #000;background:#fff;margin-bottom:14px;overflow:hidden}
+.tabs button{flex:1;font-family:'Bangers',sans-serif;font-size:16px;padding:11px 6px;background:#fff;border:0;border-right:3px solid #000;cursor:pointer;color:#111}
+.tabs button:last-child{border-right:0}
+.tabs button.active{background:var(--gold)}
+.cardscroll{display:flex;align-items:flex-start;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.pcard{flex:0 0 300px;scroll-snap-align:start;border:4px solid #000;background:#fff;box-shadow:none;display:flex;flex-direction:column}
+.pcard .thumb{height:230px;border-bottom:4px solid #000;background:var(--gold);position:relative;background-size:cover;background-position:center top}
+.pcard .thumb .num{position:absolute;top:0;right:0;background:#000;color:var(--gold);font-family:'Bangers',sans-serif;padding:2px 9px;font-size:16px}
+.pcard .thumb .bubble2{position:absolute;left:8px;bottom:8px;right:8px;background:#fff;border:2px solid #000;border-radius:10px;padding:5px 8px;font-size:11px;font-weight:600}
+.pcard .pbody{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.pcard h3{font-family:'Bangers',sans-serif;font-size:19px;line-height:1.05}
+.pcard .meta{font-size:12px;color:#444;font-weight:600}
+.pcard .view{margin-top:auto;font-family:'Bangers',sans-serif;background:var(--gold);border:3px solid #000;padding:8px;text-align:center;font-size:15px;text-decoration:none;color:#111}
+/* ---------- Ch4 Special Power ---------- */
+.power{border:4px solid #000;color:#fff;margin-bottom:16px;box-shadow:none;position:relative;display:grid;grid-template-columns:210px 1fr;overflow:hidden}
+.power.p1{background:var(--navy)}.power.p2{background:#111}.power.p3{background:var(--navy)}
+.power .pimg{border-right:4px solid #000;background:#0a0f2c center/cover no-repeat;min-height:270px}
+.power .pbodyc{padding:30px 30px;display:flex;flex-direction:column;justify-content:center}
+.power .lab{position:absolute;top:0;right:0;background:#fff;color:#111;border-left:3px solid #000;border-bottom:3px solid #000;font-family:'Bangers',sans-serif;font-size:13px;padding:3px 12px;z-index:2}
+.power h3{font-size:26px;margin-bottom:6px;text-transform:uppercase}
+.power p{font-size:14px;opacity:.95;margin-bottom:14px;max-width:60ch}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips .c{background:#ffffff1a;border:2px solid #fff;border-radius:20px;padding:5px 12px 5px 8px;font-size:12.5px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.chips .c svg{width:15px;height:15px;flex:0 0 auto}
+.chips .c img.lg{width:17px;height:17px;object-fit:contain;flex:0 0 auto;display:block}
+.creds .cr.brand img.lg{width:20px;height:20px;object-fit:contain;display:block}
+.creds{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.creds .cr{background:#fff;color:#111;font-family:'Bangers',sans-serif;font-size:20px;padding:8px 16px;border:2px solid #000;display:inline-flex;align-items:center}
+.creds .cr.brand{font-family:'Inter',sans-serif;font-weight:800;font-size:16px;gap:8px}
+.creds .cr.brand svg{width:20px;height:20px}
+.creds .cr.ggl{font-family:'Inter','Arial',sans-serif;font-weight:800;font-size:19px;letter-spacing:-.5px}
+.poweredby{font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:.85;margin-right:6px;align-self:center}
+/* ---------- collapsible chip groups (mobile 'show all') ---------- */
+.col-chk{display:none}
+.col-more{display:none}
+.qchips{display:flex;flex-wrap:wrap;gap:8px}
+.qcol{flex:1;min-width:0}
+/* ---------- Ch5 Character Evolution (4 story cards) ---------- */
+.evos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.evo{border:3px solid #000;background:#fff;overflow:hidden;box-shadow:none;display:flex;flex-direction:column;min-height:370px}
+.evo .top{padding:9px 12px;color:#fff;display:flex;justify-content:space-between;align-items:center;background:var(--navy);border-bottom:3px solid #000}
+.evo.alt .top{background:#111}
+.evo .top .sid{font-size:10px;font-weight:800;letter-spacing:1px}
+.evo .metric{font-family:'Bangers',sans-serif;font-size:19px;color:var(--gold);white-space:nowrap}
+.evo .body{padding:15px 14px 16px;display:flex;flex-direction:column;gap:13px;flex:1}
+.evo .nm{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.evo .nm .who{font-family:'Bangers',sans-serif;font-size:18px;line-height:1}
+.evo .badge{background:var(--gold);color:#111;border:2px solid #000;font-family:'Bangers',sans-serif;font-size:10.5px;padding:2px 7px;white-space:nowrap}
+.evo .rolebox{border:2px solid #000;padding:8px 10px}
+.evo .rolebox .r{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+.evo .rolebox .rr{font-weight:800;font-size:12px}
+.evo .rolebox .rs{font-family:'Bangers',sans-serif;font-size:15px;color:var(--navy)}
+.evo .rolebox .tag{display:inline-flex;align-items:center;gap:5px;margin-top:7px;background:var(--navy);color:#fff;font-size:9px;font-weight:700;letter-spacing:.5px;padding:3px 7px}
+.evo .rolebox .tag img{height:12px;display:block;background:#fff;border-radius:50%}
+.evo .qbubble{background:var(--paper);border:2px solid #000;border-radius:12px;padding:9px 11px;font-size:11.5px;font-style:italic;color:#222;box-shadow:2px 2px 0 #0002;margin-top:auto}
+.facts{border:4px solid #000;background:#111;color:#fff;padding:18px 20px;margin-top:16px;box-shadow:none}
+.facts h3{font-size:22px;color:var(--gold);margin-bottom:10px;text-transform:uppercase}
+.facts .frow{display:grid;grid-template-columns:1fr 1fr;gap:2px 24px}
+.facts .row{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid #ffffff26;font-size:13.5px}
+.facts .row b{font-family:'Bangers',sans-serif;font-size:18px;color:var(--gold);min-width:84px}
+/* ---------- Ch6 Meet Sensei (gold header, cream body) ---------- */
+.sensei{border:4px solid #000;background:var(--paper);color:#111;overflow:hidden;box-shadow:none}
+.sensei .shead{padding:12px 18px;display:flex;align-items:center;gap:12px;border-bottom:4px solid #000;background:var(--gold)}
+.sensei .avatar{width:38px;height:38px;background:#111;display:flex;align-items:center;justify-content:center;font-family:'Bangers',sans-serif;color:var(--gold);font-size:20px;border:2px solid #000}
+.sensei .shead .nm{font-family:'Bangers',sans-serif;font-size:20px;color:#111;line-height:1}
+.sensei .shead .sub{font-size:10.5px;color:#5a4a00;font-weight:800;letter-spacing:.6px;text-transform:uppercase}
+.sensei .shead .on{font-size:11px;color:#0b7a30;margin-left:auto;font-weight:800}
+.sensei .chatbody{padding:20px 18px;display:flex;flex-direction:column;gap:12px;min-height:120px}
+.sensei .mrow{display:flex;gap:10px;align-items:flex-start}
+.sensei .mavatar{width:30px;height:30px;background:var(--gold);border:2px solid #000;display:flex;align-items:center;justify-content:center;font-family:'Bangers',sans-serif;color:#111;font-size:15px;flex:0 0 auto}
+.sensei .msg{background:#fff;border:2px solid #000;border-radius:14px;padding:11px 14px;font-size:13.5px;max-width:80%;box-shadow:3px 3px 0 #0002;color:#111;line-height:1.5}
+.sensei .qrow{padding:14px 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:2px solid #0001}
+.sensei .qlabel{font-family:'Bangers',sans-serif;font-size:15px;color:#111;letter-spacing:.5px}
+.sensei .qrow button{background:#fff;color:#111;border:2px solid #000;border-radius:6px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;box-shadow:2px 2px 0 #0002}
+.sensei .qrow button:hover{background:var(--gold)}
+.sensei .inrow{display:flex;gap:0;border-top:4px solid #000}
+.sensei .inrow input{flex:1;background:#fff;border:0;color:#111;padding:14px 16px;font-size:14px}
+.sensei .inrow .send{background:var(--gold);color:#111;border:0;border-left:4px solid #000;font-family:'Bangers',sans-serif;font-size:16px;padding:0 22px;cursor:pointer;display:flex;align-items:center;gap:7px}
+.sensei .inrow .send svg{width:16px;height:16px;fill:#111}
+.sensei .sensei-frame{display:block;width:100%;height:600px;border:0;background:var(--paper)}
+@media(max-width:780px){.sensei .sensei-frame{height:520px}}
+/* ---------- Ch7 Final ---------- */
+.final{border:5px solid #000;background:#000;color:#fff;position:relative;overflow:hidden}
+.final .fgrid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:10px}
+.final .fcopy{padding:60px 34px}
+.final .fart{padding:16px 22px 16px 0}
+.final .fart img{width:100%;height:auto;display:block}
+.final h2{font-size:46px;color:#fff;text-transform:uppercase;line-height:.95;text-wrap:balance}
+.final h2 .hl{color:var(--gold)}
+.final p{margin:14px 0 22px;font-size:16px;max-width:48ch;color:#eee}
+footer{background:var(--navy);color:#e7e8f5;margin-top:28px;border-top:5px solid #000}
+footer .fcol{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:30px 40px;max-width:1280px;margin:0 auto;padding:36px 22px 28px}
+footer .fleft{flex:1 1 300px;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+footer .flogo{background:#fff;border:3px solid #000;box-shadow:4px 4px 0 #000;padding:7px 11px;display:inline-flex}
+footer .flogo img{height:30px;display:block}
+footer .fbul{list-style:disc;padding-left:20px;color:#c4c6e6;font-size:13.5px;line-height:1.8;max-width:46ch}
+footer .fask{position:relative;flex:0 1 470px;background:#fff;color:#111;border:3px solid #000;box-shadow:none;padding:22px 24px}
+footer .fask .qmark{position:absolute;top:-30px;right:16px;font-family:'Bangers',sans-serif;font-size:66px;line-height:1;color:#fff;-webkit-text-stroke:3px #000;paint-order:stroke;text-shadow:3px 3px 0 rgba(0,0,0,.28);transform:rotate(6deg)}
+footer .fask h3{font-family:'Bangers',sans-serif;font-size:25px;letter-spacing:.5px;margin-bottom:8px;color:#111}
+footer .fask p{font-size:13.5px;color:#333;line-height:1.55;margin-bottom:16px;max-width:52ch}
+footer .fask .btn{font-size:16px;padding:10px 16px}
+footer .copywrap{border-top:2px dashed #ffffff40;margin:0 22px}
+footer .copyline2{max-width:1280px;margin:0 auto;padding:15px 0;text-align:center;font-size:12.5px;color:#c9cbe6}
+/* ---------- responsive ---------- */
+@media(min-width:781px){.navcta{display:inline-block}.overlay{max-width:420px;left:auto;right:0;border-left:6px solid #000}}
+@media(max-width:780px){
+  /* wider chapters, no comic page-frame on mobile (more usable width, less bulk) */
+  .wrap{padding:0 7px}
+  .cpage{border:0;box-shadow:none;background:transparent;padding:0;margin:14px 0}
+  .cpage>.chapter:first-child{margin-top:20px}
+  .hero .grid{grid-template-columns:1fr}.hero .art{min-height:250px;border-left:0;border-top:5px solid #000}
+  .hero h1{font-size:34px;overflow-wrap:break-word;word-break:break-word}.hero .copy{padding:24px 20px}.hero .btnrow{margin-top:20px}
+  /* single-line, shorter button rows */
+  .btnrow{flex-wrap:nowrap}.btnrow .btn{flex:1;padding:10px 8px;font-size:15px;box-shadow:3px 3px 0 #000;white-space:nowrap}
+  .askbar{font-size:13px;padding:10px 8px;line-height:1.25}
+  /* collapse chip groups to ~2 lines with a Show all toggle */
+  .col-body{max-height:74px;overflow:hidden;transition:max-height .35s ease}
+  .col-chk:checked ~ .col-body{max-height:900px}
+  .col-more{display:inline-flex;align-items:center;margin-top:10px;font-family:'Bangers',sans-serif;font-size:13px;
+    letter-spacing:.5px;color:inherit;background:transparent;border:2px solid currentColor;border-radius:20px;
+    padding:3px 13px;cursor:pointer;opacity:.9}
+  .col-more::after{content:'+ SHOW ALL'}
+  .col-chk:checked ~ .col-more::after{content:'\2212 SHOW LESS'}
+  .sensei .chatbody{min-height:0;padding:14px 16px}
+  .panels{grid-template-columns:1fr}
+  /* MOBILE: comic overlay - yellow narration inside the image bottom (older style),
+     white speech burst mostly ABOVE the image with only its tail dipping in. Tight gaps. */
+  .panels{gap:0}
+  .panel{position:relative;aspect-ratio:3/2;min-height:0;overflow:visible;margin:150px 0 0;display:block}
+  .panel .art-ph{position:absolute;inset:0;width:auto}
+  .panel .narr{position:absolute;left:8px;right:8px;bottom:8px;top:auto;width:auto;max-width:none;min-height:0;
+    margin:0;filter:none;background-image:none;background:var(--gold);border:3px solid #000;
+    box-shadow:3px 3px 0 rgba(0,0,0,.25);padding:8px 12px;font-size:12.5px;line-height:1.35;text-align:left}
+  .panel .bubble{position:absolute;left:50%;top:-134px;transform:translateX(-50%);right:auto;bottom:auto;
+    width:min(288px,90%);max-width:none;min-height:0;aspect-ratio:285/150;margin:0;z-index:6;
+    background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODUgMTUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cG9seWdvbiBwb2ludHM9IjI3Ni4wLDYyLjAgMjQ5LjgsNzEuMCAyNjUuOCw4My40IDIzMy40LDg3LjUgMjM2LjgsMTAxLjYgMjAzLjAsMTAwLjIgMTkzLjMsMTEzLjcgMTYzLjQsMTA3LjAgMTQyLjAsMTQxLjUgMTIwLjYsMTA3LjAgOTAuNywxMTMuNyA4MS4wLDEwMC4yIDQ3LjIsMTAxLjYgNTAuNiw4Ny41IDE4LjIsODMuNCAzNC4yLDcxLjAgOC4wLDYyLjAgMzQuMiw1My4wIDE4LjIsNDAuNiA1MC42LDM2LjUgNDcuMiwyMi40IDgxLjAsMjMuOCA5MC43LDEwLjMgMTIwLjYsMTcuMCAxNDIuMCw2LjAgMTYzLjQsMTcuMCAxOTMuMywxMC4zIDIwMy4wLDIzLjggMjM2LjgsMjIuNCAyMzMuNCwzNi41IDI2NS44LDQwLjYgMjQ5LjgsNTMuMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==') no-repeat center/100% 100%;border:0;border-radius:0;box-shadow:none;
+    padding:24px 46px 40px;font-size:13px;line-height:1.32;text-align:center;
+    display:flex;align-items:center;justify-content:center;filter:drop-shadow(3px 3px 0 rgba(0,0,0,.22))}
+  .panel .bubble::before,.panel .bubble::after{display:none}
+  .lesson ul{grid-template-columns:1fr}
+  .evos{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+  .evo{flex:0 0 82%;scroll-snap-align:start}
+  .power{grid-template-columns:1fr}
+  .power .pimg{min-height:0;width:auto;aspect-ratio:4/3;border-right:0;border-bottom:4px solid #000;background-position:center}
+  .power .pbodyc{padding:16px 20px}
+  .facts .frow{grid-template-columns:1fr}
+  .final .fgrid{grid-template-columns:1fr}
+  .final .fart{padding:0 22px 26px;max-width:440px;margin:0 auto}
+  .final h2{font-size:32px}
+  .stat b{font-size:21px}.stat span{font-size:9.5px}
+}
+@media(max-width:520px){.evos{grid-template-columns:1fr}}
+@media(max-width:430px){.statbar{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat{border-bottom:2px solid #0002}}
+@media(prefers-reduced-motion:reduce){.overlay{transition:none}html{scroll-behavior:auto}.btn.gold,.navcta{animation:none}}
+</style>
+
+<input type="checkbox" id="navtoggle" class="navtoggle" aria-hidden="true">
+    <nav class="overlay" aria-label="Menu">
+      <div class="ohead"><span class="ttl">MENU</span><button type="button" class="close" id="navclose" aria-label="Close menu">&times;</button></div>
+      <a class="item" href="#ch1"><span class="n">01</span><span class="l">The Origin</span></a><a class="item" href="#ch2"><span class="n">02</span><span class="l">Setting the Target</span></a><a class="item" href="#ch3"><span class="n">03</span><span class="l">The Program Universe</span></a><a class="item" href="#ch4"><span class="n">04</span><span class="l">Special Power</span></a><a class="item" href="#ch5"><span class="n">05</span><span class="l">Character Evolution</span></a><a class="item" href="#ch6"><span class="n">06</span><span class="l">Meet Sensei</span></a>
+      <a class="octa" href="#cta">APPLY NOW &rarr;</a>
+    </nav>
+<header class="bar"><div class="wrap">
+  <a class="logo" href="#ch1"><span class="chip"><img src="img/brand-color.png" alt="JAIN Online"></span></a>
+  <div style="display:flex;align-items:center">
+    <a class="navcta" href="#cta">ENQUIRE NOW</a>
+    <label class="hamburger" for="navtoggle" role="button" aria-label="Open menu"><span></span><span></span><span></span></label>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <section class="cpage">
+  <!-- CH1 -->
+  <div class="chapter" id="ch1"><div class="tag">CHAPTER ONE: GLOBALLY ACCREDITED B.COM</div><div class="pg">PAGE 01</div></div>
+  <section class="hero"><div class="grid">
+    <div class="copy">
+      <span class="eyebrow">B.Com &#183; International Finance &amp; Accounting</span>
+      <h1>A B.COM WITH <span class="hl">ACCA, UK.</span> </h1>
+      
+      <div class="btnrow"><a class="btn gold" href="#cta">Get my B.Com plan &rarr;</a>
+        <a class="btn ghost" href="#ch3">Explore specialisations</a></div>
+    </div><div class="art" style="background-image:url('img/bcom-international-finance-hero.jpg')"><div class="burst" style="right:16px;bottom:16px">GLOBAL!</div></div>
+  </div></section>
+  <div class="statbar"><div class="stat"><b>ACCA, UK</b><span>global accreditation</span></div><div class="stat"><b>&#8377;45,000</b><span>per year</span></div><div class="stat"><b>100% ONLINE</b><span>study anywhere</span></div><div class="stat"><b>NAAC A++</b><span>accredited</span></div></div>
+  <a class="askbar" href="#cta">READY TO FIND YOUR PATH? &nbsp; START YOUR APPLICATION &rarr;</a>
+
+  </section>
+  <section class="cpage">
+  <!-- CH2 -->
+  <div class="chapter" id="ch2"><div class="tag">CHAPTER TWO: SETTING THE TARGET</div><div class="pg">PAGE 02</div></div>
+  <section class="panels"><div class="frame panel halftone" style="--dot:#0000000d"><div class="art-ph" style="background-image:url('img/bcom-international-finance-p1.jpg')"></div>
+      <div class="num">1</div>
+      <div class="narr">Karan wanted a finance career without borders.</div>
+      <div class="bubble">I want to work globally.</div></div>
+<div class="frame panel halftone" style="--dot:#0000000d"><div class="art-ph" style="background-image:url('img/bcom-international-finance-p2.jpg')"></div>
+      <div class="num">2</div>
+      <div class="narr">But a plain degree felt too local for his dream.</div>
+      <div class="bubble">How do I go global?</div></div>
+<div class="frame panel halftone" style="--dot:#0000000d"><div class="art-ph" style="background-image:url('img/bcom-international-finance-p3.jpg')"></div>
+      <div class="num">3</div>
+      <div class="narr">Then he found a B.Com integrated with ACCA, UK.</div>
+      <div class="bubble">Global, and affordable!</div></div>
+<div class="frame panel halftone" style="--dot:#0000000d"><div class="art-ph" style="background-image:url('img/bcom-international-finance-p4.jpg')"></div>
+      <div class="num">4</div>
+      <div class="narr">He enrolled and began building a global edge.</div>
+      <div class="bubble">From local to global!</div></div></section>
+  <section class="lesson"><h3>Why A B.Com With ACCA, UK</h3><ul><li><span class="k">1</span><div>Master global finance, IFRS and international accounting on an ACCA-aligned syllabus.</div></li><li><span class="k">2</span><div>Earn a globally recognised edge, accredited by ACCA, UK, alongside your degree.</div></li><li><span class="k">3</span><div>All at the same affordable fee: &#8377;1,35,000 for the full 3-year B.Com (&#8377;45,000/year), with 0% interest EMI.</div></li><li><span class="k">4</span><div>A UGC-entitled, NAAC A++ B.Com, with the added global weight of ACCA.</div></li></ul></section>
+
+  </section>
+  <section class="cpage">
+  <!-- CH3 -->
+  <div class="chapter" id="ch3"><div class="tag">CHAPTER THREE: THE PROGRAM UNIVERSE</div><div class="pg">PAGE 03</div></div>
+  <div class="tabs"><button class="active" data-f="all">All Specialisations</button></div>
+  <div class="cardscroll"><div class="pcard" data-level="std">
+          <div class="thumb" style="background-image:url('img/prog-bcom-af.jpg')"><span class="num">01</span>
+            <div class="bubble2">Numbers are my strength!</div></div>
+          <div class="pbody"><h3>B.Com in Accounting &amp; Finance</h3><div class="meta">3-Year UG &#183; &#8377;45,000/year</div>
+            <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div>
+<div class="pcard" data-level="std">
+          <div class="thumb" style="background-image:url('img/prog-bcom-acca.jpg')"><span class="num">02</span>
+            <div class="bubble2">I&#x27;ll go global in finance!</div></div>
+          <div class="pbody"><h3>B.Com with ACCA, UK</h3><div class="meta">3-Year UG &#183; Globally accredited</div>
+            <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div>
+<div class="pcard" data-level="std">
+          <div class="thumb" style="background-image:url('img/prog-bcom-ca.jpg')"><span class="num">03</span>
+            <div class="bubble2">I&#x27;ll master accounting!</div></div>
+          <div class="pbody"><h3>B.Com in Corporate Accounting</h3><div class="meta">3-Year UG &#183; CA-aligned syllabus</div>
+            <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div>
+<div class="pcard" data-level="std">
+          <div class="thumb" style="background-image:url('img/prog-bcom-cma.jpg')"><span class="num">04</span>
+            <div class="bubble2">I&#x27;ll lead with numbers!</div></div>
+          <div class="pbody"><h3>B.Com in Management Accounting</h3><div class="meta">3-Year UG &#183; CMA-aligned syllabus</div>
+            <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div>
+<div class="pcard" data-level="std">
+          <div class="thumb" style="background-image:url('img/prog-bcom-corplaw.jpg')"><span class="num">05</span>
+            <div class="bubble2">I&#x27;ll know the rules!</div></div>
+          <div class="pbody"><h3>B.Com in Corporate Law</h3><div class="meta">3-Year UG &#183; &#8377;45,000/year</div>
+            <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div></div>
+
+  </section>
+  <section class="cpage">
+  <!-- CH4 -->
+  <div class="chapter" id="ch4"><div class="tag">CHAPTER FOUR: SPECIAL POWER</div><div class="pg">PAGE 04</div></div>
+  <section class="power p1"><div class="lab">SPECIAL POWER 1</div>
+    <div class="pimg" style="background-image:url('img/ch4-ai.jpg')"></div>
+    <div class="pbodyc"><h3>Master AI Tools from Semester 1</h3>
+      <p>AI isn't an afterthought here - you apply real AI tools from your very first semester, in every subject.</p>
+      <div class="collapse"><input type="checkbox" id="more-tools" class="col-chk"><div class="chips col-body"><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Prompt Engineering</span><span class="c"><img class="lg" src="img/logos/powerbi.svg" alt="">Power BI</span><span class="c"><img class="lg" src="img/logos/python.svg" alt="">Python</span><span class="c"><img class="lg" src="img/logos/copilot.svg" alt="">MS Copilot</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Microsoft Fabric</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Generative AI</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Financial Modelling</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Data Analytics</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Business Analytics</span><span class="c"><img class="lg" src="img/logos/excel.svg" alt="">Excel</span><span class="c"><img class="lg" src="img/logos/tableau.svg" alt="">Tableau</span><span class="c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.8H21l-5.4 4 2.1 6.8L12 15.6 6.3 19.6l2.1-6.8L3 8.8h6.8z" fill="#f5b301" stroke="#000" stroke-width="1.4" stroke-linejoin="round"/></svg>Design Thinking</span></div><label for="more-tools" class="col-more"></label></div></div></section>
+  <section class="power p2"><div class="lab">SPECIAL POWER 2</div>
+    <div class="pimg" style="background-image:url('img/ch4-cred.jpg')"></div>
+    <div class="pbodyc"><h3>Micro-Credentials Included - No Extra Cost</h3>
+      <p>Earn 2 credits per micro-credential alongside your B.Com - Google AI Essentials, Power BI, Financial Modelling &amp; more, taught by industry experts.</p>
+      <div class="creds"><span class="poweredby">Powered by</span><span class="cr brand"><img class="lg" src="img/logos/google.svg" alt="">Google</span><span class="cr brand"><img class="lg" src="img/logos/microsoft.svg" alt="">Microsoft</span><span class="cr">Industry Experts</span></div></div></section>
+  <section class="power p3"><div class="lab">SPECIAL POWER 3</div>
+    <div class="pimg" style="background-image:url('img/ch4-learn.jpg')"></div>
+    <div class="pbodyc"><h3>Learn Your Way, Fully Supported</h3>
+      <p>Flexible online learning with weekend live classes, a dedicated batch owner, virtual labs and a Sunday Social network - support every step of the way.</p>
+      <div class="collapse"><input type="checkbox" id="more-learn" class="col-chk"><div class="chips col-body"><span class="c">Weekend Live Classes</span><span class="c">Batch Owner Support</span><span class="c">Virtual Labs</span><span class="c">Sunday Social Network</span></div><label for="more-learn" class="col-more"></label></div></div></section>
+
+  </section>
+  <section class="cpage">
+  <!-- CH5 -->
+  <div class="chapter" id="ch5"><div class="tag">CHAPTER FIVE: CHARACTER EVOLUTION</div><div class="pg">PAGE 05</div></div>
+  <section class="evos"><div class="evo"><div class="top"><span class="sid">STORY.01</span><span class="metric">GLOBAL</span></div><div class="body"><div class="nm"><span class="who">Karan Rao</span><span class="badge">B.COM ACCA</span></div><div class="rolebox"><div class="r"><span class="rr">1st-Year Student</span><span class="rs">ACCA edge</span></div><span class="tag"><img src="img/favicon.png" alt="">JAIN ONLINE</span></div><div class="qbubble">"I wanted a borderless finance career. An ACCA-integrated B.Com made that possible from day one."</div></div></div><div class="evo alt"><div class="top"><span class="sid">STORY.02</span><span class="metric">IFRS</span></div><div class="body"><div class="nm"><span class="who">Kavya Menon</span><span class="badge">B.COM ACCA</span></div><div class="rolebox"><div class="r"><span class="rr">2nd-Year Student</span><span class="rs">job-ready</span></div><span class="tag"><img src="img/favicon.png" alt="">JAIN ONLINE</span></div><div class="qbubble">"The ACCA-aligned syllabus and IFRS made me ready for global finance roles."</div></div></div><div class="evo"><div class="top"><span class="sid">STORY.03</span><span class="metric">SAME FEE</span></div><div class="body"><div class="nm"><span class="who">Aman Gupta</span><span class="badge">B.COM ACCA</span></div><div class="rolebox"><div class="r"><span class="rr">Final Year</span><span class="rs">no premium</span></div><span class="tag"><img src="img/favicon.png" alt="">JAIN ONLINE</span></div><div class="qbubble">"A globally accredited degree at the same affordable fee. That felt like a genuine head start."</div></div></div><div class="evo alt"><div class="top"><span class="sid">STORY.04</span><span class="metric">PLACED</span></div><div class="body"><div class="nm"><span class="who">Sara Thomas</span><span class="badge">B.COM ACCA</span></div><div class="rolebox"><div class="r"><span class="rr">Graduated</span><span class="rs">global-ready</span></div><span class="tag"><img src="img/favicon.png" alt="">JAIN ONLINE</span></div><div class="qbubble">"A globally recognised B.Com got me noticed for international finance roles."</div></div></div></section>
+  <section class="facts"><h3>The Real Numbers</h3><div class="frow"><div class="row"><b>Learn</b><div>Global finance, IFRS, ACCA-aligned syllabus, international accounting</div></div><div class="row"><b>Accreditation</b><div>Accredited by ACCA, UK, recognised globally</div></div><div class="row"><b>Fee</b><div>&#8377;1,35,000 for the full 3-year B.Com (&#8377;45,000/year), same as the standard B.Com</div></div><div class="row"><b>Recognition</b><div>UGC-entitled online B.Com, NAAC A++ accredited</div></div></div></section>
+
+  </section>
+  <section class="cpage">
+  <!-- CH6 -->
+  <div class="chapter" id="ch6"><div class="tag">CHAPTER SIX: MEET SENSEI</div><div class="pg">PAGE 06</div></div>
+  <section class="sensei"><div class="shead"><div class="avatar">S</div><div><div class="nm">Sensei</div><div class="sub">Career &amp; Admission Advisor</div></div><span class="on">&#9679; ONLINE</span></div><div class="chatbody"><div class="mrow"><div class="mavatar">S</div><div class="msg">&#128591; Namaste! I'm Sensei - your admission &amp; career advisor. Ask me anything about degrees, electives, fees or eligibility. No pressure - just clear, honest guidance.</div></div></div><div class="qrow"><span class="qlabel">TRY:</span><div class="collapse qcol"><input type="checkbox" id="more-q" class="col-chk"><div class="qchips col-body"><button type="button">What&#x27;s the B.Com fee?</button><button type="button">Can I pay in EMI?</button><button type="button">Am I eligible after 12th?</button><button type="button">Which B.Com specialisation suits me?</button></div><label for="more-q" class="col-more"></label></div></div><div class="inrow"><input id="senseiInput" placeholder="Ask Sensei anything about your career or degree&#8230;"><button class="send" type="button">SEND <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button></div></section>
+
+  </section>
+  <section class="cpage">
+  <!-- CH7 -->
+  <div class="chapter" id="cta"><div class="tag">CHAPTER SEVEN: FINAL SHOWDOWN</div><div class="pg">PAGE 07</div></div>
+  <section class="final">
+    <div class="fgrid">
+      <div class="fcopy">
+        <h2>READY TO GO <span class="hl">GLOBAL?</span></h2>
+        <p></p>
+        <div class="btnrow"><a class="btn gold" href="#">Get my B.Com plan &rarr;</a>
+          <a class="btn ghost" href="#ch3">Explore Programs</a></div>
+      </div>
+      <div class="fart"><img src="img/cta-pop.png" alt=""></div>
+    </div>
+  </section>
+  </section>
+</main>
+<footer>
+  <div class="fcol">
+    <div class="fleft">
+      <span class="flogo"><img src="img/brand-color.png" alt="JAIN Online"></span>
+      <ul class="fbul">
+        <li>Accredited by NAAC with an A++ grade.</li>
+        <li>UGC-Entitled programs designed for the modern learner.</li>
+      </ul>
+    </div>
+    <div class="fask">
+      <span class="qmark">?!</span>
+      <h3>STILL HAVE QUESTIONS?</h3>
+      <p>Chat with Sensei for instant answers on admissions, fees, eligibility, scholarships and more.</p>
+      <a class="btn gold" href="#ch6">TALK TO A COUNSELLOR &rarr;</a>
+    </div>
+  </div>
+  <div class="copywrap"><div class="copyline2">&copy; 2025 JAIN Online. All rights reserved. UGC-DEB Approved.</div></div>
+</footer>
+<script>
+(function(){
+  var t=document.getElementById('navtoggle');
+  function closeMenu(){ if(t) t.checked=false; }
+  // close overlay when a nav link / close button is clicked
+  document.querySelectorAll('.overlay a, #navclose').forEach(function(el){
+    el.addEventListener('click',closeMenu);
+  });
+  // close on Escape
+  document.addEventListener('keydown',function(ev){ if(ev.key==='Escape') closeMenu(); });
+  // program tabs filter
+  document.querySelectorAll('.tabs button').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.tabs button').forEach(function(x){x.classList.remove('active');});
+      b.classList.add('active');
+      var f=b.getAttribute('data-f');
+      document.querySelectorAll('.pcard').forEach(function(c){
+        c.style.display=(f==='all'||c.getAttribute('data-level')===f)?'flex':'none';
+      });
+    });
+  });
+  // sensei suggested questions -> fill input
+  var inp=document.getElementById('senseiInput');
+  document.querySelectorAll('.sensei .qrow button').forEach(function(b){
+    b.addEventListener('click',function(){ if(inp){inp.value=b.textContent; inp.focus();} });
+  });
+})();
+</script>

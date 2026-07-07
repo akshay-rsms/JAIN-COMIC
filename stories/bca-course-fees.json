@@ -1,0 +1,132 @@
+{
+  "id": "bca-course-fees",
+  "intent": "Fees / affordability",
+  "program": "BCA",
+  "specialization": "Data Science",
+  "target_query": "bca course fees",
+  "hero": {
+    "eyebrow": "THE FEE COMPARISON",
+    "headline_pre": "A RECOGNISED BCA,",
+    "highlight": "JUST ₹49,000/YR.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Rohan, an 18 year old Indian student, happily surprised at a laptop showing an affordable BCA fee after comparing colleges, bright hopeful mood, tidy home.",
+    "burst": "₹49K!"
+  },
+  "statbar": [
+    {
+      "big": "₹49,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "DISCOUNT",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Rohan compared BCA fees, college after college.",
+      "dialogue": "Why is tech study so costly?",
+      "img_prompt": "Rohan, 18, at a desk comparing several high college-fee figures in a notebook, concerned, papers around him, modest home."
+    },
+    {
+      "n": 2,
+      "narration": "Most good options ran into several lakhs.",
+      "dialogue": "Is a real degree only for the rich?",
+      "img_prompt": "Rohan looking discouraged at a laptop showing an expensive fee, chin in hand, soft disappointed expression, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a recognised BCA at ₹49,000 a year.",
+      "dialogue": "Affordable and recognised?",
+      "img_prompt": "Rohan's eyes widening with hope at a laptop showing a clear, affordable, recognised BCA fee, warm glow of relief."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled on a 0% EMI he could manage.",
+      "dialogue": "A real degree, no debt!",
+      "img_prompt": "Rohan smiling proudly holding a blank enrollment confirmation at home, calm and confident, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why This BCA Fee Is A Steal",
+    "points": [
+      "Just ₹1,47,000 for the full 3-year BCA (₹49,000/year). A recognised tech degree at a fair, honest price.",
+      "Pay the full year upfront and get a discount, or split it into easy 0% interest EMI.",
+      "0% interest EMI from about ₹4,083/month, no extra cost.",
+      "Only ₹2,500 one-time registration. Clear fees, no hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Rohan Pillai",
+        "spec": "BCA DATA SCIENCE",
+        "role": "1st-Year Student",
+        "metric": "₹49K / yr",
+        "stat": "recognised",
+        "quote": "I compared everywhere. A UGC-entitled BCA at ₹49,000 a year was the clear, honest choice."
+      },
+      {
+        "name": "Arjun Das",
+        "spec": "BCA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹4,083 / mo",
+        "quote": "The 0% EMI meant no lump sum. I pay a small amount each month and my degree keeps going."
+      },
+      {
+        "name": "Nisha Verma",
+        "spec": "BCA CLOUD",
+        "role": "Final Year",
+        "metric": "DISCOUNT",
+        "stat": "paid upfront",
+        "quote": "We paid the year upfront and got a clear discount. A recognised degree at this price felt unreal."
+      },
+      {
+        "name": "Vikram Rao",
+        "spec": "BCA AI",
+        "role": "Graduated",
+        "metric": "DEBT-FREE",
+        "stat": "₹0 loan",
+        "quote": "I finished my BCA without a single education loan. The monthly plan fit my budget perfectly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Fee",
+        "v": "₹1,47,000 for the full 3-year BCA (₹49,000/year)"
+      },
+      {
+        "k": "Upfront",
+        "v": "Discount on one-time full payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹4,083/month, or an education loan"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration. No hidden charges."
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹49K A YEAR?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

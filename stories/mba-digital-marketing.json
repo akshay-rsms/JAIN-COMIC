@@ -1,0 +1,132 @@
+{
+  "id": "mba-digital-marketing",
+  "intent": "Specialisation / Digital Marketing & E-commerce",
+  "program": "MBA",
+  "specialization": "Digital Marketing & E-commerce",
+  "target_query": "mba in digital marketing",
+  "hero": {
+    "eyebrow": "TURN CLICKS INTO GROWTH",
+    "headline_pre": "AN MBA IN",
+    "highlight": "DIGITAL MARKETING & E-COMMERCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Kabir, a 27 year old Indian man in smart-casual, excited and confident, studying a rising engagement graph on a laptop, modern home office, creative and aspirational.",
+    "burst": "VIRAL!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Kabir was already good at growing brands online at work.",
+      "dialogue": "I could make any brand grow online.",
+      "img_prompt": "Kabir, 27, cheerfully running online campaigns on a laptop and phone, engagement rising, creative energetic mood, modern room."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I lead digital growth?",
+      "img_prompt": "Kabir looking thoughtful, wondering how to move from running posts to leading digital strategy, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Digital Marketing & E-commerce.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Kabir's face lighting up at a laptop showing an online MBA in Digital Marketing and E-commerce, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Kabir enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Kabir confidently starting his first digital marketing lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Digital Marketing & E-commerce",
+    "points": [
+      "Master the real craft: SEO, social media, performance ads, e-commerce and marketing analytics.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Kabir Sen",
+        "spec": "MBA DIGITAL MKTG",
+        "role": "Digital Exec",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I was good at social media. This MBA turned that into a real digital leadership path."
+      },
+      {
+        "name": "Ananya Iyer",
+        "spec": "MBA DIGITAL MKTG",
+        "role": "2nd-Year Student",
+        "metric": "ANALYTICS",
+        "stat": "job-ready",
+        "quote": "Learning performance ads and analytics made my campaigns genuinely deliver."
+      },
+      {
+        "name": "Dev Sharma",
+        "spec": "MBA DIGITAL MKTG",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me upskill in digital without pausing my career."
+      },
+      {
+        "name": "Priya Menon",
+        "spec": "MBA DIGITAL MKTG",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "growth lead",
+        "quote": "A recognised MBA plus real digital skills got me a growth leadership role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "SEO, social media, performance ads, e-commerce and marketing analytics"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "DIGITAL MARKETING & E-COMMERCE?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

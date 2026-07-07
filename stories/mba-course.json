@@ -1,0 +1,132 @@
+{
+  "id": "mba-course",
+  "intent": "Generic / course overview",
+  "program": "MBA",
+  "specialization": "Online",
+  "target_query": "mba course",
+  "hero": {
+    "eyebrow": "GROW INTO A LEADER",
+    "headline_pre": "YOUR MBA,",
+    "highlight": "ONE CLEAR PATH.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Arjun, a 27 year old Indian man in smart business-casual, confident and hopeful, choosing a management career path on a laptop in a modern home office, aspirational mood.",
+    "burst": "LET'S GO!"
+  },
+  "statbar": [
+    {
+      "big": "14 SPECIALISATIONS",
+      "label": "choose your path"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Arjun was good at his job, but stuck at the same level.",
+      "dialogue": "I am ready for more.",
+      "img_prompt": "Arjun, 27, in business-casual at his desk, capable but a little restless, looking at a laptop, modern office, thoughtful."
+    },
+    {
+      "n": 2,
+      "narration": "Every role he wanted asked for an MBA he did not have.",
+      "dialogue": "How do I move up?",
+      "img_prompt": "Arjun reading a job posting on a laptop that clearly needs a management degree, thoughtful and determined, tidy home office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a clear, flexible online MBA.",
+      "dialogue": "One path, without quitting my job!",
+      "img_prompt": "Arjun's face lighting up with clarity at a laptop showing a clean online MBA page with specialisations, warm hopeful glow, modern home."
+    },
+    {
+      "n": 4,
+      "narration": "He chose a specialisation and began learning with guidance.",
+      "dialogue": "My leadership journey begins!",
+      "img_prompt": "Arjun confidently starting his first online MBA lesson on a laptop, notebook ready, focused and happy, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "Why Start Your MBA Here",
+    "points": [
+      "Choose from 14 in-demand specialisations, from Finance and HR to Data Science and Marketing.",
+      "Study 100% online with weekend live classes, so you keep earning while you learn.",
+      "Just ₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "Real AI tools for business, plus mentor support, from your very first semester."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Arjun Nair",
+        "spec": "MBA FINANCE",
+        "role": "Working Professional",
+        "metric": "PROMOTED",
+        "stat": "in 1 year",
+        "quote": "I was capable but stuck. A recognised MBA gave me the credential my next role needed."
+      },
+      {
+        "name": "Tanvi Shah",
+        "spec": "MBA MARKETING",
+        "role": "2nd-Year Student",
+        "metric": "14 PATHS",
+        "stat": "my pick",
+        "quote": "Choosing my specialisation meant the degree matched the exact career I was building."
+      },
+      {
+        "name": "Aditya Kumar",
+        "spec": "MBA DATA SCIENCE",
+        "role": "Career Switcher",
+        "metric": "AI TOOLS",
+        "stat": "from sem 1",
+        "quote": "Learning real AI and analytics tools from semester one made me job-ready, not just degree-ready."
+      },
+      {
+        "name": "Pooja Reddy",
+        "spec": "MBA HR",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised MBA, earned online around my job. It opened the door to a leadership role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Choose",
+        "v": "14 specialisations across finance, people, data and growth"
+      },
+      {
+        "k": "Mode",
+        "v": "100% online, weekend live classes, learn while you work"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO BEGIN",
+    "highlight": "YOUR MBA?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

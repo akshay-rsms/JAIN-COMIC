@@ -1,0 +1,52 @@
+#,Program,Page,Target query,Queries,Impressions,Clicks,CTR %,Avg CPC (INR),Cost (INR),% of impressions,% of clicks,% of cost
+1,MBA,mba-course,mba course,90658,3993561,249925,6.26,85.45,21357057,19.15,10.13,9.95
+2,MBA,mba-online,online mba,8049,2146713,270517,12.60,147.03,39773738,10.29,10.96,18.54
+3,MBA,mba-online-home,distance mba,5908,894512,61333,6.86,165.46,10148310,4.29,2.49,4.73
+4,MBA,mba-course-fees,mba course fees,18309,807211,77422,9.59,81.79,6332210,3.87,3.14,2.95
+5,MBA,mba-admission,mba admission,11359,368871,37416,10.14,145.69,5451301,1.77,1.52,2.54
+6,MBA,mba-fees-reveal,jain university mba fees,302,259383,59058,22.77,163.36,9647983,1.24,2.39,4.50
+7,MBA,mba-healthcare,mba in healthcare management,1965,203450,12870,6.33,117.22,1508646,0.98,0.52,0.70
+8,MBA,mba-hr,mba in human resource management,2359,183023,11121,6.08,137.91,1533714,0.88,0.45,0.71
+9,MBA,mba-finance,mba in finance,3453,163181,8942,5.48,113.87,1018254,0.78,0.36,0.47
+10,MBA,mba-marketing,mba in marketing,1865,92754,5150,5.55,75.71,389887,0.44,0.21,0.18
+11,MBA,mba-logistics,mba in logistics and supply chain management,797,77122,5076,6.58,190.76,968315,0.37,0.21,0.45
+12,MBA,mba-data-science,mba in business analytics,1153,70588,3337,4.73,160.27,534811,0.34,0.14,0.25
+13,MBA,mba-project-management,mba in project management,320,37664,2527,6.71,153.01,386647,0.18,0.10,0.18
+14,MBA,mba-operations,mba in operations management,585,37310,1470,3.94,149.89,220341,0.18,0.06,0.10
+15,MBA,mba-it,mba in information technology management,318,37010,1823,4.93,103.67,188982,0.18,0.07,0.09
+16,MBA,mba-digital-marketing,mba in digital marketing,271,30622,2195,7.17,106.04,232752,0.15,0.09,0.11
+17,MBA,mba-international-finance,mba in international finance,165,21266,3415,16.06,172.31,588434,0.10,0.14,0.27
+18,MBA,mba-international-business,mba in international business,347,21087,1261,5.98,73.40,92552,0.10,0.05,0.04
+19,MBA,mba-entrepreneurship,mba in entrepreneurship,356,13706,522,3.81,131.93,68866,0.07,0.02,0.03
+20,MBA,mba-strategy-leadership,mba in strategy and leadership,171,5054,440,8.71,39.16,17229,0.02,0.02,0.01
+21,JAIN,jain-online,jain university online courses,11190,5751424,1066558,18.54,63.11,67315095,27.58,43.22,31.37
+22,JAIN,jain-fees,jain university fees,1234,372686,70401,18.89,57.13,4022162,1.79,2.85,1.87
+23,JAIN,jain-admission,jain university admission,1470,333063,79766,23.95,84.75,6759882,1.60,3.23,3.15
+24,JAIN,jain-reviews,jain university reviews,515,104114,8659,8.32,63.06,546070,0.50,0.35,0.25
+25,BBA,bba-course,bba course,26451,1041218,57542,5.53,65.39,3762683,4.99,2.33,1.75
+26,BBA,bba-course-fees,bba course fees,6745,128891,11788,9.15,56.62,667456,0.62,0.48,0.31
+27,BBA,bba-online,online bba course,597,94711,11937,12.60,196.54,2346137,0.45,0.48,1.09
+28,BBA,bba-admission,bba admission,2848,68527,7795,11.38,99.07,772223,0.33,0.32,0.36
+29,BBA,bba-fees-reveal,bba-fees-reveal,144,64178,14740,22.97,101.08,1489982,0.31,0.60,0.69
+30,BBA,bba-online-home,bba online course,425,40955,2572,6.28,132.13,339846,0.20,0.10,0.16
+31,BBA,bba-finance,bba in finance,847,29013,928,3.20,54.39,50473,0.14,0.04,0.02
+32,BBA,bba-digital-marketing,bba in digital marketing,156,10481,390,3.72,85.93,33511,0.05,0.02,0.02
+33,MCA,mca-course,mca course,16091,910609,57544,6.32,68.74,3955784,4.37,2.33,1.84
+34,MCA,mca-online,online mca,1228,242813,26206,10.79,184.71,4840402,1.16,1.06,2.26
+35,MCA,mca-course-fees,mca course fees,3061,157456,21934,13.93,126.00,2763588,0.75,0.89,1.29
+36,MCA,mca-cyber-security,mca in cyber security,75,10882,1020,9.37,130.35,132956,0.05,0.04,0.06
+37,MCA,mca-data-science,mca in data science,88,5878,276,4.70,130.98,36150,0.03,0.01,0.02
+38,B.Com,bcom-course,bcom course,30990,816560,68284,8.36,50.74,3464568,3.92,2.77,1.61
+39,B.Com,bcom-online,online bcom course,1454,164339,20487,12.47,111.44,2283123,0.79,0.83,1.06
+40,B.Com,bcom-course-fees,bcom course fees,3231,68941,11502,16.68,87.94,1011489,0.33,0.47,0.47
+41,B.Com,bcom-accounting-finance,bcom in accounting and finance,2294,50021,1400,2.80,50.87,71216,0.24,0.06,0.03
+42,B.Com,bcom-international-finance,bcom acca,614,39323,3000,7.63,95.44,286322,0.19,0.12,0.13
+43,M.Com,mcom-course,mcom course,6373,347588,49420,14.22,65.36,3229853,1.67,2.00,1.51
+44,M.Com,mcom-course-fees,mcom course fees,342,26571,5512,20.74,85.36,470514,0.13,0.22,0.22
+45,BCA,bca-course,bca course,7356,213017,9935,4.66,69.95,694992,1.02,0.40,0.32
+46,BCA,bca-course-fees,bca course fees,1595,53361,5755,10.79,93.51,538155,0.26,0.23,0.25
+47,BCA,bca-online,online bca course,606,25077,3544,14.13,161.69,573020,0.12,0.14,0.27
+48,BCA,bca-data-science,bca in data science,154,2719,166,6.11,80.64,13387,0.01,0.01,0.01
+49,MA,ma-course,ma online course,5014,178028,28153,15.81,47.46,1336179,0.85,1.14,0.62
+50,MA,ma-english,ma english distance education,706,39173,4453,11.37,67.91,302412,0.19,0.18,0.14
+,TOTAL,,,282604,20855705,2467487,11.83,86.96,214569658,100.00,100.00,100.00

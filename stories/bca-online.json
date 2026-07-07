@@ -1,0 +1,132 @@
+{
+  "id": "bca-online",
+  "intent": "Online / from home",
+  "program": "BCA",
+  "specialization": "Online",
+  "target_query": "online bca course",
+  "hero": {
+    "eyebrow": "A REAL BCA, FROM HOME",
+    "headline_pre": "A REAL BCA,",
+    "highlight": "100% FROM HOME.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my BCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Diya, an 18 year old Indian girl in a modest kurti, smiling as she studies coding on a laptop at a tidy desk at home, bright hopeful daytime, warm and aspirational.",
+    "burst": "FROM HOME!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NO RELOCATION",
+      "label": "stay at home"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Diya's town had no strong computer-applications college.",
+      "dialogue": "Do I have to move away?",
+      "img_prompt": "Diya, 18, in a modest kurti at her window looking toward a faraway city, a brochure in hand, thoughtful hopeful, small-town home."
+    },
+    {
+      "n": 2,
+      "narration": "Leaving home for a distant campus felt daunting.",
+      "dialogue": "So far from my family?",
+      "img_prompt": "Diya looking torn while glancing between a packed bag and a family photo on the wall, warm modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised BCA she could do online.",
+      "dialogue": "Tech college, from home!",
+      "img_prompt": "Diya's face lighting up with relief at a laptop showing an online BCA, warm glow, tidy home study corner."
+    },
+    {
+      "n": 4,
+      "narration": "Now she studies at home, her degree on track.",
+      "dialogue": "No move, a full degree.",
+      "img_prompt": "Diya happily attending an online BCA class on her laptop at home, notebook beside her, proud family in the background, warm encouraging light."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online BCA Just Works",
+    "points": [
+      "Study 100% online from anywhere. No relocation, no hostel, no commute.",
+      "The same UGC-entitled, NAAC A++ BCA as on-campus, recognised everywhere.",
+      "Just ₹1,47,000 for the full 3-year BCA (₹49,000/year), with 0% interest EMI or a discount on upfront payment.",
+      "Weekend live classes plus recordings, so learning fits around your life."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Diya Menon",
+        "spec": "BCA ONLINE",
+        "role": "1st-Year Student",
+        "metric": "FROM HOME",
+        "stat": "no hostel",
+        "quote": "There was no good tech college in my town. Studying online let me earn a real BCA without leaving home."
+      },
+      {
+        "name": "Sana Iqbal",
+        "spec": "BCA CLOUD",
+        "role": "2nd-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹4,083 / mo",
+        "quote": "The monthly EMI fit my budget, and weekend classes fit my schedule. It just worked."
+      },
+      {
+        "name": "Divya Rao",
+        "spec": "BCA DATA SCIENCE",
+        "role": "Final Year",
+        "metric": "RECOGNISED",
+        "stat": "UGC-entitled",
+        "quote": "A recognised degree earned from home. My internship team accepted it without a second thought."
+      },
+      {
+        "name": "Meena S",
+        "spec": "BCA ONLINE",
+        "role": "Graduated",
+        "metric": "ON TIME",
+        "stat": "on my terms",
+        "quote": "I studied around family responsibilities and still graduated on time. That flexibility changed everything."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "100% online from home, weekend live classes"
+      },
+      {
+        "k": "No relocation",
+        "v": "Same recognised BCA, no hostel or commute"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,47,000 for the full 3-year BCA (₹49,000/year)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online BCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO STUDY",
+    "highlight": "FROM HOME?",
+    "sub": "",
+    "button": "Get my BCA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mba-finance",
+  "intent": "Specialisation / Finance",
+  "program": "MBA",
+  "specialization": "Finance",
+  "target_query": "mba in finance",
+  "hero": {
+    "eyebrow": "FOR FUTURE FINANCE LEADERS",
+    "headline_pre": "AN MBA IN",
+    "highlight": "FINANCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Aditya, a 28 year old Indian man in business-casual, confident and happy studying rising financial charts on a laptop, modern home office, aspirational mood.",
+    "burst": "PROFIT!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Aditya was already good at working with numbers at work.",
+      "dialogue": "Numbers always made sense to me.",
+      "img_prompt": "Aditya, 28, happily analysing financial statements on a laptop at work, sharp and engaged, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I lead in finance?",
+      "img_prompt": "Aditya looking thoughtful, wondering how to move from accounting into finance leadership, charts on his laptop, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Finance.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Aditya's face lighting up at a laptop showing an online MBA in Finance, warm hopeful glow, modern home."
+    },
+    {
+      "n": 4,
+      "narration": "Aditya enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Aditya confidently starting his first corporate finance lesson on a laptop, notebook and calculator beside him, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Finance",
+    "points": [
+      "Master the real craft: financial management, investments, corporate finance and financial modelling.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Aditya Rao",
+        "spec": "MBA FINANCE",
+        "role": "Finance Analyst",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I always loved finance. This MBA turned that interest into a real leadership path."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA FINANCE",
+        "role": "2nd-Year Student",
+        "metric": "MODELLING",
+        "stat": "job-ready",
+        "quote": "Learning financial modelling with real tools made me genuinely job-ready."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "MBA FINANCE",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me upskill in finance without quitting my job."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA FINANCE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "finance lead",
+        "quote": "A recognised MBA plus real finance skills got me into a finance leadership role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Financial management, investments, corporate finance and financial modelling"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "FINANCE?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

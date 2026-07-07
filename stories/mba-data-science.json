@@ -1,0 +1,132 @@
+{
+  "id": "mba-data-science",
+  "intent": "Specialisation / Data Science & Analytics",
+  "program": "MBA",
+  "specialization": "Data Science & Analytics",
+  "target_query": "mba in business analytics",
+  "hero": {
+    "eyebrow": "TURN DATA INTO DECISIONS",
+    "headline_pre": "AN MBA IN",
+    "highlight": "DATA SCIENCE & ANALYTICS.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Neha, a 28 year old Indian woman in smart-casual, focused and confident, studying a clean business dashboard on a laptop, modern home office, analytical and aspirational.",
+    "burst": "INSIGHT!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Neha was already good at working with data at work.",
+      "dialogue": "I loved finding stories in the data.",
+      "img_prompt": "Neha, 28, happily exploring a data dashboard on a laptop at work, curious and analytical, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA she did not have.",
+      "dialogue": "How do I drive real decisions?",
+      "img_prompt": "Neha looking thoughtful, wondering how to move from reporting to driving business decisions, laptop with a simple chart, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an online MBA in Data Science & Analytics.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Neha's face lighting up at a laptop showing an online MBA in Data Science and Analytics, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Neha enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Neha confidently starting her first business analytics lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Data Science & Analytics",
+    "points": [
+      "Master the real craft: business analytics, data visualisation, predictive modelling and AI for business.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Neha Rao",
+        "spec": "MBA DATA SCIENCE",
+        "role": "Data Analyst",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I loved data. This MBA turned that into a real analytics and strategy career."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA DATA SCIENCE",
+        "role": "2nd-Year Student",
+        "metric": "AI TOOLS",
+        "stat": "job-ready",
+        "quote": "Learning predictive modelling and AI for business made me genuinely job-ready."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MBA DATA SCIENCE",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me move into analytics leadership without quitting my job."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA DATA SCIENCE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "analytics lead",
+        "quote": "A recognised MBA plus real data skills got me into an analytics leadership role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Business analytics, data visualisation, predictive modelling and AI for business"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "DATA SCIENCE & ANALYTICS?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

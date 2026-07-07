@@ -1,0 +1,132 @@
+{
+  "id": "mba-strategy-leadership",
+  "intent": "Specialisation / Strategy & Leadership",
+  "program": "MBA",
+  "specialization": "Strategy & Leadership",
+  "target_query": "mba in strategy and leadership",
+  "hero": {
+    "eyebrow": "LEAD FROM THE FRONT",
+    "headline_pre": "AN MBA IN",
+    "highlight": "STRATEGY & LEADERSHIP.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Aisha, a 30 year old Indian woman in smart professional attire, poised and confident, leading a strategy discussion near a clean board, modern boardroom, aspirational.",
+    "burst": "LEAD!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Aisha was already good at leading people and plans at work.",
+      "dialogue": "People followed my lead naturally.",
+      "img_prompt": "Aisha, 30, confidently leading a team discussion near a clean strategy board, poised and capable, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA she did not have.",
+      "dialogue": "How do I lead at the top?",
+      "img_prompt": "Aisha looking thoughtful, wondering how to step up from managing to leading strategy at the top, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found an online MBA in Strategy & Leadership.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Aisha's face lighting up at a laptop showing an online MBA in Strategy and Leadership, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Aisha enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Aisha confidently starting her first strategy and leadership lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Strategy & Leadership",
+    "points": [
+      "Master the real craft: corporate strategy, leadership, change management and decision-making.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Aisha Khan",
+        "spec": "MBA LEADERSHIP",
+        "role": "Senior Executive",
+        "metric": "MY EDGE",
+        "stat": "now a career",
+        "quote": "People followed my lead. This MBA gave me the strategy to lead at the top."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA LEADERSHIP",
+        "role": "2nd-Year Student",
+        "metric": "STRATEGY",
+        "stat": "job-ready",
+        "quote": "Learning corporate strategy and change management made me ready for leadership."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "MBA LEADERSHIP",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me grow into senior leadership without pausing my career."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA LEADERSHIP",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "to director",
+        "quote": "A recognised MBA plus real leadership skills got me into a director-level role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Corporate strategy, leadership, change management and decision-making"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "STRATEGY & LEADERSHIP?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

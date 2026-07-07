@@ -1,0 +1,132 @@
+{
+  "id": "bcom-course",
+  "intent": "Generic / course overview",
+  "program": "B.Com",
+  "specialization": "Online",
+  "target_query": "bcom course",
+  "hero": {
+    "eyebrow": "START YOUR COMMERCE JOURNEY",
+    "headline_pre": "YOUR B.COM,",
+    "highlight": "ONE CLEAR PATH.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my B.Com plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Aarav, an 18 year old Indian commerce student in a simple casual collared shirt, confident and hopeful, choosing a commerce path on a laptop at home, bright aspirational mood.",
+    "burst": "LET'S GO!"
+  },
+  "statbar": [
+    {
+      "big": "SPECIALISATIONS",
+      "label": "choose your path"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Aarav finished 12th and knew he liked commerce.",
+      "dialogue": "A B.Com, but which one?",
+      "img_prompt": "Aarav, 18, thoughtful at a laptop imagining commerce career paths, curious, modern tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Too many colleges and unclear options felt confusing.",
+      "dialogue": "This is overwhelming.",
+      "img_prompt": "Aarav looking overwhelmed by many open browser options and brochures, rubbing his head, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a clear, affordable online B.Com.",
+      "dialogue": "One simple path, finally!",
+      "img_prompt": "Aarav smiling with clarity at a laptop showing a clean B.Com page with specialisations, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "He picked a specialisation and started with guidance.",
+      "dialogue": "My commerce journey begins!",
+      "img_prompt": "Aarav confidently starting his first B.Com lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why Start Your B.Com Here",
+    "points": [
+      "Choose from career specialisations: Accounting & Finance, ACCA, Corporate Accounting and more.",
+      "Study 100% online, anytime, from anywhere. No campus, no commute.",
+      "Just ₹1,35,000 for the full 3-year B.Com (₹45,000/year), with 0% interest EMI or a discount on upfront payment.",
+      "Real finance tools, included micro-credentials and mentor support from semester 1."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Aarav Nair",
+        "spec": "B.COM A&F",
+        "role": "1st-Year Student",
+        "metric": "CLEAR PATH",
+        "stat": "guided",
+        "quote": "I knew I liked commerce but not the details. The clear specialisations made my choice easy."
+      },
+      {
+        "name": "Tanvi Shah",
+        "spec": "B.COM ONLINE",
+        "role": "2nd-Year Student",
+        "metric": "MY PICK",
+        "stat": "my path",
+        "quote": "Picking my specialisation meant the degree matched the finance career I actually wanted."
+      },
+      {
+        "name": "Aditya Kumar",
+        "spec": "B.COM ACCA",
+        "role": "Final Year",
+        "metric": "GLOBAL",
+        "stat": "ACCA edge",
+        "quote": "The ACCA-integrated option gave my B.Com a global edge without extra cost."
+      },
+      {
+        "name": "Pooja Reddy",
+        "spec": "B.COM A&F",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised B.Com, learned online at my pace. It opened my first finance role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Choose",
+        "v": "Accounting & Finance, ACCA, Corporate Accounting and more"
+      },
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,35,000 for the full 3-year B.Com (₹45,000/year)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online B.Com, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO BEGIN",
+    "highlight": "YOUR B.COM?",
+    "sub": "",
+    "button": "Get my B.Com plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mca-cyber-security",
+  "intent": "Specialisation / Cyber Security",
+  "program": "MCA",
+  "specialization": "Cyber Security",
+  "target_query": "mca in cyber security",
+  "hero": {
+    "eyebrow": "DEFEND THE DIGITAL WORLD",
+    "headline_pre": "AN MCA IN",
+    "highlight": "CYBER SECURITY.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Karthik, a 24 year old Indian graduate man in smart-casual, confident and focused, studying a clean secure-shield glyph on a laptop, modern home, capable and aspirational.",
+    "burst": "SECURE!"
+  },
+  "statbar": [
+    {
+      "big": "₹40,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Karthik was fascinated by how systems stay safe.",
+      "dialogue": "I want to stop the hackers.",
+      "img_prompt": "Karthik, 24, focused at a laptop showing a simple shield glyph, curious and driven, modern room."
+    },
+    {
+      "n": 2,
+      "narration": "But a security career needed real qualifications.",
+      "dialogue": "How do I make this a job?",
+      "img_prompt": "Karthik looking thoughtful, wondering how to build a cyber security career, a laptop open, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an MCA in Cyber Security, online.",
+      "dialogue": "My security career starts here!",
+      "img_prompt": "Karthik's face lighting up with excitement at a laptop showing an MCA in Cyber Security, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled and began mastering the real craft.",
+      "dialogue": "From curious to qualified!",
+      "img_prompt": "Karthik confidently starting his first cyber security lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MCA In Cyber Security",
+    "points": [
+      "Master the real craft: network security, ethical hacking, cryptography and cloud security.",
+      "Apply real security tools on hands-on labs from your very first semester.",
+      "₹1,60,000 for the full 2-year MCA (₹40,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MCA that tech employers recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Karthik Rao",
+        "spec": "MCA CYBER SECURITY",
+        "role": "Recent Graduate",
+        "metric": "MY PASSION",
+        "stat": "now a career",
+        "quote": "I was fascinated by security. This MCA turned that into a real cyber security career."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MCA CYBER SECURITY",
+        "role": "1st-Year Student",
+        "metric": "HANDS-ON LABS",
+        "stat": "from sem 1",
+        "quote": "Real security labs from semester one made me confident and genuinely job-ready."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MCA CYBER SECURITY",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me move into cyber security without quitting my job."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MCA CYBER SECURITY",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "in demand",
+        "quote": "A recognised MCA plus real security skills got me hired into an in-demand role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Network security, ethical hacking, cryptography, cloud security"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,60,000 for the full 2-year MCA (₹40,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹6,667/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO",
+    "highlight": "DEFEND & EARN?",
+    "sub": "",
+    "button": "Get my MCA plan",
+    "burst": "GO!"
+  }
+}

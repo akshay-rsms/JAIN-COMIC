@@ -1,0 +1,132 @@
+{
+  "id": "mba-online",
+  "intent": "Online / flexible",
+  "program": "MBA",
+  "specialization": "Online",
+  "target_query": "online mba",
+  "hero": {
+    "eyebrow": "AN MBA THAT FITS YOUR JOB",
+    "headline_pre": "A REAL MBA,",
+    "highlight": "100% ONLINE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Priya, a 28 year old Indian working woman in smart-casual, smiling as she studies on a laptop in the evening at home after work, warm lamp light, balanced and aspirational.",
+    "burst": "ONLINE!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "WEEKEND",
+      "label": "live classes"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Priya wanted an MBA, but could not pause her career.",
+      "dialogue": "I can't stop working.",
+      "img_prompt": "Priya, 28, in office wear looking at a laptop between work tasks, ambitious but busy, modern workplace, thoughtful."
+    },
+    {
+      "n": 2,
+      "narration": "A full-time campus MBA meant quitting her job.",
+      "dialogue": "Do I give up my salary?",
+      "img_prompt": "Priya looking torn, glancing between her office ID badge and a campus MBA brochure, soft conflicted expression, tidy desk."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised MBA she could do online.",
+      "dialogue": "Study and keep my job!",
+      "img_prompt": "Priya's face lighting up with relief at a laptop showing a 100% online MBA, warm glow, cosy home study corner in the evening."
+    },
+    {
+      "n": 4,
+      "narration": "Now she studies evenings and weekends, career intact.",
+      "dialogue": "No pause, full growth.",
+      "img_prompt": "Priya happily attending a weekend live online class on her laptop at home, notebook beside her, calm and confident, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online MBA Just Works",
+    "points": [
+      "Study 100% online, anytime, from your phone or laptop. No campus, no commute.",
+      "Weekend live classes plus recordings, so learning fits around a full-time job.",
+      "The same UGC-entitled, NAAC A++ MBA, recognised for jobs, promotions and higher studies.",
+      "Just ₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Priya Menon",
+        "spec": "MBA ONLINE",
+        "role": "Working Professional",
+        "metric": "NO PAUSE",
+        "stat": "kept my job",
+        "quote": "I earned my MBA without a single day off work. Weekend classes and recordings made it possible."
+      },
+      {
+        "name": "Sana Iqbal",
+        "spec": "MBA HR",
+        "role": "2nd-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹8,333 / mo",
+        "quote": "The monthly EMI fit my salary, and the schedule fit my life. It genuinely just worked."
+      },
+      {
+        "name": "Divya Rao",
+        "spec": "MBA MARKETING",
+        "role": "Career Switcher",
+        "metric": "RECOGNISED",
+        "stat": "UGC-entitled",
+        "quote": "A recognised degree earned online. My new employer accepted it without a second thought."
+      },
+      {
+        "name": "Meena S",
+        "spec": "MBA ONLINE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "on my terms",
+        "quote": "I studied around work and family and still graduated on time. That flexibility changed my career."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO STUDY",
+    "highlight": "ONLINE?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "ma-course",
+  "intent": "Generic / course overview",
+  "program": "MA",
+  "specialization": "Online",
+  "target_query": "ma online course",
+  "hero": {
+    "eyebrow": "A MASTER'S, YOUR WAY",
+    "headline_pre": "YOUR MA,",
+    "highlight": "100% ONLINE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MA plan",
+    "cta2": "Explore subjects",
+    "art_prompt": "Meera, a 24 year old Indian graduate woman in a modest kurti, warm and hopeful, studying on a laptop at home with a few books, thoughtful aspirational mood.",
+    "burst": "ONLINE!"
+  },
+  "statbar": [
+    {
+      "big": "₹22,500",
+      "label": "per year"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Meera wanted a master's to teach and grow.",
+      "dialogue": "I love my subject deeply.",
+      "img_prompt": "Meera, 24, happily reading and taking notes with a laptop and books at home, thoughtful and warm, tidy room."
+    },
+    {
+      "n": 2,
+      "narration": "But a campus MA meant travel she could not manage.",
+      "dialogue": "How do I study from here?",
+      "img_prompt": "Meera looking thoughtful at her window, a book in hand, modest home, hopeful but unsure."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised MA she could do online.",
+      "dialogue": "A master's, from home!",
+      "img_prompt": "Meera's face lighting up with relief at a laptop showing a 100% online MA, warm glow, cosy study corner with books."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled and dived into her subject.",
+      "dialogue": "From graduate to master!",
+      "img_prompt": "Meera happily attending an online MA class on her laptop at home, notebook and books beside her, calm and content, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online MA Just Works",
+    "points": [
+      "Choose your subject: English, Economics, Public Policy and more, fully online.",
+      "Ideal for teaching, civil services prep, further study or a research path.",
+      "Wonderfully affordable: ₹45,000 for the full 2-year MA (₹22,500/year), with 0% interest EMI available.",
+      "A UGC-entitled, NAAC A++ MA, recognised for jobs and higher study."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Meera Nair",
+        "spec": "MA ENGLISH",
+        "role": "1st-Year Student",
+        "metric": "FROM HOME",
+        "stat": "no travel",
+        "quote": "I could finally do a master's in my subject without leaving home. It changed my plans."
+      },
+      {
+        "name": "Sana Iqbal",
+        "spec": "MA ECONOMICS",
+        "role": "2nd-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹1,875 / mo",
+        "quote": "So affordable. The small monthly EMI made a master's genuinely within reach."
+      },
+      {
+        "name": "Divya Rao",
+        "spec": "MA ENGLISH",
+        "role": "Career Switcher",
+        "metric": "TEACHING",
+        "stat": "my goal",
+        "quote": "The MA moved me toward teaching, exactly the career I wanted."
+      },
+      {
+        "name": "Latha S",
+        "spec": "MA",
+        "role": "Graduated",
+        "metric": "RECOGNISED",
+        "stat": "further study",
+        "quote": "A recognised MA opened the door to further study and better roles."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Subjects",
+        "v": "English, Economics, Public Policy and more"
+      },
+      {
+        "k": "Great for",
+        "v": "Teaching, civil services prep, further study"
+      },
+      {
+        "k": "Fee",
+        "v": "₹45,000 for the full 2-year MA (₹22,500/year)"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR YOUR",
+    "highlight": "MASTER'S?",
+    "sub": "",
+    "button": "Get my MA plan",
+    "burst": "GO!"
+  }
+}

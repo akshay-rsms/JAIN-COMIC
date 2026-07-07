@@ -1,0 +1,132 @@
+{
+  "id": "mba-it",
+  "intent": "Specialisation / Information Technology Management",
+  "program": "MBA",
+  "specialization": "Information Technology Management",
+  "target_query": "mba in information technology management",
+  "hero": {
+    "eyebrow": "LEAD TECH AND TEAMS",
+    "headline_pre": "AN MBA IN",
+    "highlight": "INFORMATION TECHNOLOGY MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Arun, a 28 year old Indian man in smart-casual, confident, leading a tech discussion near a clean screen with abstract shapes, modern office, capable and aspirational.",
+    "burst": "SCALE!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Arun was already good at working in tech at work.",
+      "dialogue": "I could build the tech, easily.",
+      "img_prompt": "Arun, 28, confidently working on code and systems on a laptop, capable and focused, modern tech office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I lead the tech team?",
+      "img_prompt": "Arun looking thoughtful, wondering how to move from engineer to technology leader, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Information Technology Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Arun's face lighting up at a laptop showing an online MBA in Information Technology Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Arun enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Arun confidently starting his first IT strategy lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Information Technology Management",
+    "points": [
+      "Master the real craft: IT strategy, systems, cloud, cybersecurity governance and digital transformation.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Arun Nair",
+        "spec": "MBA IT MANAGEMENT",
+        "role": "Software Engineer",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I could build the tech. This MBA gave me the strategy to lead the team building it."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA IT MANAGEMENT",
+        "role": "2nd-Year Student",
+        "metric": "IT STRATEGY",
+        "stat": "job-ready",
+        "quote": "Learning IT strategy and digital transformation made me ready to manage, not just code."
+      },
+      {
+        "name": "Rohit Shah",
+        "spec": "MBA IT MANAGEMENT",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me move into tech leadership without leaving my engineering job."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA IT MANAGEMENT",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "tech lead",
+        "quote": "A recognised MBA plus real IT skills got me into a technology management role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "IT strategy, systems, cloud, cybersecurity governance and digital transformation"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "INFORMATION TECHNOLOGY MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

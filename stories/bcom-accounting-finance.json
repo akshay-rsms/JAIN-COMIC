@@ -1,0 +1,132 @@
+{
+  "id": "bcom-accounting-finance",
+  "intent": "Specialisation / Accounting & Finance",
+  "program": "B.Com",
+  "specialization": "Accounting and Finance",
+  "target_query": "bcom in accounting and finance",
+  "hero": {
+    "eyebrow": "FOR FUTURE FINANCE PROS",
+    "headline_pre": "A B.COM IN",
+    "highlight": "ACCOUNTING & FINANCE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my B.Com plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Sneha, an 18 year old Indian commerce student, confident and happy studying accounts and finance on a laptop, modern home, aspirational mood.",
+    "burst": "BALANCE!"
+  },
+  "statbar": [
+    {
+      "big": "₹45,000",
+      "label": "per year"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "study anywhere"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sneha loved balancing accounts and tracking money.",
+      "dialogue": "Numbers just make sense to me.",
+      "img_prompt": "Sneha, 18, happily working on accounts in a ledger and laptop at home, curious and engaged, tidy room."
+    },
+    {
+      "n": 2,
+      "narration": "But a finance career needed a real degree.",
+      "dialogue": "How do I turn this into a job?",
+      "img_prompt": "Sneha looking thoughtful, wondering how to build a finance career, a laptop open in front of her, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a B.Com in Accounting & Finance, online.",
+      "dialogue": "My finance career starts here!",
+      "img_prompt": "Sneha's face lighting up with excitement at a laptop showing a B.Com in Accounting and Finance, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled and began mastering the craft.",
+      "dialogue": "From curious to qualified!",
+      "img_prompt": "Sneha confidently starting her first accounting lesson on a laptop, notebook and calculator beside her, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why A B.Com In Accounting & Finance",
+    "points": [
+      "Master the real craft: accounting, taxation, auditing and financial management.",
+      "Apply real finance tools and included micro-credentials from your very first semester.",
+      "₹1,35,000 for the full 3-year B.Com (₹45,000/year), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ B.Com that employers and CA/CMA paths recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sneha Iyer",
+        "spec": "B.COM A&F",
+        "role": "1st-Year Student",
+        "metric": "MY SKILL",
+        "stat": "now a career",
+        "quote": "I always loved accounts. This degree turned that into a real finance career path."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "B.COM A&F",
+        "role": "2nd-Year Student",
+        "metric": "TOOLS",
+        "stat": "from sem 1",
+        "quote": "Learning real finance tools from semester one made me genuinely job-ready."
+      },
+      {
+        "name": "Aman Gupta",
+        "spec": "B.COM A&F",
+        "role": "Final Year",
+        "metric": "0% EMI",
+        "stat": "₹3,750 / mo",
+        "quote": "The 0% EMI let me start right after 12th instead of waiting years to save up."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "B.COM A&F",
+        "role": "Graduated",
+        "metric": "PLACED",
+        "stat": "recognised",
+        "quote": "A recognised B.Com plus real accounting skills got me hired into a finance role quickly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Accounting, taxation, auditing, financial management"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,35,000 for the full 3-year B.Com (₹45,000/year)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹3,750/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online B.Com, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR A",
+    "highlight": "FINANCE CAREER?",
+    "sub": "",
+    "button": "Get my B.Com plan",
+    "burst": "GO!"
+  }
+}

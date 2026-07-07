@@ -1,0 +1,132 @@
+{
+  "id": "mca-course-fees",
+  "intent": "Fees / affordability",
+  "program": "MCA",
+  "specialization": "Data Science",
+  "target_query": "mca course fees",
+  "hero": {
+    "eyebrow": "THE FEE COMPARISON",
+    "headline_pre": "A RECOGNISED MCA,",
+    "highlight": "₹40,000/SEMESTER.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Arjun, a 23 year old Indian graduate man in smart-casual, happily surprised at a laptop showing an affordable MCA fee after comparing options, bright hopeful mood, tidy home.",
+    "burst": "₹40K!"
+  },
+  "statbar": [
+    {
+      "big": "₹40,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "DISCOUNT",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Arjun compared MCA fees, option after option.",
+      "dialogue": "Why is a tech degree so costly?",
+      "img_prompt": "Arjun, 23, at a desk comparing several high fee figures in a notebook, concerned and focused, papers around him, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "Many programs ran into lakhs of rupees.",
+      "dialogue": "Is a real MCA only for the rich?",
+      "img_prompt": "Arjun looking discouraged at a laptop showing an expensive fee, chin in hand, soft disappointed expression, modest room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a recognised MCA at ₹40,000 a semester.",
+      "dialogue": "Affordable and recognised?",
+      "img_prompt": "Arjun's eyes widening with hope at a laptop showing a clear, affordable, recognised MCA fee, warm glow of relief."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled on a 0% EMI he could manage.",
+      "dialogue": "A real MCA, no heavy debt!",
+      "img_prompt": "Arjun smiling confidently holding a blank enrollment confirmation at home, calm and assured, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why This MCA Fee Is A Steal",
+    "points": [
+      "Just ₹1,60,000 for the full 2-year MCA (₹40,000/semester). A recognised tech degree at a fair, honest price.",
+      "Pay upfront and get a discount, or split it into easy 0% interest EMI.",
+      "0% interest EMI from about ₹6,667/month, so there is no heavy lump sum.",
+      "Only ₹2,500 one-time registration. Clear fees, no hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Arjun Pillai",
+        "spec": "MCA DATA SCIENCE",
+        "role": "Recent Graduate",
+        "metric": "₹40K / sem",
+        "stat": "recognised",
+        "quote": "I compared everywhere. A UGC-entitled MCA at ₹40,000 a semester was the clear, honest choice."
+      },
+      {
+        "name": "Karan Das",
+        "spec": "MCA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹6,667 / mo",
+        "quote": "The 0% EMI meant no lump sum. I pay a small amount each month and my MCA keeps going."
+      },
+      {
+        "name": "Nisha Verma",
+        "spec": "MCA CLOUD",
+        "role": "Career Switcher",
+        "metric": "DISCOUNT",
+        "stat": "paid upfront",
+        "quote": "We paid upfront and got a clear discount. A recognised tech degree at this price felt fair."
+      },
+      {
+        "name": "Vikram Rao",
+        "spec": "MCA CYBER SECURITY",
+        "role": "Graduated",
+        "metric": "DEBT-LIGHT",
+        "stat": "no burden",
+        "quote": "I finished my MCA without a heavy loan. The monthly plan fit my budget perfectly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Fee",
+        "v": "₹1,60,000 for the full 2-year MCA (₹40,000/semester)"
+      },
+      {
+        "k": "Upfront",
+        "v": "Discount on one-time full payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹6,667/month, or an education loan"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration. No hidden charges."
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹40K A SEM?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mba-admission",
+  "intent": "Admission / how to apply",
+  "program": "MBA",
+  "specialization": "Admissions 2026",
+  "target_query": "mba admission",
+  "hero": {
+    "eyebrow": "ADMISSIONS OPEN 2026",
+    "headline_pre": "YOUR MBA ADMISSION,",
+    "highlight": "MADE SIMPLE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Start my application",
+    "cta2": "Check eligibility",
+    "art_prompt": "Karthik, a 26 year old Indian graduate in smart-casual, confidently starting an online MBA application on a laptop, relieved and hopeful, bright tidy home office.",
+    "burst": "APPLY!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "apply from home"
+    },
+    {
+      "big": "GRADUATES",
+      "label": "any stream"
+    },
+    {
+      "big": "NO ENTRANCE",
+      "label": "merit based"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "A graduate with work experience, Karthik wanted an MBA.",
+      "dialogue": "Where do I even start?",
+      "img_prompt": "Karthik, 26, with a laptop looking unsure at a confusing admissions page, hopeful but puzzled, tidy home office."
+    },
+    {
+      "n": 2,
+      "narration": "The forms and steps felt scattered and confusing.",
+      "dialogue": "Am I even eligible?",
+      "img_prompt": "Karthik with scattered documents and notes, trying to make sense of MBA admission requirements, focused and determined."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found one simple online admission process.",
+      "dialogue": "Just a few clear steps!",
+      "img_prompt": "Karthik smiling with relief at a laptop showing a clean, simple step-by-step MBA admission process, warm bright home office."
+    },
+    {
+      "n": 4,
+      "narration": "He applied in minutes, guided at every step.",
+      "dialogue": "My application is in!",
+      "img_prompt": "Karthik happily submitting his MBA application on a laptop, a small confident thumbs up, proud and relieved, warm light."
+    }
+  ],
+  "turn": {
+    "title": "How MBA Admission Works",
+    "points": [
+      "Eligibility is simple: a bachelor's degree in any stream.",
+      "The whole application is online, so you can apply from home in minutes.",
+      "No entrance exam. Admission is merit based, and work experience is welcome.",
+      "Upload your documents, pay the registration fee, and a counsellor guides you through."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Karthik Joshi",
+        "spec": "MBA · SEM 1",
+        "role": "Working Professional",
+        "metric": "APPLIED",
+        "stat": "in minutes",
+        "quote": "I thought admission would be stressful. The online steps were clear and a counsellor guided me throughout."
+      },
+      {
+        "name": "Rohan Gupta",
+        "spec": "MBA ONLINE",
+        "role": "1st-Year Student",
+        "metric": "ANY STREAM",
+        "stat": "graduate",
+        "quote": "I came from an engineering background and still joined the MBA easily. No entrance exam needed."
+      },
+      {
+        "name": "Aisha Khan",
+        "spec": "MBA HR",
+        "role": "Career Switcher",
+        "metric": "FROM HOME",
+        "stat": "fully online",
+        "quote": "I applied from my phone at home. Uploading documents and paying the fee took only a few minutes."
+      },
+      {
+        "name": "Nikhil Rao",
+        "spec": "MBA FINANCE",
+        "role": "2nd-Year Student",
+        "metric": "GUIDED",
+        "stat": "step by step",
+        "quote": "Every time I had a doubt, my counsellor answered. Admission felt easy and well supported."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Eligibility",
+        "v": "A bachelor's degree in any stream"
+      },
+      {
+        "k": "Process",
+        "v": "100% online application, apply from home"
+      },
+      {
+        "k": "Selection",
+        "v": "Merit based, no entrance exam, work experience welcome"
+      },
+      {
+        "k": "Support",
+        "v": "Dedicated counsellor guides every step"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO APPLY",
+    "highlight": "FOR YOUR MBA?",
+    "sub": "",
+    "button": "Start my application",
+    "burst": "GO!"
+  }
+}

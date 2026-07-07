@@ -1,0 +1,132 @@
+{
+  "id": "mca-online",
+  "intent": "Online / flexible",
+  "program": "MCA",
+  "specialization": "Online",
+  "target_query": "online mca",
+  "hero": {
+    "eyebrow": "AN MCA THAT FITS YOUR JOB",
+    "headline_pre": "A REAL MCA,",
+    "highlight": "100% ONLINE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MCA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Sneha, a 24 year old Indian working woman in smart-casual, smiling as she studies coding on a laptop in the evening at home after work, warm lamp light, balanced and aspirational.",
+    "burst": "ONLINE!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "WEEKEND",
+      "label": "live classes"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sneha worked in IT support and wanted to move up.",
+      "dialogue": "I need a real tech degree.",
+      "img_prompt": "Sneha, 24, in smart-casual at a work desk with a laptop, capable but ambitious, modern workplace."
+    },
+    {
+      "n": 2,
+      "narration": "A full-time campus MCA meant quitting her job.",
+      "dialogue": "Do I give up my salary?",
+      "img_prompt": "Sneha looking torn, glancing between her office badge and a campus brochure, soft conflicted expression, tidy desk."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found a recognised MCA she could do online.",
+      "dialogue": "Study and keep my job!",
+      "img_prompt": "Sneha's face lighting up with relief at a laptop showing a 100% online MCA, warm glow, cosy home study corner in the evening."
+    },
+    {
+      "n": 4,
+      "narration": "Now she studies evenings and weekends, career intact.",
+      "dialogue": "No pause, real growth.",
+      "img_prompt": "Sneha happily attending a weekend live online class on her laptop at home, notebook beside her, calm and confident, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An Online MCA Just Works",
+    "points": [
+      "Study 100% online, anytime, from your laptop. No campus, no commute.",
+      "Weekend live classes plus recordings, so learning fits around a full-time job.",
+      "The same UGC-entitled, NAAC A++ MCA, recognised for tech jobs and higher studies.",
+      "Just ₹1,60,000 for the full 2-year MCA (₹40,000/semester), with 0% interest EMI or a discount on upfront payment."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sneha Menon",
+        "spec": "MCA ONLINE",
+        "role": "Working Professional",
+        "metric": "NO PAUSE",
+        "stat": "kept my job",
+        "quote": "I earned my MCA without leaving IT support. Weekend classes and recordings made it possible."
+      },
+      {
+        "name": "Sana Iqbal",
+        "spec": "MCA DATA SCIENCE",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹6,667 / mo",
+        "quote": "The monthly EMI fit my salary and the schedule fit my life. It genuinely just worked."
+      },
+      {
+        "name": "Divya Rao",
+        "spec": "MCA CLOUD",
+        "role": "Career Switcher",
+        "metric": "RECOGNISED",
+        "stat": "UGC-entitled",
+        "quote": "A recognised degree earned online. My new tech employer accepted it without a second thought."
+      },
+      {
+        "name": "Meena S",
+        "spec": "MCA ONLINE",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "on my terms",
+        "quote": "I studied around work and still graduated on time. That flexibility grew my tech career."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "100% online, learn anytime with weekend live classes"
+      },
+      {
+        "k": "Fee",
+        "v": "₹1,60,000 for the full 2-year MCA (₹40,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹6,667/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MCA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO STUDY",
+    "highlight": "ONLINE?",
+    "sub": "",
+    "button": "Get my MCA plan",
+    "burst": "GO!"
+  }
+}

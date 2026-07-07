@@ -1,0 +1,132 @@
+{
+  "id": "mba-operations",
+  "intent": "Specialisation / Operations Management",
+  "program": "MBA",
+  "specialization": "Operations Management",
+  "target_query": "mba in operations management",
+  "hero": {
+    "eyebrow": "MAKE EVERYTHING RUN BETTER",
+    "headline_pre": "AN MBA IN",
+    "highlight": "OPERATIONS MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Sanjay, a 29 year old Indian man in business-casual, confident, reviewing a clean process board in a modern facility, capable and aspirational.",
+    "burst": "OPTIMISE!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sanjay was already good at making processes efficient at work.",
+      "dialogue": "I always spotted what to improve.",
+      "img_prompt": "Sanjay, 29, confidently improving a workflow on a clean process board, sharp and focused, modern facility."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I lead operations?",
+      "img_prompt": "Sanjay looking thoughtful, wondering how to move from executing to leading operations, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Operations Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Sanjay's face lighting up at a laptop showing an online MBA in Operations Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Sanjay enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Sanjay confidently starting his first operations strategy lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Operations Management",
+    "points": [
+      "Master the real craft: operations strategy, lean and six sigma, quality and process optimisation.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sanjay Rao",
+        "spec": "MBA OPERATIONS",
+        "role": "Operations Exec",
+        "metric": "MY EYE",
+        "stat": "now a career",
+        "quote": "I always spotted improvements. This MBA turned that into real operations leadership."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA OPERATIONS",
+        "role": "2nd-Year Student",
+        "metric": "LEAN & QUALITY",
+        "stat": "job-ready",
+        "quote": "Learning lean, six sigma and quality made me ready to lead operations."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MBA OPERATIONS",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me grow into operations leadership without quitting."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA OPERATIONS",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "ops lead",
+        "quote": "A recognised MBA plus real operations skills got me a management role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Operations strategy, lean and six sigma, quality and process optimisation"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "OPERATIONS MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

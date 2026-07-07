@@ -1,0 +1,132 @@
+{
+  "id": "mba-project-management",
+  "intent": "Specialisation / Project Management",
+  "program": "MBA",
+  "specialization": "Project Management",
+  "target_query": "mba in project management",
+  "hero": {
+    "eyebrow": "DELIVER PROJECTS THAT WIN",
+    "headline_pre": "AN MBA IN",
+    "highlight": "PROJECT MANAGEMENT.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my MBA plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Deepak, a 29 year old Indian man in business-casual, confident, leading a project planning session near a clean board, modern office, organised and aspirational.",
+    "burst": "DELIVER!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "100% ONLINE",
+      "label": "work & study"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Deepak was already good at getting things delivered at work.",
+      "dialogue": "I always got projects across the line.",
+      "img_prompt": "Deepak, 29, confidently coordinating a project with his team near a clean planning board, capable and focused, modern office."
+    },
+    {
+      "n": 2,
+      "narration": "But the next step needed an MBA he did not have.",
+      "dialogue": "How do I lead big projects?",
+      "img_prompt": "Deepak looking thoughtful, wondering how to move from team lead to leading major projects, laptop open, tidy office."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found an online MBA in Project Management.",
+      "dialogue": "I can grow without quitting my job!",
+      "img_prompt": "Deepak's face lighting up at a laptop showing an online MBA in Project Management, warm hopeful glow."
+    },
+    {
+      "n": 4,
+      "narration": "Deepak enrolled and began leading with confidence.",
+      "dialogue": "From capable to qualified!",
+      "img_prompt": "Deepak confidently starting his first project management lesson on a laptop, notebook ready, focused and happy, warm light."
+    }
+  ],
+  "turn": {
+    "title": "Why An MBA In Project Management",
+    "points": [
+      "Master the real craft: project planning, Agile and Scrum, risk management and delivery frameworks.",
+      "Apply real AI tools for business from your very first semester.",
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester), with 0% interest EMI or a discount on upfront payment.",
+      "A UGC-entitled, NAAC A++ online MBA employers and promotions recognise."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Deepak Rao",
+        "spec": "MBA PROJECT MGMT",
+        "role": "Team Lead",
+        "metric": "MY STRENGTH",
+        "stat": "now a career",
+        "quote": "I always delivered. This MBA turned that into real project leadership."
+      },
+      {
+        "name": "Kavya Menon",
+        "spec": "MBA PROJECT MGMT",
+        "role": "2nd-Year Student",
+        "metric": "AGILE & RISK",
+        "stat": "job-ready",
+        "quote": "Learning Agile, Scrum and risk made me ready to lead complex projects."
+      },
+      {
+        "name": "Arun Nair",
+        "spec": "MBA PROJECT MGMT",
+        "role": "Working Professional",
+        "metric": "0% EMI",
+        "stat": "kept my job",
+        "quote": "The 0% EMI let me grow into project leadership without quitting."
+      },
+      {
+        "name": "Sara Thomas",
+        "spec": "MBA PROJECT MGMT",
+        "role": "Graduated",
+        "metric": "PROMOTED",
+        "stat": "project lead",
+        "quote": "A recognised MBA plus real delivery skills got me a project management role."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Learn",
+        "v": "Project planning, Agile and Scrum, risk management and delivery frameworks"
+      },
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Recognition",
+        "v": "UGC-entitled online MBA, NAAC A++ accredited"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO LEAD IN",
+    "highlight": "PROJECT MANAGEMENT?",
+    "sub": "",
+    "button": "Get my MBA plan",
+    "burst": "GO!"
+  }
+}

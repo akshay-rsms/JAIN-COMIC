@@ -1,0 +1,132 @@
+{
+  "id": "mba-course-fees",
+  "intent": "Fees / affordability",
+  "program": "MBA",
+  "specialization": "Finance",
+  "target_query": "mba course fees",
+  "hero": {
+    "eyebrow": "THE FEE COMPARISON",
+    "headline_pre": "A RECOGNISED MBA,",
+    "highlight": "₹50,000/SEMESTER.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Rahul, a 28 year old Indian man in smart-casual, happily surprised at a laptop showing an affordable MBA fee after comparing many options, bright hopeful mood, tidy home office.",
+    "burst": "₹50K!"
+  },
+  "statbar": [
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "DISCOUNT",
+      "label": "pay upfront"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Rahul compared MBA fees, option after option.",
+      "dialogue": "Why is an MBA so costly?",
+      "img_prompt": "Rahul, 28, at a desk comparing several high MBA fee figures in a notebook, concerned and focused, papers around him, tidy home office."
+    },
+    {
+      "n": 2,
+      "narration": "Many programs ran into many lakhs of rupees.",
+      "dialogue": "Is a good MBA only for the rich?",
+      "img_prompt": "Rahul looking discouraged at a laptop showing an expensive MBA fee, chin in hand, soft disappointed expression, modern room."
+    },
+    {
+      "n": 3,
+      "narration": "Then he found a recognised MBA at ₹50,000 a semester.",
+      "dialogue": "Affordable and recognised?",
+      "img_prompt": "Rahul's eyes widening with hope at a laptop showing a clear, affordable, recognised MBA fee, warm glow of relief."
+    },
+    {
+      "n": 4,
+      "narration": "He enrolled on a 0% EMI he could manage.",
+      "dialogue": "A real MBA, no heavy debt!",
+      "img_prompt": "Rahul smiling confidently holding a blank enrollment confirmation at home, calm and assured, warm hopeful light. No cash or money shown."
+    }
+  ],
+  "turn": {
+    "title": "Why This MBA Fee Is A Steal",
+    "points": [
+      "Just ₹2,00,000 for the full 2-year MBA (₹50,000/semester). A recognised MBA at a fair, honest price.",
+      "Pay upfront and get a discount, or split it into easy 0% interest EMI.",
+      "0% interest EMI from about ₹8,333/month, so there is no heavy lump sum.",
+      "Only ₹2,500 one-time registration. Clear fees, no hidden charges."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Rahul Pillai",
+        "spec": "MBA FINANCE",
+        "role": "Working Professional",
+        "metric": "₹50K / sem",
+        "stat": "recognised",
+        "quote": "I compared everywhere. A UGC-entitled MBA at ₹50,000 a semester was the clear, honest choice."
+      },
+      {
+        "name": "Arjun Das",
+        "spec": "MBA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹8,333 / mo",
+        "quote": "The 0% EMI meant no lump sum. I pay a small amount each month and my MBA keeps going."
+      },
+      {
+        "name": "Nisha Verma",
+        "spec": "MBA MARKETING",
+        "role": "Career Switcher",
+        "metric": "DISCOUNT",
+        "stat": "paid upfront",
+        "quote": "We paid upfront and got a clear discount. A recognised MBA at this price felt genuinely fair."
+      },
+      {
+        "name": "Vikram Rao",
+        "spec": "MBA HR",
+        "role": "Graduated",
+        "metric": "DEBT-LIGHT",
+        "stat": "no burden",
+        "quote": "I finished my MBA without a heavy loan. The monthly plan fit my salary perfectly."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Fee",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "Upfront",
+        "v": "Discount on one-time full payment"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "Extras",
+        "v": "₹2,500 one-time registration. No hidden charges."
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO START",
+    "highlight": "FOR ₹50K A SEM?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}

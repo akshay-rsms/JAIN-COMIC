@@ -1,0 +1,132 @@
+{
+  "id": "jain-admission",
+  "intent": "Brand / admission",
+  "program": "JAIN",
+  "specialization": "Admissions 2026",
+  "target_query": "jain university admission",
+  "hero": {
+    "eyebrow": "ADMISSIONS OPEN 2026",
+    "headline_pre": "JAIN ADMISSION,",
+    "highlight": "MADE SIMPLE.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Start my application",
+    "cta2": "Check eligibility",
+    "art_prompt": "Priya, a 20 year old Indian student in smart-casual, confident and relieved, starting an online university application on a laptop at home, bright hopeful mood.",
+    "burst": "APPLY!"
+  },
+  "statbar": [
+    {
+      "big": "100% ONLINE",
+      "label": "apply from home"
+    },
+    {
+      "big": "NO ENTRANCE",
+      "label": "merit based"
+    },
+    {
+      "big": "7 PROGRAMMES",
+      "label": "UG & PG"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Priya wanted to join JAIN but felt unsure how.",
+      "dialogue": "Where do I even start?",
+      "img_prompt": "Priya, 20, with a laptop looking unsure at an admissions page, hopeful but puzzled, tidy home."
+    },
+    {
+      "n": 2,
+      "narration": "The steps and documents felt scattered.",
+      "dialogue": "Am I even eligible?",
+      "img_prompt": "Priya with a few documents and notes, trying to make sense of admission steps, focused and determined."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found one simple online admission process.",
+      "dialogue": "Just a few clear steps!",
+      "img_prompt": "Priya smiling with relief at a laptop showing a clean, simple step-by-step admission process, warm bright home."
+    },
+    {
+      "n": 4,
+      "narration": "She applied in minutes, guided at every step.",
+      "dialogue": "My application is in!",
+      "img_prompt": "Priya happily submitting her application on a laptop, a small confident thumbs up, proud and relieved, warm light."
+    }
+  ],
+  "turn": {
+    "title": "How JAIN Admission Works",
+    "points": [
+      "Simple eligibility: class 12 for UG programmes, a bachelor's degree for PG.",
+      "The whole application is online, so you can apply from home in minutes.",
+      "No entrance exam. Admission is merit based, and working professionals are welcome.",
+      "Upload your documents, pay the registration fee, and a counsellor guides you through."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Priya Joshi",
+        "spec": "JAIN ONLINE",
+        "role": "1st-Year Student",
+        "metric": "APPLIED",
+        "stat": "in minutes",
+        "quote": "I thought admission would be stressful. The online steps were clear and a counsellor guided me."
+      },
+      {
+        "name": "Rohan Gupta",
+        "spec": "JAIN ONLINE",
+        "role": "Student",
+        "metric": "ANY STREAM",
+        "stat": "merit based",
+        "quote": "No entrance exam. I applied on merit and joined the programme I wanted."
+      },
+      {
+        "name": "Aisha Khan",
+        "spec": "JAIN ONLINE",
+        "role": "Working Professional",
+        "metric": "FROM HOME",
+        "stat": "fully online",
+        "quote": "I applied from my phone at home. It took only a few minutes."
+      },
+      {
+        "name": "Nikhil Rao",
+        "spec": "JAIN ONLINE",
+        "role": "2nd-Year Student",
+        "metric": "GUIDED",
+        "stat": "step by step",
+        "quote": "Every time I had a doubt, my counsellor answered. Admission felt easy."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Eligibility",
+        "v": "Class 12 for UG, a bachelor's degree for PG"
+      },
+      {
+        "k": "Process",
+        "v": "100% online application, apply from home"
+      },
+      {
+        "k": "Selection",
+        "v": "Merit based, no entrance exam"
+      },
+      {
+        "k": "Support",
+        "v": "Dedicated counsellor guides every step"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY TO APPLY",
+    "highlight": "TO JAIN ONLINE?",
+    "sub": "",
+    "button": "Start my application",
+    "burst": "GO!"
+  }
+}

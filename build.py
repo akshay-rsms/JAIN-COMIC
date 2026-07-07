@@ -126,13 +126,66 @@ NAV = [("01","The Origin","#ch1"),("02","Setting the Target","#ch2"),
        ("03","The Program Universe","#ch3"),("04","Special Power","#ch4"),
        ("05","Character Evolution","#ch5"),("06","Meet Sensei","#ch6")]
 
-PROGRAMS = [
+PROGRAMS = [   # BBA electives (Chapter 3 "Program Universe")
   ("01","finance","BBA in Finance","3-Year UG · ₹45,000/year","45k","Numbers are my superpower!"),
   ("02","marketing","BBA in Marketing","3-Year UG · ₹45,000/year","45k","I'll build brands people love!"),
   ("03","hr","BBA in Human Resource Mgmt","3-Year UG · ₹45,000/year","45k","People are my strength!"),
   ("04","digital","BBA in Digital Marketing","3-Year UG · ₹50,000/year","50k","I'll go viral, the smart way!"),
   ("05","datasci","BBA in Data Science & AI","3-Year UG · ₹50,000/year","50k","I'll make data talk!"),
 ]
+PROGRAMS_MBA = [   # top MBA specialisations (Chapter 3 "Program Universe")
+  ("01","mba-finance","MBA in Finance","2-Year PG · ₹50,000/sem","std","Numbers are my superpower!"),
+  ("02","mba-marketing","MBA in Marketing","2-Year PG · ₹50,000/sem","std","I'll build brands that win!"),
+  ("03","mba-hr","MBA in Human Resource Mgmt","2-Year PG · ₹50,000/sem","std","People are my strength!"),
+  ("04","mba-datasci","MBA in Data Science & Analytics","2-Year PG · ₹50,000/sem","std","I'll make data talk!"),
+  ("05","mba-operations","MBA in Operations Mgmt","2-Year PG · ₹50,000/sem","std","I'll make it all run better!"),
+]
+PROGRAMS_MCA = [   # top MCA specialisations
+  ("01","mca-datasci","MCA in Data Science","2-Year PG · ₹40,000/sem","std","I'll make data talk!"),
+  ("02","mca-ai","MCA in Artificial Intelligence","2-Year PG · ₹40,000/sem","std","I'll build smart machines!"),
+  ("03","mca-cloud","MCA in Cloud Computing","2-Year PG · ₹40,000/sem","std","I'll run the cloud!"),
+  ("04","mca-cybersec","MCA in Cyber Security","2-Year PG · ₹40,000/sem","std","I'll defend the systems!"),
+  ("05","mca-fullstack","MCA in Full Stack Development","2-Year PG · ₹40,000/sem","std","I'll build the whole app!"),
+]
+PROGRAMS_BCOM = [   # top B.Com specialisations
+  ("01","bcom-af","B.Com in Accounting & Finance","3-Year UG · ₹45,000/year","std","Numbers are my strength!"),
+  ("02","bcom-acca","B.Com with ACCA, UK","3-Year UG · Globally accredited","std","I'll go global in finance!"),
+  ("03","bcom-ca","B.Com in Corporate Accounting","3-Year UG · CA-aligned syllabus","std","I'll master accounting!"),
+  ("04","bcom-cma","B.Com in Management Accounting","3-Year UG · CMA-aligned syllabus","std","I'll lead with numbers!"),
+  ("05","bcom-corplaw","B.Com in Corporate Law","3-Year UG · ₹45,000/year","std","I'll know the rules!"),
+]
+PROGRAMS_MCOM = [
+  ("01","mcom-af","M.Com in Accounting & Finance","2-Year PG · ₹45,000/year","std","Numbers are my strength!"),
+  ("02","mcom-acca","M.Com with ACCA, UK","2-Year PG · Globally accredited","std","I'll go global in finance!"),
+  ("03","mcom-cpa","M.Com with CPA, US","2-Year PG · US-accredited","std","I'll master pro accounting!"),
+]
+PROGRAMS_MA = [
+  ("01","ma-english","MA in English","2-Year PG · ₹22,500/year","std","Words are my world!"),
+  ("02","ma-economics","MA in Economics","2-Year PG · ₹22,500/year","std","I'll decode the economy!"),
+  ("03","ma-publicpolicy","MA in Public Policy","2-Year PG · ₹22,500/year","std","I'll shape better policy!"),
+]
+PROGRAMS_BCA = [
+  ("01","bca-datasci","BCA in Data Science","3-Year UG · ₹49,000/year","std","I'll make data talk!"),
+  ("02","bca-cloud","BCA in Cloud Computing","3-Year UG · ₹49,000/year","std","I'll run the cloud!"),
+  ("03","bca-ai","BCA in Artificial Intelligence","3-Year UG · ₹49,000/year","std","I'll build smart apps!"),
+  ("04","bca-cybersec","BCA in Cyber Security","3-Year UG · ₹49,000/year","std","I'll defend the systems!"),
+  ("05","bca-csit","BCA in Computer Science & IT","3-Year UG · ₹49,000/year","std","I'll build the tech!"),
+]
+PROGRAMS_JAIN = [   # brand hub: all 7 JAIN Online programs (reuses existing specialisation card images)
+  ("01","mba-finance","Online MBA","2-Year PG · 14 specialisations","std","Lead and grow!"),
+  ("02","finance","Online BBA","3-Year UG · business","std","Start in business!"),
+  ("03","mca-datasci","Online MCA","2-Year PG · technology","std","Build real tech!"),
+  ("04","bca-datasci","Online BCA","3-Year UG · technology","std","Start in tech!"),
+  ("05","bcom-af","Online B.Com","3-Year UG · commerce","std","Master commerce!"),
+  ("06","mcom-af","Online M.Com","2-Year PG · commerce","std","Go deeper!"),
+  ("07","ma-english","Online MA","2-Year PG · arts","std","A master's, your way!"),
+]
+TABS_JAIN = '<button class="active" data-f="all">All Programmes</button>'
+TABS_BBA = ('<button class="active" data-f="all">All Electives</button>'
+            '<button data-f="45k">₹45,000 / yr</button>'
+            '<button data-f="50k">₹50,000 / yr</button>')
+TABS_SPEC = '<button class="active" data-f="all">All Specialisations</button>'
+TABS_MBA = TABS_SPEC
 
 AI_TOOLS = ["Prompt Engineering","Power BI","Python","MS Copilot","Microsoft Fabric","Generative AI",
             "Financial Modelling","Data Analytics","Business Analytics","Excel","Tableau","Design Thinking"]
@@ -141,6 +194,34 @@ LINKEDIN_CHIPS = ["Weekend Live Classes","Batch Owner Support","Virtual Labs","S
 
 SENSEI_CHIPS = ["What's the BBA fee?","Can I pay in EMI?",
                 "Am I eligible after 12th?","Which BBA elective suits me?"]
+SENSEI_CHIPS_MBA = ["What's the MBA fee?","Can I pay in EMI?",
+                    "Am I eligible after graduation?","Which MBA specialisation suits me?"]
+SENSEI_CHIPS_MCA = ["What's the MCA fee?","Can I pay in EMI?",
+                    "Am I eligible after BCA or B.Sc?","Which MCA specialisation suits me?"]
+SENSEI_CHIPS_BCOM = ["What's the B.Com fee?","Can I pay in EMI?",
+                     "Am I eligible after 12th?","Which B.Com specialisation suits me?"]
+SENSEI_CHIPS_MCOM = ["What's the M.Com fee?","Can I pay in EMI?",
+                     "Am I eligible after B.Com?","Which M.Com specialisation suits me?"]
+SENSEI_CHIPS_MA = ["What's the MA fee?","Can I pay in EMI?",
+                   "Am I eligible after graduation?","Which MA subject suits me?"]
+SENSEI_CHIPS_BCA = ["What's the BCA fee?","Can I pay in EMI?",
+                    "Am I eligible after 12th?","Which BCA specialisation suits me?"]
+SENSEI_CHIPS_JAIN = ["What courses does JAIN offer?","What are the fees?",
+                     "Is the degree UGC recognised?","How do I apply?"]
+
+# program-aware theme packs (default = BBA so existing BBA pages render identically)
+THEMES = {
+  "MBA": {"programs": PROGRAMS_MBA, "tabs": TABS_SPEC, "cred_word": "MBA", "sensei_chips": SENSEI_CHIPS_MBA},
+  "MCA": {"programs": PROGRAMS_MCA, "tabs": TABS_SPEC, "cred_word": "MCA", "sensei_chips": SENSEI_CHIPS_MCA},
+  "B.COM": {"programs": PROGRAMS_BCOM, "tabs": TABS_SPEC, "cred_word": "B.Com", "sensei_chips": SENSEI_CHIPS_BCOM},
+  "M.COM": {"programs": PROGRAMS_MCOM, "tabs": TABS_SPEC, "cred_word": "M.Com", "sensei_chips": SENSEI_CHIPS_MCOM},
+  "MA": {"programs": PROGRAMS_MA, "tabs": TABS_SPEC, "cred_word": "MA", "sensei_chips": SENSEI_CHIPS_MA},
+  "BCA": {"programs": PROGRAMS_BCA, "tabs": TABS_SPEC, "cred_word": "BCA", "sensei_chips": SENSEI_CHIPS_BCA},
+  "JAIN": {"programs": PROGRAMS_JAIN, "tabs": TABS_JAIN, "cred_word": "degree", "sensei_chips": SENSEI_CHIPS_JAIN},
+}
+_THEME_BBA = {"programs": PROGRAMS, "tabs": TABS_BBA, "cred_word": "BBA", "sensei_chips": SENSEI_CHIPS}
+def theme_for(program):
+    return THEMES.get(str(program).upper(), _THEME_BBA)
 
 # ---- Chapter 6 live chat ----
 # Paste the Sensei chat EMBED URL here (from your boss / the Sensei dev) to go live on ALL pages.
@@ -467,9 +548,9 @@ def panel_html(p, sid):
       {f'<div class="narr">{narr}</div>' if narr else ''}
       {f'<div class="bubble">{bub}</div>' if bub else ''}</div>"""
 
-def program_cards():
+def program_cards(programs=PROGRAMS):
     out=[]
-    for num,key,title,meta,level,line in PROGRAMS:
+    for num,key,title,meta,level,line in programs:
         u = img_url(f"prog-{key}.png")
         thumb = f'background-image:url(\'{u}\')' if u else ''
         out.append(f"""<div class="pcard" data-level="{level}">
@@ -491,6 +572,7 @@ def nav_overlay():
 
 # ---------------------------------------------------------------- render
 def render(s):
+    theme = theme_for(s.get("program"))
     panels = "\n".join(panel_html(p, s["id"]) for p in s["panels"])
     stats = "".join(f'<div class="stat"><b>{e(x["big"])}</b><span>{e(x["label"])}</span></div>' for x in s["statbar"])
     lesson_li = "".join(f'<li><span class="k">{i+1}</span><div>{e(pt)}</div></li>' for i,pt in enumerate(s["turn"]["points"]))
@@ -521,7 +603,7 @@ def render(s):
     tools = "".join(f'<span class="c">{tool_icon(x)}{e(x)}</span>' for x in AI_TOOLS)
     creds = "".join(cred_html(x) for x in CREDENTIALS)
     li_chips = "".join(f'<span class="c">{e(x)}</span>' for x in LINKEDIN_CHIPS)
-    qchips = "".join(f'<button type="button">{e(x)}</button>' for x in SENSEI_CHIPS)
+    qchips = "".join(f'<button type="button">{e(x)}</button>' for x in theme["sensei_chips"])
     # Chapter 6: live iframe if SENSEI_EMBED_URL is set, else the static mock-up
     shead = ('<div class="shead"><div class="avatar">S</div>'
              '<div><div class="nm">Sensei</div><div class="sub">Career &amp; Admission Advisor</div></div>'
@@ -591,12 +673,8 @@ def render(s):
   <section class="cpage">
   <!-- CH3 -->
   <div class="chapter" id="ch3"><div class="tag">CHAPTER THREE: THE PROGRAM UNIVERSE</div><div class="pg">PAGE 03</div></div>
-  <div class="tabs">
-    <button class="active" data-f="all">All Electives</button>
-    <button data-f="45k">₹45,000 / yr</button>
-    <button data-f="50k">₹50,000 / yr</button>
-  </div>
-  <div class="cardscroll">{program_cards()}</div>
+  <div class="tabs">{theme['tabs']}</div>
+  <div class="cardscroll">{program_cards(theme['programs'])}</div>
 
   </section>
   <section class="cpage">
@@ -610,7 +688,7 @@ def render(s):
   <section class="power p2"><div class="lab">SPECIAL POWER 2</div>
     <div class="pimg" style="background-image:url('{p2img}')"></div>
     <div class="pbodyc"><h3>Micro-Credentials Included — No Extra Cost</h3>
-      <p>Earn 2 credits per micro-credential alongside your BBA — Google AI Essentials, Power BI, Financial Modelling &amp; more, taught by industry experts.</p>
+      <p>Earn 2 credits per micro-credential alongside your {theme['cred_word']} — Google AI Essentials, Power BI, Financial Modelling &amp; more, taught by industry experts.</p>
       <div class="creds"><span class="poweredby">Powered by</span>{creds}</div></div></section>
   <section class="power p3"><div class="lab">SPECIAL POWER 3</div>
     <div class="pimg" style="background-image:url('{p3img}')"></div>

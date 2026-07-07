@@ -1,0 +1,132 @@
+{
+  "id": "mba-fees-reveal",
+  "intent": "Fees / JAIN brand",
+  "program": "MBA",
+  "specialization": "Finance",
+  "target_query": "jain university mba fees",
+  "hero": {
+    "eyebrow": "JAIN ONLINE MBA FEES",
+    "headline_pre": "THE JAIN MBA FEE,",
+    "highlight": "FULLY REVEALED.",
+    "headline_post": "",
+    "sub": "",
+    "cta1": "Get my fee + plan",
+    "cta2": "Explore specialisations",
+    "art_prompt": "Sneha, a 27 year old Indian woman in smart-casual, confidently reviewing a clear, transparent MBA fee breakdown on a laptop, reassured and hopeful, tidy modern home office.",
+    "burst": "CLEAR!"
+  },
+  "statbar": [
+    {
+      "big": "₹2,00,000",
+      "label": "full MBA, 2 yrs"
+    },
+    {
+      "big": "₹50,000",
+      "label": "per semester"
+    },
+    {
+      "big": "0% EMI",
+      "label": "pay monthly"
+    },
+    {
+      "big": "NAAC A++",
+      "label": "accredited"
+    }
+  ],
+  "panels": [
+    {
+      "n": 1,
+      "narration": "Sneha searched everywhere for the real JAIN MBA fee.",
+      "dialogue": "What is the actual cost?",
+      "img_prompt": "Sneha, 27, at a laptop searching for clear fee information, curious and focused, tidy home office."
+    },
+    {
+      "n": 2,
+      "narration": "Other sites showed vague numbers and hidden extras.",
+      "dialogue": "Just tell me the full fee.",
+      "img_prompt": "Sneha looking a little frustrated at a laptop showing unclear, incomplete fee information, modern room."
+    },
+    {
+      "n": 3,
+      "narration": "Then she found the full JAIN MBA fee, laid out clearly.",
+      "dialogue": "Every rupee, transparent!",
+      "img_prompt": "Sneha's face relaxing with relief at a laptop showing a clean, clear MBA fee breakdown, warm reassured glow."
+    },
+    {
+      "n": 4,
+      "narration": "She enrolled with total clarity on the cost.",
+      "dialogue": "No surprises, just growth!",
+      "img_prompt": "Sneha smiling confidently at her laptop after enrolling, calm and assured, warm hopeful light."
+    }
+  ],
+  "turn": {
+    "title": "The JAIN Online MBA Fee, In Full",
+    "points": [
+      "₹2,00,000 for the full 2-year MBA (₹50,000/semester). That is the complete tuition, no hidden charges.",
+      "₹2,500 one-time registration. That is it for the essentials.",
+      "Pay upfront for a discount, or choose 0% interest EMI from about ₹8,333/month.",
+      "A UGC-entitled, NAAC A++ MBA from JAIN (Deemed-to-be-University)."
+    ]
+  },
+  "proof": {
+    "testimonials": [
+      {
+        "name": "Sneha Pillai",
+        "spec": "MBA FINANCE",
+        "role": "Working Professional",
+        "metric": "₹2,00,000",
+        "stat": "full MBA",
+        "quote": "I just wanted the real number. JAIN showed the full MBA fee clearly, with no hidden extras."
+      },
+      {
+        "name": "Karan Mehta",
+        "spec": "MBA · SEM 1",
+        "role": "1st-Year Student",
+        "metric": "0% EMI",
+        "stat": "₹8,333 / mo",
+        "quote": "The monthly EMI made a JAIN MBA easy to plan. I knew my exact cost from day one."
+      },
+      {
+        "name": "Ritu Sharma",
+        "spec": "MBA HR",
+        "role": "Career Switcher",
+        "metric": "NAAC A++",
+        "stat": "recognised",
+        "quote": "A recognised JAIN MBA at a transparent fee. That trust is why I chose it over cheaper unknowns."
+      },
+      {
+        "name": "Manoj K",
+        "spec": "MBA MARKETING",
+        "role": "Graduated",
+        "metric": "CLEAR",
+        "stat": "no surprises",
+        "quote": "No hidden charges appeared, ever. The fee I saw at the start was exactly what I paid."
+      }
+    ],
+    "facts": [
+      {
+        "k": "Tuition",
+        "v": "₹2,00,000 for the full 2-year MBA (₹50,000/semester)"
+      },
+      {
+        "k": "Registration",
+        "v": "₹2,500 one-time"
+      },
+      {
+        "k": "EMI",
+        "v": "0% interest EMI from about ₹8,333/month, or an education loan"
+      },
+      {
+        "k": "University",
+        "v": "JAIN (Deemed-to-be-University), NAAC A++"
+      }
+    ]
+  },
+  "cta": {
+    "headline_pre": "READY FOR A",
+    "highlight": "JAIN MBA?",
+    "sub": "",
+    "button": "Get my fee + plan",
+    "burst": "GO!"
+  }
+}
