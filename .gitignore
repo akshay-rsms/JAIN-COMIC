@@ -13,6 +13,15 @@ pages/img/*-master.png
 # scratch / temp
 scratchpad/
 *.tmp
+*.log
+
+# vercel
+.vercel
+web/.vercel
+web/.env.local
+
+# regenerable intermediate (self-contained pages; web/ is the canonical deploy root)
+share/
 
 # os
 Thumbs.db

@@ -50,6 +50,7 @@ if __name__ == "__main__":
     elif args:
         ids = args
     else:
-        ids = [p.stem for p in sorted(PAGES.glob("*.html")) if p.stem.startswith(("bba", "mba"))]
+        ids = [p.stem for p in sorted(PAGES.glob("*.html"))
+               if p.stem.startswith(("bba","mba","mca","bcom","mcom","ma","bca","jain"))]
     for sid in ids: pack(sid)
     print(f"\nPackaged {len(ids)} page(s) into {SHARE}")

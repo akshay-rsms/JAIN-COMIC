@@ -11,7 +11,7 @@ Usage:
     py -3.12 build.py            # builds every stories/*.json into pages/<id>.html
     py -3.12 build.py fees-roi   # build a single story by id
 """
-import json, sys, html, pathlib, math, base64
+import json, sys, html, pathlib, math, base64, urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
 STORIES = ROOT / "stories"
@@ -230,6 +230,13 @@ def theme_for(program):
 # domain (its Content-Security-Policy 'frame-ancestors' must include your domain).
 SENSEI_EMBED_URL = ""
 
+# ---- Sensei chat (lead conversion). Every CTA opens the Sensei chat directly. ----
+SENSEI_CHAT = ("https://sensei.onlinejain.com/?chat=1&from_partner=jain-online"
+               "&entry=partner_marketing&landing=jain_online_landing_v2")
+def sensei_link(s=None, question=None):
+    """Direct Sensei chat URL (same for every CTA - opens the chat straight away)."""
+    return SENSEI_CHAT
+
 # footer social links (label, href, inline-svg path)
 SOCIAL = [
  ("X","https://twitter.com/jainonline","M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"),
@@ -416,8 +423,9 @@ header.bar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;bo
 .sensei .msg{background:#fff;border:2px solid #000;border-radius:14px;padding:11px 14px;font-size:13.5px;max-width:80%;box-shadow:3px 3px 0 #0002;color:#111;line-height:1.5}
 .sensei .qrow{padding:14px 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:2px solid #0001}
 .sensei .qlabel{font-family:'Bangers',sans-serif;font-size:15px;color:#111;letter-spacing:.5px}
-.sensei .qrow button{background:#fff;color:#111;border:2px solid #000;border-radius:6px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;box-shadow:2px 2px 0 #0002}
-.sensei .qrow button:hover{background:var(--gold)}
+.sensei .qrow button,.sensei .qrow a,.qchips a{background:#fff;color:#111;border:2px solid #000;border-radius:6px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;box-shadow:2px 2px 0 #0002;text-decoration:none;display:inline-block}
+.sensei .qrow button:hover,.sensei .qrow a:hover,.qchips a:hover{background:var(--gold)}
+.sensei .inrow{cursor:pointer}
 .sensei .inrow{display:flex;gap:0;border-top:4px solid #000}
 .sensei .inrow input{flex:1;background:#fff;border:0;color:#111;padding:14px 16px;font-size:14px}
 .sensei .inrow .send{background:var(--gold);color:#111;border:0;border-left:4px solid #000;font-family:'Bangers',sans-serif;font-size:16px;padding:0 22px;cursor:pointer;display:flex;align-items:center;gap:7px}
@@ -560,19 +568,20 @@ def program_cards(programs=PROGRAMS):
             <a class="view" href="#cta">VIEW PROGRAM &rarr;</a></div></div>""")
     return "\n".join(out)
 
-def nav_overlay():
+def nav_overlay(sensei="#cta"):
     items="".join(f'<a class="item" href="{href}"><span class="n">{n}</span><span class="l">{e(lab)}</span></a>'
                   for n,lab,href in NAV)
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" aria-hidden="true">
     <nav class="overlay" aria-label="Menu">
       <div class="ohead"><span class="ttl">MENU</span><button type="button" class="close" id="navclose" aria-label="Close menu">&times;</button></div>
       {items}
-      <a class="octa" href="#cta">APPLY NOW &rarr;</a>
+      <a class="octa" href="{sensei}">APPLY NOW &rarr;</a>
     </nav>"""
 
 # ---------------------------------------------------------------- render
 def render(s):
     theme = theme_for(s.get("program"))
+    sensei = e(sensei_link(s))   # every CTA opens the Sensei chat thread for this page
     panels = "\n".join(panel_html(p, s["id"]) for p in s["panels"])
     stats = "".join(f'<div class="stat"><b>{e(x["big"])}</b><span>{e(x["label"])}</span></div>' for x in s["statbar"])
     lesson_li = "".join(f'<li><span class="k">{i+1}</span><div>{e(pt)}</div></li>' for i,pt in enumerate(s["turn"]["points"]))
@@ -603,7 +612,7 @@ def render(s):
     tools = "".join(f'<span class="c">{tool_icon(x)}{e(x)}</span>' for x in AI_TOOLS)
     creds = "".join(cred_html(x) for x in CREDENTIALS)
     li_chips = "".join(f'<span class="c">{e(x)}</span>' for x in LINKEDIN_CHIPS)
-    qchips = "".join(f'<button type="button">{e(x)}</button>' for x in theme["sensei_chips"])
+    qchips = "".join(f'<a href="{e(sensei_link(s, x))}">{e(x)}</a>' for x in theme["sensei_chips"])
     # Chapter 6: live iframe if SENSEI_EMBED_URL is set, else the static mock-up
     shead = ('<div class="shead"><div class="avatar">S</div>'
              '<div><div class="nm">Sensei</div><div class="sub">Career &amp; Admission Advisor</div></div>'
@@ -621,8 +630,9 @@ def render(s):
             f'<div class="qrow"><span class="qlabel">TRY:</span>'
             + collapse(f'<div class="qchips col-body">{qchips}</div>', 'more-q').replace('class="collapse"','class="collapse qcol"')
             + '</div>'
-            '<div class="inrow"><input id="senseiInput" placeholder="Ask Sensei anything about your career or degree…">'
-            '<button class="send" type="button">SEND <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button></div>'
+            f'<a class="inrow" href="{sensei}" style="text-decoration:none">'
+            '<input id="senseiInput" placeholder="Ask Sensei anything about your career or degree…" readonly style="pointer-events:none">'
+            '<span class="send">SEND <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></span></a>'
             '</section>')
     title = " ".join(x for x in [s['hero'].get('headline_pre',''),s['hero'].get('highlight',''),s['hero'].get('headline_post','')] if x).strip()
     hero_u = img_url(f"{s['id']}-hero.png") or ""
@@ -637,11 +647,11 @@ def render(s):
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Anton&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 
-{nav_overlay()}
+{nav_overlay(sensei)}
 <header class="bar"><div class="wrap">
   <a class="logo" href="#ch1"><span class="chip"><img src="img/brand-color.png" alt="JAIN Online"></span></a>
   <div style="display:flex;align-items:center">
-    <a class="navcta" href="#cta">ENQUIRE NOW</a>
+    <a class="navcta" href="{sensei}">ENQUIRE NOW</a>
     <label class="hamburger" for="navtoggle" role="button" aria-label="Open menu"><span></span><span></span><span></span></label>
   </div>
 </div></header>
@@ -655,12 +665,12 @@ def render(s):
       <span class="eyebrow">{e(s['program'])} · {e(s['specialization'])}</span>
       <h1>{e(s['hero']['headline_pre'])} <span class="hl">{e(s['hero']['highlight'])}</span> {e(s['hero']['headline_post'])}</h1>
       {f'<p class="sub">{e(s["hero"]["sub"])}</p>' if s['hero'].get('sub') else ''}
-      <div class="btnrow"><a class="btn gold" href="#cta">{e(s['hero']['cta1'])} &rarr;</a>
+      <div class="btnrow"><a class="btn gold" href="{sensei}">{e(s['hero']['cta1'])} &rarr;</a>
         <a class="btn ghost" href="#ch3">{e(s['hero']['cta2'])}</a></div>
     </div>{hero_art}
   </div></section>
   <div class="statbar">{stats}</div>
-  <a class="askbar" href="#cta">READY TO FIND YOUR PATH? &nbsp; START YOUR APPLICATION &rarr;</a>
+  <a class="askbar" href="{sensei}">READY TO FIND YOUR PATH? &nbsp; START YOUR APPLICATION &rarr;</a>
 
   </section>
   <section class="cpage">
@@ -718,7 +728,7 @@ def render(s):
       <div class="fcopy">
         <h2>{e(s['cta']['headline_pre'])} <span class="hl">{e(s['cta']['highlight'])}</span></h2>
         <p>{e(s['cta']['sub'])}</p>
-        <div class="btnrow"><a class="btn gold" href="#">{e(s['cta']['button'])} &rarr;</a>
+        <div class="btnrow"><a class="btn gold" href="{sensei}">{e(s['cta']['button'])} &rarr;</a>
           <a class="btn ghost" href="#ch3">Explore Programs</a></div>
       </div>
       {fart}
@@ -739,7 +749,7 @@ def render(s):
       <span class="qmark">?!</span>
       <h3>STILL HAVE QUESTIONS?</h3>
       <p>Chat with Sensei for instant answers on admissions, fees, eligibility, scholarships and more.</p>
-      <a class="btn gold" href="#ch6">TALK TO A COUNSELLOR &rarr;</a>
+      <a class="btn gold" href="{sensei}">TALK TO A COUNSELLOR &rarr;</a>
     </div>
   </div>
   <div class="copywrap"><div class="copyline2">&copy; 2025 JAIN Online. All rights reserved. UGC-DEB Approved.</div></div>
